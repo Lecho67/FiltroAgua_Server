@@ -7,6 +7,14 @@ $from = (isset($_GET['from']) && $_GET['from'] !== '') ? $_GET['from'] : null;  
 $to   = (isset($_GET['to'])   && $_GET['to']   !== '') ? $_GET['to']   : null;   // YYYY-MM-DD
 $municipio = (isset($_GET['municipio']) && $_GET['municipio'] !== '') ? $_GET['municipio'] : null;
 $busquedaRealizada = isset($_GET['buscar']);  // Solo buscar si se presionó el botón
+$limitOptions = [10,20,30,40,50,100];
+$defaultLimit = 10;
+$limit = isset($_GET['limit']) ? (int)$_GET['limit'] : $defaultLimit;
+$limit = in_array($limit, $limitOptions, true) ? $limit : $defaultLimit;
+$pagePrimera = isset($_GET['page_primera']) ? max(1, (int)$_GET['page_primera']) : 1;
+$pageSeguimiento = isset($_GET['page_seguimiento']) ? max(1, (int)$_GET['page_seguimiento']) : 1;
+$offsetPrimera = ($pagePrimera - 1) * $limit;
+$offsetSeguimiento = ($pageSeguimiento - 1) * $limit;
 
 /* ====== Utils ====== */
 function fdate($d) {
@@ -19,28 +27,68 @@ function fdate($d) {
 
 /* ====== SQL (filtra por el PRIMER TIMESTAMP: timestamp_ms) ====== */
 /* Primera visita */
+$wherePrimera = '';
+$paramsPrimera = [];
+if ($from) {
+  $wherePrimera .= " AND FROM_UNIXTIME(b.`timestamp_ms`/1000) >= :from_b";
+  $paramsPrimera[':from_b'] = $from;
+}
+if ($to) {
+  $wherePrimera .= " AND FROM_UNIXTIME(b.`timestamp_ms`/1000) <  DATE_ADD(:to_b, INTERVAL 1 DAY)";
+  $paramsPrimera[':to_b'] = $to;
+}
+if ($municipio) {
+  $wherePrimera .= " AND b.`ubicacion.municipio` = :municipio_b";
+  $paramsPrimera[':municipio_b'] = $municipio;
+}
 $sqlPrimera = "
   SELECT
     b.*,
     FROM_UNIXTIME(b.`timestamp_ms`/1000) AS ts_fecha
   FROM base_filtros b
   WHERE 1=1
+  {$wherePrimera}
+  ORDER BY b.`timestamp_ms` DESC
+  LIMIT :limit_primera OFFSET :offset_primera
 ";
-if ($from) $sqlPrimera .= " AND FROM_UNIXTIME(b.`timestamp_ms`/1000) >= :from_b";
-if ($to)   $sqlPrimera .= " AND FROM_UNIXTIME(b.`timestamp_ms`/1000) <  DATE_ADD(:to_b, INTERVAL 1 DAY)";
-if ($municipio) $sqlPrimera .= " AND b.`ubicacion.municipio` = :municipio_b";
+$countPrimeraSql = "
+  SELECT COUNT(*)
+  FROM base_filtros b
+  WHERE 1=1
+  {$wherePrimera}
+";
 
 /* Seguimiento */
+$whereSeguimiento = '';
+$paramsSeguimiento = [];
+if ($from) {
+  $whereSeguimiento .= " AND FROM_UNIXTIME(s.`timestamp_ms`/1000) >= :from_s";
+  $paramsSeguimiento[':from_s'] = $from;
+}
+if ($to) {
+  $whereSeguimiento .= " AND FROM_UNIXTIME(s.`timestamp_ms`/1000) <  DATE_ADD(:to_s, INTERVAL 1 DAY)";
+  $paramsSeguimiento[':to_s'] = $to;
+}
+if ($municipio) {
+  $whereSeguimiento .= " AND s.`ubicacion.municipio` = :municipio_s";
+  $paramsSeguimiento[':municipio_s'] = $municipio;
+}
 $sqlSeguimiento = "
   SELECT
     s.*,
     FROM_UNIXTIME(s.`timestamp_ms`/1000) AS ts_fecha
   FROM seguimiento_filtros s
   WHERE 1=1
+  {$whereSeguimiento}
+  ORDER BY s.`timestamp_ms` DESC
+  LIMIT :limit_seguimiento OFFSET :offset_seguimiento
 ";
-if ($from) $sqlSeguimiento .= " AND FROM_UNIXTIME(s.`timestamp_ms`/1000) >= :from_s";
-if ($to)   $sqlSeguimiento .= " AND FROM_UNIXTIME(s.`timestamp_ms`/1000) <  DATE_ADD(:to_s, INTERVAL 1 DAY)";
-if ($municipio) $sqlSeguimiento .= " AND s.`ubicacion.municipio` = :municipio_s";
+$countSeguimientoSql = "
+  SELECT COUNT(*)
+  FROM seguimiento_filtros s
+  WHERE 1=1
+  {$whereSeguimiento}
+";
 
 /* ====== Ejecutar ====== */
 function runQuery($pdo, $sql, $params = []) {
@@ -49,18 +97,37 @@ function runQuery($pdo, $sql, $params = []) {
   $stmt->execute();
   return $stmt->fetchAll(PDO::FETCH_ASSOC);
 }
-$params_b = []; $params_s = [];
-if ($from) { $params_b[':from_b']=$from; $params_s[':from_s']=$from; }
-if ($to)   { $params_b[':to_b']=$to;     $params_s[':to_s']=$to; }
-if ($municipio) { $params_b[':municipio_b']=$municipio; $params_s[':municipio_s']=$municipio; }
-
+function runCount($pdo, $sql, $params = []) {
+  $stmt = $pdo->prepare($sql);
+  foreach ($params as $k => $v) $stmt->bindValue($k, $v);
+  $stmt->execute();
+  return (int)$stmt->fetchColumn();
+}
 // Solo ejecutar queries si se realizó una búsqueda
 $dataPrimera     = [];
+$totalPrimera    = 0;
 $dataSeguimiento = [];
-if ($busquedaRealizada) {
-  $dataPrimera     = ($tipo==='primera'     || $tipo==='ambos') ? runQuery($pdo,$sqlPrimera,$params_b) : [];
-  $dataSeguimiento = ($tipo==='seguimiento' || $tipo==='ambos') ? runQuery($pdo,$sqlSeguimiento,$params_s) : [];
+$totalSeguimiento = 0;
+if ($busquedaRealizada && ($tipo === 'primera' || $tipo === 'ambos')) {
+  $dataPrimera = runQuery($pdo, $sqlPrimera, array_merge($paramsPrimera, [
+    ':limit_primera' => $limit,
+    ':offset_primera' => $offsetPrimera,
+  ]));
+  $totalPrimera = runCount($pdo, $countPrimeraSql, $paramsPrimera);
 }
+if ($busquedaRealizada && ($tipo === 'seguimiento' || $tipo === 'ambos')) {
+  $dataSeguimiento = runQuery($pdo, $sqlSeguimiento, array_merge($paramsSeguimiento, [
+    ':limit_seguimiento' => $limit,
+    ':offset_seguimiento' => $offsetSeguimiento,
+  ]));
+  $totalSeguimiento = runCount($pdo, $countSeguimientoSql, $paramsSeguimiento);
+}
+$hasPrevPrimera = $pagePrimera > 1;
+$hasNextPrimera = $offsetPrimera + count($dataPrimera) < $totalPrimera;
+$hasPrevSeguimiento = $pageSeguimiento > 1;
+$hasNextSeguimiento = $offsetSeguimiento + count($dataSeguimiento) < $totalSeguimiento;
+$primeraPageCount = $totalPrimera > 0 ? (int) ceil($totalPrimera / $limit) : 1;
+$seguimientoPageCount = $totalSeguimiento > 0 ? (int) ceil($totalSeguimiento / $limit) : 1;
 
 /* ====== Etiquetas personalizadas ====== */
 $customLabelsPrimera = [
@@ -214,6 +281,15 @@ $customLabelsSeg = [
 
 /* Mejora aviso de rango */
 .range-note{font-size:12px;color:var(--muted);margin:4px 0 12px}
+
+.table-controls{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px}
+.table-page{font-size:14px;color:var(--muted)}
+.table-nav{display:flex;gap:8px}
+.table-footer{margin-top:12px;font-size:14px;color:var(--muted);display:flex;justify-content:space-between;align-items:center;gap:12px}
+.table-footer .footer-info{display:flex;align-items:center;gap:12px}
+.table-btn{border:none;background:var(--azul-uesvalle);color:#fff;padding:6px 12px;border-radius:6px;font-weight:600;cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;justify-content:center;box-shadow:0 4px 10px rgba(0,116,255,.25)}
+.table-btn:not(.disabled):hover{opacity:.9}
+.table-btn.disabled{background:var(--muted);cursor:not-allowed;pointer-events:none}
 </style>
 </head>
 <body data-theme="light">
@@ -301,6 +377,17 @@ $customLabelsSeg = [
         <span class="label">Hasta (por timestamp)</span>
         <input type="date" name="to" value="<?= htmlspecialchars($to??'') ?>" required>
       </div>
+      <div class="field">
+        <span class="label">Mostrar</span>
+        <select name="limit">
+          <?php foreach ($limitOptions as $option): ?>
+            <option value="<?= $option ?>" <?= $limit === $option ? 'selected' : '' ?>><?= $option ?></option>
+          <?php endforeach; ?>
+        </select>
+      </div>
+      <input type="hidden" name="buscar" value="1">
+      <input type="hidden" name="page_primera" value="<?= $pagePrimera ?>">
+      <input type="hidden" name="page_seguimiento" value="<?= $pageSeguimiento ?>">
       <div style="display:flex;gap:8px;align-items:flex-end;margin-left:auto">
         <button type="submit" name="buscar" value="1" class="btn">Buscar</button>
         <a class="btn btn-secondary" href="index.php">Limpiar</a>
@@ -310,8 +397,11 @@ $customLabelsSeg = [
 
     <?php if($busquedaRealizada && ($tipo==='primera' || $tipo==='ambos')): ?>
       <div class="section-title">Primera Visita</div>
+      <div class="table-controls">
+        <div class="table-page">Página <?= $pagePrimera ?> de <?= $primeraPageCount ?></div>
+      </div>
       <div class="table-wrap">
-        <table class="display nowrap" style="width:100%">
+        <table id="table-primera" class="display nowrap" style="width:100%">
           <thead>
             <tr>
               <?php foreach($customLabelsPrimera as $col => $label) echo '<th>'.$label.'</th>'; ?>
@@ -338,8 +428,10 @@ $customLabelsSeg = [
           </tbody>
         </table>
       </div>
-      <div style="margin-top:12px;font-size:14px;color:var(--muted);display:flex;justify-content:space-between;align-items:center;">
-        <span>Total de registros encontrados: <strong><?= count($dataPrimera) ?></strong></span>
+      <div class="table-footer">
+        <div class="footer-info">
+          <span>Total de registros encontrados: <strong><?= $totalPrimera ?></strong></span>
+        </div>
         <a href="descargar_excel.php?tipo=primera&municipio=<?= urlencode($municipio) ?>&from=<?= urlencode($from) ?>&to=<?= urlencode($to) ?>" class="btn" style="margin:0;">
           Descargar Excel
         </a>
@@ -348,8 +440,11 @@ $customLabelsSeg = [
 
     <?php if($busquedaRealizada && ($tipo==='seguimiento' || $tipo==='ambos')): ?>
       <div class="section-title">Seguimiento</div>
+      <div class="table-controls">
+        <div class="table-page">Página <?= $pageSeguimiento ?> de <?= $seguimientoPageCount ?></div>
+      </div>
       <div class="table-wrap">
-        <table class="display nowrap" style="width:100%">
+        <table id="table-seguimiento" class="display nowrap" style="width:100%">
           <thead>
             <tr>
               <?php foreach($customLabelsSeg as $col => $label) echo '<th>'.$label.'</th>'; ?>
@@ -376,8 +471,10 @@ $customLabelsSeg = [
           </tbody>
         </table>
       </div>
-      <div style="margin-top:12px;font-size:14px;color:var(--muted);display:flex;justify-content:space-between;align-items:center;">
-        <span>Total de registros encontrados: <strong><?= count($dataSeguimiento) ?></strong></span>
+      <div class="table-footer">
+        <div class="footer-info">
+          <span>Total de registros encontrados: <strong><?= $totalSeguimiento ?></strong></span>
+        </div>
         <a href="descargar_excel.php?tipo=seguimiento&municipio=<?= urlencode($municipio) ?>&from=<?= urlencode($from) ?>&to=<?= urlencode($to) ?>" class="btn" style="margin:0;">
           Descargar Excel
         </a>
@@ -408,13 +505,16 @@ $.extend(true,$.fn.dataTable.defaults,{
   responsive:false,
   scrollX:true,
   scrollCollapse:true,
-  pageLength:25,
+  paging:false,
+  info:false,
+  lengthChange:false,
   orderCellsTop:true
 });
 
 $('table.display').each(function(){
   $(this).DataTable().columns.adjust();
 });
+
 
 /* Modo oscuro NO persistente */
 const cb = document.getElementById('themeToggle');
