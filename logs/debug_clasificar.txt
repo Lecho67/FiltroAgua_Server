@@ -1,0 +1,112 @@
+==== 2025-11-27 15:26:47 ====
+Nombre original: Seguimiento 2025-01-29 hasta 2026-08-12.xls.csv
+Tipo detectado: SEGUIMIENTO
+Filas totales filtradas (aprobadas): 6
+Primera visita: 0
+Seguimiento: 6
+
+==== 2025-11-27 15:43:38 ====
+Nombre original: Seguimiento 2025-01-29 hasta 2026-08-12.xls.csv
+Tipo detectado: SEGUIMIENTO
+Filas totales filtradas (aprobadas): 6
+Primera visita: 0
+Seguimiento: 6
+
+==== 2025-11-27 15:44:02 ====
+Nombre original: Seguimiento 2025-01-29 hasta 2026-08-12.xls.csv
+Tipo detectado: SEGUIMIENTO
+Filas totales filtradas (aprobadas): 6
+Primera visita: 0
+Seguimiento: 6
+
+==== 2025-11-27 16:24:47 ====
+Nombre original: Seguimiento 2025-01-29 hasta 2026-08-12.xls.csv
+Tipo detectado: SEGUIMIENTO
+Filas totales filtradas (aprobadas): 6
+Primera visita: 0
+Seguimiento: 6
+
+==== 2025-11-27 16:29:11 ====
+Nombre original: Seguimiento 2025-01-29 hasta 2026-08-12.xls.csv
+Tipo detectado: SEGUIMIENTO
+Filas totales filtradas (aprobadas): 6
+Primera visita: 0
+Seguimiento: 6
+
+==== 2025-11-27 16:36:59 ====
+Nombre original: Seguimiento 2025-01-29 hasta 2026-08-12.xls.csv
+Tipo detectado: SEGUIMIENTO
+Filas totales filtradas (aprobadas): 6
+Primera visita: 0
+Seguimiento: 6
+
+==== 2025-11-27 19:19:06 ====
+Nombre original: Seguimiento 2025-01-29 hasta 2026-08-12.xls.csv
+Tipo detectado: SEGUIMIENTO
+Filas totales filtradas (aprobadas): 6
+Primera visita: 0
+Seguimiento: 6
+
+==== 2025-11-27 21:42:20 ====
+Nombre original: Base 2025-05-05 hasta 2027-03-12.ues
+Tipo detectado: PRIMERA
+Filas totales filtradas (aprobadas): 0
+Primera visita: 0
+Seguimiento: 0
+
+==== 2025-11-27 21:44:41 ====
+Nombre original: Base 2025-05-05 hasta 2027-03-12.ues
+Tipo detectado: PRIMERA
+Filas totales filtradas (aprobadas): 1
+Primera visita: 1
+Seguimiento: 0
+
+==== 2025-11-27 21:45:07 ====
+Nombre original: Base 2025-05-05 hasta 2027-03-12.ues
+Tipo detectado: PRIMERA
+Filas totales filtradas (aprobadas): 1
+Primera visita: 1
+Seguimiento: 0
+
+==== 2025-11-27 21:48:05 ====
+Nombre original: Base 2025-05-05 hasta 2027-03-12.csv
+Tipo detectado: PRIMERA
+Filas totales filtradas (aprobadas): 0
+Primera visita: 0
+Seguimiento: 0
+
+==== 2025-11-27 21:54:16 ====
+Nombre original: Seguimiento 2025-01-29 hasta 2026-08-12.xls.csv
+Tipo detectado: SEGUIMIENTO
+Filas totales filtradas (aprobadas): 6
+Primera visita: 0
+Seguimiento: 6
+
+==== 2025-11-28 11:42:48 ====
+Nombre original: Base 2025-05-05 hasta 2027-03-12.csv
+Tipo detectado: PRIMERA
+Filas totales filtradas (aprobadas): 0
+Primera visita: 0
+Seguimiento: 0
+
+==== 2025-11-28 11:43:28 ====
+Nombre original: Base 2025-05-05 hasta 2027-03-12.csv
+Tipo detectado: PRIMERA
+Filas totales filtradas (aprobadas): 2
+Primera visita: 2
+Seguimiento: 0
+
+==== 2025-11-28 11:44:27 ====
+Nombre original: Base 2025-05-05 hasta 2027-03-12.csv
+Tipo detectado: PRIMERA
+Filas totales filtradas (aprobadas): 3
+Primera visita: 3
+Seguimiento: 0
+
+==== 2025-11-28 14:35:32 ====
+Nombre original: Base 2025-05-05 hasta 2027-03-12.csv
+Tipo detectado: PRIMERA
+Filas totales filtradas (aprobadas): 3
+Primera visita: 3
+Seguimiento: 0
+

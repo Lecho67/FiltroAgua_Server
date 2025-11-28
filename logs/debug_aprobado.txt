@@ -1,0 +1,9638 @@
+==== 2025-11-27 14:42:50 ====
+Delimitador detectado: ,
+Encabezados:
+[0] ﻿Fecha
+[1] Encuestador
+[2] Departamento
+[3] Municipio
+[4] Vereda o Corregimiento
+[5] Dirección
+[6] Documento
+[7] Teléfono
+[8] Fecha en que obtuvo el filtro
+[9] Fuente donde toma el agua
+[10] ¿Por qué usas el filtro de arcilla?
+[11] ¿Cuánto tiempo dura el agua almacenada? (días)
+[12] ¿Cuántas veces al día recarga el filtro?
+[13] ¿Qué miembro de la familia recarga el filtro?
+[14] ¿En qué emplea el agua del filtro?
+[15] ¿Qué cambios ha notado con el filtro?
+[16] Percepción del agua después de recibir el filtro
+[17] ¿Qué opina del sabor del agua?
+[18] ¿El agua presenta color?
+[19] ¿El agua presenta olor?
+[20] ¿Han disminuido las enfermedades por agua?
+[21] ¿Han disminuido los gastos por agua apta?
+[22] ¿Cuánto gasta actualmente?
+[23] ¿Cada cuánto realiza mantenimiento?
+[24] Productos limpieza (arcilla)
+[25] Productos limpieza (plástico)
+[26] ¿Conoce vida útil de la arcilla?
+[27] ¿Sabe dónde conseguir repuestos?
+[28] ¿El filtro está en un lugar estable y/o seguro?
+[29] ¿El filtro está ensamblado y tapado?
+[30] ¿El filtro está limpio externamente?
+[31] ¿Lavado de manos previo a la manipulación?
+[32] Manipulación adecuada de la arcilla
+[33] Limpieza del tanque (sin sedimentos)
+[34] Limpieza de la vasija (sin sedimentos)
+[35] ¿Se evidencian fisuras en la arcilla?
+[36] ¿La vasija presenta niveles de agua que imposibiliten su manipulación?
+[37] ¿Cuenta con instalación de lavado de manos?
+[38] ¿Dispone de jabón para lavado de manos
+[39] Observaciones
+[40] Timestamp (ms)
+[41] Latitud
+[42] Altitud
+[43] Aprobado
+[44] Creado En
+[45] GPS0000-00-00
+[46] María Fernanda
+[47] Valle del Cauca
+[48] Bolívar
+[49] CoV-EL BOSQUE
+[50] Vereda sin dirección
+[51] 1110001
+[52] 3840330501
+[53] 08/12/2025
+[54] Pozo
+[55] Siempre ha sido así
+[56] 7
+[57] 1
+[58] Mama
+[59] Doméstico y consumo
+[60] No nota cambios
+[61] Clara y buena
+[62] Regular
+[63] Si
+[64] Si
+[65] No
+[66] No
+[67] 45000
+[68] 36
+[69] Jabon
+[70] Jabon
+[71] Si
+[72] No
+[73] Si
+[74] Si
+[75] No
+[76] No
+[77] No
+[78] No
+[79] No
+[80] No
+[81] Si
+[82] Si
+[83] No
+[84] Hepatitis
+[85] 1.7628E+12
+[86] 37.4219983
+[87] 5
+[88] X
+[89] 26/11/2025 19:39
+[90] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[91] Carlos Pérez
+[92] Valle del Cauca
+[93] Bolívar
+[94] CoV-LA PLAYA
+[95] Carrera 8#10-05
+[96] 1110002
+[97] 3931179200
+[98] 0000-00-00
+[99] Pozo
+[100] Es más económica
+[101] 2
+[102] 3
+[103] Abuelo
+[104] Solo consumo
+[105] Ahora sale con menos olor
+[106] Un poco turbia
+[107] Regular
+[108] No
+[109] Si
+[110] No
+[111] Si
+[112] 30000
+[113] 30
+[114] Jabon
+[115] Jabon
+[116] No
+[117] No
+[118] No
+[119] No
+[120] Si
+[121] No
+[122] Si
+[123] No
+[124] No
+[125] Si
+[126] No
+[127] Si
+[128] Si
+[129] Ninguna
+[130] 1.7628E+12
+[131] 37.4219983
+[132] 5
+[133] X
+[134] 26/11/2025 19:39
+[135] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[136] Laura Gómez
+[137] Valle del Cauca
+[138] Bolívar
+[139] CoV-EL JARDÍN
+[140] Vereda sin dirección
+[141] 1110003
+[142] 3511449561
+[143] 08/08/2025
+[144] Pozo
+[145] Es mas Sencillo
+[146] 7
+[147] 0
+[148] Abuelo
+[149] Solo consumo
+[150] Es mas limpio el agua
+[151] Clara y buena
+[152] Mala
+[153] No
+[154] Si
+[155] Si
+[156] No
+[157] 35000
+[158] 49
+[159] Jabon
+[160] Detergente
+[161] No
+[162] No
+[163] Si
+[164] No
+[165] Si
+[166] No
+[167] No
+[168] Si
+[169] No
+[170] Si
+[171] No
+[172] Si
+[173] Si
+[174] Diarrea
+[175] 1.7628E+12
+[176] 37.4219983
+[177] 5
+[178] X
+[179] 26/11/2025 19:39
+[180] https://www.google.com/maps/?q=37.4219983,5.0004/02/2025
+[181] María Fernanda
+[182] Valle del Cauca
+[183] Bolívar
+[184] CoV-LA PLAYA
+[185] Calle 34#09-01
+[186] 1110012
+[187] 3336369878
+[188] 0000-00-00
+[189] Grifo
+[190] Es más económica
+[191] 4
+[192] 1
+[193] Hijo
+[194] Riego y consumo
+[195] Hay menos sedimentos
+[196] Un poco turbia
+[197] Regular
+[198] Si
+[199] No
+[200] Si
+[201] No
+[202] 55000
+[203] 15
+[204] Jabon
+[205] Jabon
+[206] No
+[207] Si
+[208] Si
+[209] Si
+[210] No
+[211] No
+[212] Si
+[213] Si
+[214] Si
+[215] No
+[216] No
+[217] No
+[218] Si
+[219] Ninguna
+[220] 1.7628E+12
+[221] 37.4219983
+[222] 5
+[223] X
+[224] 26/11/2025 19:39
+[225] https://www.google.com/maps/?q=37.4219983,5.0010/07/2025
+[226] Laura Gómez
+[227] Valle del Cauca
+[228] Bolívar
+[229] CoV-EL BOSQUE
+[230] Carrera 8#10-05
+[231] 1110014
+[232] 3384462583
+[233] 0000-00-00
+[234] Pozo
+[235] Es más económica
+[236] 4
+[237] 0
+[238] Mama
+[239] Riego y consumo
+[240] No nota cambios
+[241] Un poco turbia
+[242] Buena
+[243] Si
+[244] No
+[245] Si
+[246] Si
+[247] 65000
+[248] 48
+[249] Jabon
+[250] Detergente
+[251] Si
+[252] No
+[253] Si
+[254] No
+[255] Si
+[256] Si
+[257] Si
+[258] No
+[259] Si
+[260] No
+[261] No
+[262] Si
+[263] No
+[264] Hepatitis
+[265] 1.7628E+12
+[266] 37.4219983
+[267] 5
+[268] X
+[269] 26/11/2025 19:39
+[270] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[271] Christian Frank
+[272] Valle del Cauca
+[273] Bolívar
+[274] CoV-CAMPOALEGRE
+[275] Carrera 8#10-05
+[276] 1110018
+[277] 3908408285
+[278] 01/08/2025
+[279] Naciente
+[280] Queda más cerca
+[281] 3
+[282] 1
+[283] Hijo
+[284] Solo consumo
+[285] Ahora sale con menos olor
+[286] Clara y buena
+[287] Mala
+[288] No
+[289] No
+[290] Si
+[291] No
+[292] 85000
+[293] 32
+[294] Jabon
+[295] Jabon
+[296] No
+[297] No
+[298] Si
+[299] Si
+[300] Si
+[301] No
+[302] Si
+[303] No
+[304] Si
+[305] No
+[306] Si
+[307] No
+[308] Si
+[309] Vómito
+[310] 1.7628E+12
+[311] 37.4219983
+[312] 5
+[313] X
+[314] 26/11/2025 19:39
+[315] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[316] María Fernanda
+[317] Valle del Cauca
+[318] Bolívar
+[319] CoV-BUENOS AIRES
+[320] Mz 3 Casa 7
+[321] 1110020
+[322] 3961239826
+[323] 10/04/2025
+[324] Grifo
+[325] Es más económica
+[326] 8
+[327] 1
+[328] Hijo
+[329] Doméstico y consumo
+[330] No nota cambios
+[331] Clara y buena
+[332] Buena
+[333] Si
+[334] No
+[335] No
+[336] No
+[337] 15000
+[338] 50
+[339] Jabon
+[340] Jabon
+[341] No
+[342] Si
+[343] No
+[344] No
+[345] Si
+[346] No
+[347] Si
+[348] No
+[349] No
+[350] No
+[351] Si
+[352] No
+[353] Si
+[354] Hepatitis
+[355] 1.7628E+12
+[356] 37.4219983
+[357] 5
+[358] 0
+[359] 26/11/2025 19:39
+[360] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[361] María Fernanda
+[362] Valle del Cauca
+[363] Bolívar
+[364] CoV-EL JARDÍN
+[365] Mz 3 Casa 7
+[366] 1110021
+[367] 3172681827
+[368] 0000-00-00
+[369] Naciente
+[370] Siempre ha sido así
+[371] 6
+[372] 4
+[373] Mama
+[374] Riego y consumo
+[375] No nota cambios
+[376] Clara y buena
+[377] Buena
+[378] No
+[379] Si
+[380] No
+[381] Si
+[382] 20000
+[383] 32
+[384] Jabon
+[385] Detergente
+[386] No
+[387] Si
+[388] Si
+[389] No
+[390] No
+[391] Si
+[392] No
+[393] Si
+[394] Si
+[395] Si
+[396] No
+[397] Si
+[398] Si
+[399] Ninguna
+[400] 1.7628E+12
+[401] 37.4219983
+[402] 5
+[403] 0
+[404] 26/11/2025 19:39
+[405] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[406] Laura Gómez
+[407] Valle del Cauca
+[408] Bolívar
+[409] CoV-CAMPOALEGRE
+[410] Carrera 8#10-05
+[411] 1110024
+[412] 3803273358
+[413] 0000-00-00
+[414] Pozo
+[415] Es mas Sencillo
+[416] 2
+[417] 3
+[418] Abuelo
+[419] Doméstico y consumo
+[420] No nota cambios
+[421] Clara y buena
+[422] Mala
+[423] No
+[424] Si
+[425] Si
+[426] No
+[427] 50000
+[428] 51
+[429] Jabon
+[430] Jabon
+[431] No
+[432] Si
+[433] No
+[434] Si
+[435] No
+[436] No
+[437] Si
+[438] No
+[439] No
+[440] No
+[441] Si
+[442] No
+[443] No
+[444] Hepatitis
+[445] 1.7628E+12
+[446] 37.4219983
+[447] 5
+[448] 0
+[449] 26/11/2025 19:39
+[450] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[451] María Fernanda
+[452] Valle del Cauca
+[453] Bolívar
+[454] CoV-LA PLAYA
+[455] Mz 3 Casa 7
+[456] 1110025
+[457] 3809912507
+[458] 0000-00-00
+[459] Naciente
+[460] Siempre ha sido así
+[461] 5
+[462] 0
+[463] Mama
+[464] Riego y consumo
+[465] Es mas limpio el agua
+[466] Clara y buena
+[467] Regular
+[468] Si
+[469] No
+[470] Si
+[471] Si
+[472] 90000
+[473] 14
+[474] Jabon
+[475] Detergente
+[476] Si
+[477] No
+[478] No
+[479] Si
+[480] No
+[481] Si
+[482] No
+[483] Si
+[484] No
+[485] Si
+[486] No
+[487] No
+[488] No
+[489] Hepatitis
+[490] 1.7628E+12
+[491] 37.4219983
+[492] 5
+[493] 0
+[494] 26/11/2025 19:39
+[495] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[496] Juan Esteban
+[497] Valle del Cauca
+[498] Bolívar
+[499] CoV-EL JARDÍN
+[500] Mz 3 Casa 7
+[501] 1110034
+[502] 3771952509
+[503] 0000-00-00
+[504] Grifo
+[505] Es más económica
+[506] 8
+[507] 2
+[508] Abuelo
+[509] Solo consumo
+[510] No nota cambios
+[511] Un poco turbia
+[512] Regular
+[513] Si
+[514] No
+[515] Si
+[516] Si
+[517] 35000
+[518] 30
+[519] Jabon
+[520] Detergente
+[521] Si
+[522] Si
+[523] Si
+[524] No
+[525] Si
+[526] Si
+[527] Si
+[528] Si
+[529] Si
+[530] No
+[531] No
+[532] Si
+[533] Si
+[534] Vómito
+[535] 1.7628E+12
+[536] 37.4219983
+[537] 5
+[538] 0
+[539] 26/11/2025 19:39
+[540] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[541] Ana María
+[542] Valle del Cauca
+[543] Bolívar
+[544] CoV-BUENOS AIRES
+[545] Calle 34#09-01
+[546] 1110038
+[547] 3833974388
+[548] 0000-00-00
+[549] Naciente
+[550] Es más económica
+[551] 3
+[552] 4
+[553] Abuelo
+[554] Cosas Domesticas
+[555] No nota cambios
+[556] Un poco turbia
+[557] Buena
+[558] Si
+[559] Si
+[560] Si
+[561] Si
+[562] 30000
+[563] 58
+[564] Jabon
+[565] Detergente
+[566] Si
+[567] No
+[568] Si
+[569] Si
+[570] No
+[571] No
+[572] Si
+[573] Si
+[574] No
+[575] No
+[576] Si
+[577] No
+[578] Si
+[579] Hepatitis
+[580] 1.7628E+12
+[581] 37.4219983
+[582] 5
+[583] 0
+[584] 26/11/2025 19:39
+[585] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[586] María Fernanda
+[587] Valle del Cauca
+[588] Bolívar
+[589] CoV-CAMPOALEGRE
+[590] Carrera 8#10-05
+[591] 1110043
+[592] 3224838151
+[593] 0000-00-00
+[594] Pozo
+[595] Siempre ha sido así
+[596] 3
+[597] 2
+[598] Padre
+[599] Solo consumo
+[600] No nota cambios
+[601] Clara
+[602] Regular
+[603] Si
+[604] No
+[605] Si
+[606] No
+[607] 55000
+[608] 56
+[609] Jabon
+[610] Jabon
+[611] Si
+[612] No
+[613] No
+[614] Si
+[615] Si
+[616] Si
+[617] Si
+[618] Si
+[619] No
+[620] Si
+[621] No
+[622] Si
+[623] No
+[624] Diarrea
+[625] 1.7628E+12
+[626] 37.4219983
+[627] 5
+[628] 0
+[629] 26/11/2025 19:39
+[630] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[631] María Fernanda
+[632] Valle del Cauca
+[633] Bolívar
+[634] CoV-EL BOSQUE
+[635] Vereda sin dirección
+[636] 1110046
+[637] 3251854360
+[638] 08/01/2025
+[639] Grifo
+[640] Siempre ha sido así
+[641] 5
+[642] 2
+[643] Mama
+[644] Solo consumo
+[645] No nota cambios
+[646] Un poco turbia
+[647] Buena
+[648] No
+[649] No
+[650] No
+[651] Si
+[652] 85000
+[653] 34
+[654] Jabon
+[655] Jabon
+[656] Si
+[657] No
+[658] Si
+[659] Si
+[660] Si
+[661] No
+[662] Si
+[663] No
+[664] No
+[665] Si
+[666] No
+[667] No
+[668] No
+[669] Vómito
+[670] 1.7628E+12
+[671] 37.4219983
+[672] 5
+[673] 0
+[674] 26/11/2025 19:39
+[675] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[676] Juan Esteban
+[677] Valle del Cauca
+[678] Bolívar
+[679] CoV-BUENOS AIRES
+[680] Vereda sin dirección
+[681] 1110047
+[682] 3926959363
+[683] 0000-00-00
+[684] Naciente
+[685] Siempre ha sido así
+[686] 7
+[687] 4
+[688] Padre
+[689] Solo consumo
+[690] Ahora sale con menos olor
+[691] Un poco turbia
+[692] Regular
+[693] No
+[694] Si
+[695] No
+[696] No
+[697] 95000
+[698] 14
+[699] Jabon
+[700] Jabon
+[701] Si
+[702] No
+[703] No
+[704] No
+[705] Si
+[706] No
+[707] No
+[708] Si
+[709] No
+[710] Si
+[711] No
+[712] No
+[713] No
+[714] Hepatitis
+[715] 1.7628E+12
+[716] 37.4219983
+[717] 5
+[718] 0
+[719] 26/11/2025 19:39
+[720] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[721] Ana María
+[722] Valle del Cauca
+[723] Bolívar
+[724] CoV-CAMPOALEGRE
+[725] Calle 12#03-21
+[726] 1110049
+[727] 3160166360
+[728] 11/05/2025
+[729] Naciente
+[730] Es más económica
+[731] 8
+[732] 3
+[733] Hijo
+[734] Riego y consumo
+[735] Es mas limpio el agua
+[736] Clara y buena
+[737] Mala
+[738] No
+[739] No
+[740] No
+[741] No
+[742] 40000
+[743] 15
+[744] Jabon
+[745] Detergente
+[746] Si
+[747] No
+[748] No
+[749] Si
+[750] Si
+[751] No
+[752] Si
+[753] No
+[754] No
+[755] No
+[756] Si
+[757] Si
+[758] No
+[759] Vómito
+[760] 1.7628E+12
+[761] 37.4219983
+[762] 5
+[763] 0
+[764] 26/11/2025 19:39
+[765] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[766] Carlos Pérez
+[767] Valle del Cauca
+[768] Bolívar
+[769] CoV-EL JARDÍN
+[770] Vereda sin dirección
+[771] 1110055
+[772] 3261217775
+[773] 04/03/2025
+[774] Pozo
+[775] Es más económica
+[776] 8
+[777] 2
+[778] Abuelo
+[779] Cosas Domesticas
+[780] Es mas limpio el agua
+[781] Un poco turbia
+[782] Mala
+[783] No
+[784] Si
+[785] No
+[786] No
+[787] 25000
+[788] 20
+[789] Jabon
+[790] Detergente
+[791] No
+[792] No
+[793] Si
+[794] No
+[795] Si
+[796] No
+[797] No
+[798] Si
+[799] Si
+[800] Si
+[801] Si
+[802] Si
+[803] No
+[804] Hepatitis
+[805] 1.7628E+12
+[806] 37.4219983
+[807] 5
+[808] 0
+[809] 26/11/2025 19:39
+[810] https://www.google.com/maps/?q=37.4219983,5.0011/11/2025
+[811] Carlos Pérez
+[812] Valle del Cauca
+[813] Bolívar
+[814] CoV-BUENOS AIRES
+[815] Calle 12#03-21
+[816] 1110062
+[817] 3796975006
+[818] 0000-00-00
+[819] Naciente
+[820] Es más económica
+[821] 3
+[822] 0
+[823] Padre
+[824] Doméstico y consumo
+[825] No nota cambios
+[826] Clara y buena
+[827] Buena
+[828] No
+[829] No
+[830] Si
+[831] No
+[832] 20000
+[833] 14
+[834] Jabon
+[835] Detergente
+[836] No
+[837] No
+[838] No
+[839] No
+[840] No
+[841] Si
+[842] No
+[843] Si
+[844] No
+[845] No
+[846] No
+[847] No
+[848] No
+[849] Vómito
+[850] 1.7628E+12
+[851] 37.4219983
+[852] 5
+[853] 0
+[854] 26/11/2025 19:39
+[855] https://www.google.com/maps/?q=37.4219983,5.0002/04/2025
+[856] Juan Esteban
+[857] Valle del Cauca
+[858] Bolívar
+[859] CoV-LA PLAYA
+[860] Calle 12#03-21
+[861] 1110069
+[862] 3167240183
+[863] 0000-00-00
+[864] Naciente
+[865] Queda más cerca
+[866] 8
+[867] 0
+[868] Hijo
+[869] Doméstico y consumo
+[870] Ahora sale con menos olor
+[871] Un poco turbia
+[872] Regular
+[873] No
+[874] Si
+[875] No
+[876] Si
+[877] 85000
+[878] 17
+[879] Jabon
+[880] Jabon
+[881] No
+[882] Si
+[883] No
+[884] No
+[885] Si
+[886] No
+[887] Si
+[888] No
+[889] No
+[890] No
+[891] Si
+[892] Si
+[893] Si
+[894] Hepatitis
+[895] 1.7628E+12
+[896] 37.4219983
+[897] 5
+[898] 0
+[899] 26/11/2025 19:39
+[900] https://www.google.com/maps/?q=37.4219983,5.0010/11/2025
+[901] Juan Esteban
+[902] Valle del Cauca
+[903] Bolívar
+[904] CoV-EL JARDÍN
+[905] Vereda sin dirección
+[906] 1110079
+[907] 3103964417
+[908] 09/02/2025
+[909] Naciente
+[910] Siempre ha sido así
+[911] 2
+[912] 2
+[913] Padre
+[914] Cosas Domesticas
+[915] Hay menos sedimentos
+[916] Clara y buena
+[917] Mala
+[918] Si
+[919] Si
+[920] No
+[921] Si
+[922] 30000
+[923] 55
+[924] Jabon
+[925] Detergente
+[926] No
+[927] No
+[928] No
+[929] Si
+[930] Si
+[931] No
+[932] Si
+[933] No
+[934] Si
+[935] Si
+[936] Si
+[937] No
+[938] Si
+[939] Diarrea
+[940] 1.7628E+12
+[941] 37.4219983
+[942] 5
+[943] 0
+[944] 26/11/2025 19:39
+[945] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[946] Juan Esteban
+[947] Valle del Cauca
+[948] Bolívar
+[949] CoV-BUENOS AIRES
+[950] Calle 34#09-01
+[951] 1110080
+[952] 3663201757
+[953] 0000-00-00
+[954] Pozo
+[955] Es más económica
+[956] 5
+[957] 0
+[958] Abuelo
+[959] Cosas Domesticas
+[960] No nota cambios
+[961] Clara y buena
+[962] Buena
+[963] No
+[964] Si
+[965] Si
+[966] Si
+[967] 65000
+[968] 18
+[969] Jabon
+[970] Detergente
+[971] No
+[972] Si
+[973] Si
+[974] Si
+[975] No
+[976] Si
+[977] Si
+[978] Si
+[979] Si
+[980] Si
+[981] Si
+[982] Si
+[983] No
+[984] Ninguna
+[985] 1.7628E+12
+[986] 37.4219983
+[987] 5
+[988] 0
+[989] 26/11/2025 19:39
+[990] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[991] Ana María
+[992] Valle del Cauca
+[993] Bolívar
+[994] CoV-BUENOS AIRES
+[995] Carrera 8#10-05
+[996] 1110083
+[997] 3988655427
+[998] 07/10/2025
+[999] Pozo
+[1000] Queda más cerca
+[1001] 3
+[1002] 4
+[1003] Padre
+[1004] Doméstico y consumo
+[1005] Es mas limpio el agua
+[1006] Un poco turbia
+[1007] Buena
+[1008] Si
+[1009] Si
+[1010] Si
+[1011] No
+[1012] 65000
+[1013] 11
+[1014] Jabon
+[1015] Detergente
+[1016] Si
+[1017] Si
+[1018] No
+[1019] No
+[1020] No
+[1021] No
+[1022] No
+[1023] Si
+[1024] No
+[1025] No
+[1026] Si
+[1027] Si
+[1028] No
+[1029] Diarrea
+[1030] 1.7628E+12
+[1031] 37.4219983
+[1032] 5
+[1033] 0
+[1034] 26/11/2025 19:39
+[1035] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[1036] Juan Esteban
+[1037] Valle del Cauca
+[1038] Bolívar
+[1039] CoV-EL JARDÍN
+[1040] Calle 34#09-01
+[1041] 1110100
+[1042] 3561061036
+[1043] 09/08/2025
+[1044] Naciente
+[1045] Es mas Sencillo
+[1046] 3
+[1047] 3
+[1048] Abuelo
+[1049] Solo consumo
+[1050] No nota cambios
+[1051] Clara
+[1052] Mala
+[1053] Si
+[1054] Si
+[1055] No
+[1056] Si
+[1057] 75000
+[1058] 37
+[1059] Jabon
+[1060] Detergente
+[1061] No
+[1062] No
+[1063] No
+[1064] Si
+[1065] No
+[1066] Si
+[1067] Si
+[1068] No
+[1069] No
+[1070] No
+[1071] Si
+[1072] No
+[1073] Si
+[1074] Ninguna
+[1075] 1.7628E+12
+[1076] 37.4219983
+[1077] 5
+[1078] 0
+[1079] 26/11/2025 19:39
+[1080] https://www.google.com/maps/?q=37.4219983,5.0002/08/2025
+[1081] Juan Esteban
+[1082] Valle del Cauca
+[1083] Bolívar
+[1084] CoV-EL JARDÍN
+[1085] Carrera 8#10-05
+[1086] 1110103
+[1087] 3320206619
+[1088] 0000-00-00
+[1089] Pozo
+[1090] Es mas Sencillo
+[1091] 8
+[1092] 0
+[1093] Padre
+[1094] Cosas Domesticas
+[1095] No nota cambios
+[1096] Un poco turbia
+[1097] Buena
+[1098] No
+[1099] Si
+[1100] No
+[1101] Si
+[1102] 20000
+[1103] 54
+[1104] Jabon
+[1105] Detergente
+[1106] Si
+[1107] No
+[1108] Si
+[1109] Si
+[1110] No
+[1111] Si
+[1112] Si
+[1113] Si
+[1114] No
+[1115] Si
+[1116] No
+[1117] No
+[1118] No
+[1119] Vómito
+[1120] 1.7628E+12
+[1121] 37.4219983
+[1122] 5
+[1123] 0
+[1124] 26/11/2025 19:39
+[1125] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[1126] Ana María
+[1127] Valle del Cauca
+[1128] Bolívar
+[1129] CoV-BUENOS AIRES
+[1130] Calle 12#03-21
+[1131] 1110111
+[1132] 3294382001
+[1133] 0000-00-00
+[1134] Grifo
+[1135] Siempre ha sido así
+[1136] 6
+[1137] 0
+[1138] Padre
+[1139] Solo consumo
+[1140] No nota cambios
+[1141] Clara y buena
+[1142] Buena
+[1143] Si
+[1144] Si
+[1145] No
+[1146] Si
+[1147] 90000
+[1148] 51
+[1149] Jabon
+[1150] Detergente
+[1151] Si
+[1152] Si
+[1153] No
+[1154] Si
+[1155] Si
+[1156] No
+[1157] Si
+[1158] No
+[1159] Si
+[1160] No
+[1161] Si
+[1162] Si
+[1163] Si
+[1164] Diarrea
+[1165] 1.7628E+12
+[1166] 37.4219983
+[1167] 5
+[1168] 0
+[1169] 26/11/2025 19:39
+[1170] https://www.google.com/maps/?q=37.4219983,5.0008/08/2025
+[1171] Christian Frank
+[1172] Valle del Cauca
+[1173] Bolívar
+[1174] CoV-CAMPOALEGRE
+[1175] Vereda sin dirección
+[1176] 1110113
+[1177] 3925943503
+[1178] 0000-00-00
+[1179] Pozo
+[1180] Queda más cerca
+[1181] 5
+[1182] 3
+[1183] Padre
+[1184] Riego y consumo
+[1185] Ahora sale con menos olor
+[1186] Un poco turbia
+[1187] Mala
+[1188] No
+[1189] Si
+[1190] No
+[1191] No
+[1192] 35000
+[1193] 22
+[1194] Jabon
+[1195] Jabon
+[1196] No
+[1197] No
+[1198] Si
+[1199] Si
+[1200] No
+[1201] Si
+[1202] No
+[1203] Si
+[1204] Si
+[1205] Si
+[1206] Si
+[1207] No
+[1208] Si
+[1209] Hepatitis
+[1210] 1.7628E+12
+[1211] 37.4219983
+[1212] 5
+[1213] 0
+[1214] 26/11/2025 19:39
+[1215] https://www.google.com/maps/?q=37.4219983,5.0005/04/2025
+[1216] Christian Frank
+[1217] Valle del Cauca
+[1218] Bolívar
+[1219] CoV-EL JARDÍN
+[1220] Calle 34#09-01
+[1221] 1110116
+[1222] 3892461984
+[1223] 0000-00-00
+[1224] Pozo
+[1225] Siempre ha sido así
+[1226] 4
+[1227] 3
+[1228] Hijo
+[1229] Cosas Domesticas
+[1230] No nota cambios
+[1231] Clara y buena
+[1232] Regular
+[1233] Si
+[1234] Si
+[1235] No
+[1236] Si
+[1237] 75000
+[1238] 57
+[1239] Jabon
+[1240] Jabon
+[1241] No
+[1242] Si
+[1243] No
+[1244] Si
+[1245] No
+[1246] No
+[1247] No
+[1248] Si
+[1249] Si
+[1250] Si
+[1251] No
+[1252] No
+[1253] No
+[1254] Hepatitis
+[1255] 1.7628E+12
+[1256] 37.4219983
+[1257] 5
+[1258] 0
+[1259] 26/11/2025 19:39
+[1260] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[1261] Juan Esteban
+[1262] Valle del Cauca
+[1263] Bolívar
+[1264] CoV-CAMPOALEGRE
+[1265] Carrera 8#10-05
+[1266] 1110119
+[1267] 3843022367
+[1268] 0000-00-00
+[1269] Pozo
+[1270] Es mas Sencillo
+[1271] 4
+[1272] 0
+[1273] Padre
+[1274] Riego y consumo
+[1275] No nota cambios
+[1276] Un poco turbia
+[1277] Regular
+[1278] No
+[1279] Si
+[1280] Si
+[1281] No
+[1282] 95000
+[1283] 60
+[1284] Jabon
+[1285] Jabon
+[1286] No
+[1287] Si
+[1288] No
+[1289] No
+[1290] No
+[1291] Si
+[1292] No
+[1293] No
+[1294] No
+[1295] No
+[1296] Si
+[1297] No
+[1298] Si
+[1299] Vómito
+[1300] 1.7628E+12
+[1301] 37.4219983
+[1302] 5
+[1303] 0
+[1304] 26/11/2025 19:39
+[1305] https://www.google.com/maps/?q=37.4219983,5.0005/11/2025
+[1306] Carlos Pérez
+[1307] Valle del Cauca
+[1308] Bolívar
+[1309] CoV-CAMPOALEGRE
+[1310] Vereda sin dirección
+[1311] 1110121
+[1312] 3689463169
+[1313] 0000-00-00
+[1314] Naciente
+[1315] Es mas Sencillo
+[1316] 8
+[1317] 3
+[1318] Mama
+[1319] Cosas Domesticas
+[1320] Hay menos sedimentos
+[1321] Clara y buena
+[1322] Regular
+[1323] No
+[1324] No
+[1325] Si
+[1326] No
+[1327] 25000
+[1328] 33
+[1329] Jabon
+[1330] Detergente
+[1331] No
+[1332] Si
+[1333] Si
+[1334] Si
+[1335] No
+[1336] No
+[1337] No
+[1338] Si
+[1339] No
+[1340] Si
+[1341] No
+[1342] No
+[1343] Si
+[1344] Diarrea
+[1345] 1.7628E+12
+[1346] 37.4219983
+[1347] 5
+[1348] 0
+[1349] 26/11/2025 19:39
+[1350] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[1351] Juan Esteban
+[1352] Valle del Cauca
+[1353] Bolívar
+[1354] CoV-BUENOS AIRES
+[1355] Calle 34#09-01
+[1356] 1110125
+[1357] 3953185427
+[1358] 01/01/2025
+[1359] Pozo
+[1360] Es más económica
+[1361] 7
+[1362] 3
+[1363] Padre
+[1364] Solo consumo
+[1365] Es mas limpio el agua
+[1366] Clara
+[1367] Regular
+[1368] Si
+[1369] Si
+[1370] No
+[1371] Si
+[1372] 15000
+[1373] 20
+[1374] Jabon
+[1375] Jabon
+[1376] Si
+[1377] No
+[1378] Si
+[1379] No
+[1380] No
+[1381] Si
+[1382] Si
+[1383] No
+[1384] Si
+[1385] Si
+[1386] Si
+[1387] No
+[1388] No
+[1389] Vómito
+[1390] 1.7628E+12
+[1391] 37.4219983
+[1392] 5
+[1393] 0
+[1394] 26/11/2025 19:39
+[1395] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[1396] Carlos Pérez
+[1397] Valle del Cauca
+[1398] Bolívar
+[1399] CoV-BUENOS AIRES
+[1400] Carrera 8#10-05
+[1401] 1110139
+[1402] 3766955097
+[1403] 05/05/2025
+[1404] Naciente
+[1405] Siempre ha sido así
+[1406] 7
+[1407] 1
+[1408] Hijo
+[1409] Doméstico y consumo
+[1410] Ahora sale con menos olor
+[1411] Un poco turbia
+[1412] Buena
+[1413] No
+[1414] Si
+[1415] Si
+[1416] Si
+[1417] 85000
+[1418] 24
+[1419] Jabon
+[1420] Jabon
+[1421] No
+[1422] No
+[1423] Si
+[1424] No
+[1425] Si
+[1426] No
+[1427] No
+[1428] No
+[1429] No
+[1430] No
+[1431] Si
+[1432] Si
+[1433] Si
+[1434] Ninguna
+[1435] 1.7628E+12
+[1436] 37.4219983
+[1437] 5
+[1438] 0
+[1439] 26/11/2025 19:39
+[1440] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[1441] Ana María
+[1442] Valle del Cauca
+[1443] Bolívar
+[1444] CoV-LA PLAYA
+[1445] Calle 12#03-21
+[1446] 1110142
+[1447] 3476956603
+[1448] 0000-00-00
+[1449] Pozo
+[1450] Siempre ha sido así
+[1451] 2
+[1452] 4
+[1453] Hijo
+[1454] Solo consumo
+[1455] No nota cambios
+[1456] Un poco turbia
+[1457] Mala
+[1458] Si
+[1459] Si
+[1460] Si
+[1461] Si
+[1462] 60000
+[1463] 26
+[1464] Jabon
+[1465] Jabon
+[1466] Si
+[1467] Si
+[1468] No
+[1469] Si
+[1470] No
+[1471] Si
+[1472] No
+[1473] No
+[1474] No
+[1475] Si
+[1476] No
+[1477] No
+[1478] Si
+[1479] Hepatitis
+[1480] 1.7628E+12
+[1481] 37.4219983
+[1482] 5
+[1483] 0
+[1484] 26/11/2025 19:39
+[1485] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[1486] Juan Esteban
+[1487] Valle del Cauca
+[1488] Bolívar
+[1489] CoV-BUENOS AIRES
+[1490] Carrera 8#10-05
+[1491] 1110150
+[1492] 3756194397
+[1493] 07/02/2025
+[1494] Pozo
+[1495] Queda más cerca
+[1496] 6
+[1497] 4
+[1498] Abuelo
+[1499] Solo consumo
+[1500] Es mas limpio el agua
+[1501] Clara
+[1502] Buena
+[1503] Si
+[1504] No
+[1505] Si
+[1506] No
+[1507] 70000
+[1508] 20
+[1509] Jabon
+[1510] Jabon
+[1511] Si
+[1512] Si
+[1513] No
+[1514] No
+[1515] Si
+[1516] Si
+[1517] No
+[1518] No
+[1519] Si
+[1520] Si
+[1521] No
+[1522] No
+[1523] Si
+[1524] Vómito
+[1525] 1.7628E+12
+[1526] 37.4219983
+[1527] 5
+[1528] 0
+[1529] 26/11/2025 19:39
+[1530] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[1531] Christian Frank
+[1532] Valle del Cauca
+[1533] Bolívar
+[1534] CoV-CAMPOALEGRE
+[1535] Calle 34#09-01
+[1536] 1110165
+[1537] 3800913693
+[1538] 0000-00-00
+[1539] Pozo
+[1540] Siempre ha sido así
+[1541] 7
+[1542] 1
+[1543] Hijo
+[1544] Doméstico y consumo
+[1545] Hay menos sedimentos
+[1546] Clara
+[1547] Buena
+[1548] Si
+[1549] No
+[1550] Si
+[1551] Si
+[1552] 40000
+[1553] 40
+[1554] Jabon
+[1555] Jabon
+[1556] No
+[1557] Si
+[1558] Si
+[1559] No
+[1560] Si
+[1561] No
+[1562] No
+[1563] No
+[1564] No
+[1565] No
+[1566] Si
+[1567] Si
+[1568] Si
+[1569] Diarrea
+[1570] 1.7628E+12
+[1571] 37.4219983
+[1572] 5
+[1573] 0
+[1574] 26/11/2025 19:39
+[1575] https://www.google.com/maps/?q=37.4219983,5.0007/09/2025
+[1576] María Fernanda
+[1577] Valle del Cauca
+[1578] Bolívar
+[1579] CoV-EL BOSQUE
+[1580] Mz 3 Casa 7
+[1581] 1110176
+[1582] 3858650655
+[1583] 09/07/2025
+[1584] Naciente
+[1585] Siempre ha sido así
+[1586] 4
+[1587] 2
+[1588] Hijo
+[1589] Riego y consumo
+[1590] Ahora sale con menos olor
+[1591] Clara
+[1592] Buena
+[1593] Si
+[1594] Si
+[1595] No
+[1596] No
+[1597] 95000
+[1598] 38
+[1599] Jabon
+[1600] Jabon
+[1601] No
+[1602] No
+[1603] Si
+[1604] Si
+[1605] No
+[1606] No
+[1607] No
+[1608] No
+[1609] No
+[1610] Si
+[1611] No
+[1612] No
+[1613] No
+[1614] Ninguna
+[1615] 1.7628E+12
+[1616] 37.4219983
+[1617] 5
+[1618] 0
+[1619] 26/11/2025 19:39
+[1620] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[1621] Juan Esteban
+[1622] Valle del Cauca
+[1623] Bolívar
+[1624] CoV-EL BOSQUE
+[1625] Vereda sin dirección
+[1626] 1110194
+[1627] 3703657771
+[1628] 10/09/2025
+[1629] Grifo
+[1630] Es mas Sencillo
+[1631] 6
+[1632] 0
+[1633] Abuelo
+[1634] Riego y consumo
+[1635] No nota cambios
+[1636] Clara y buena
+[1637] Buena
+[1638] Si
+[1639] Si
+[1640] No
+[1641] Si
+[1642] 50000
+[1643] 31
+[1644] Jabon
+[1645] Detergente
+[1646] Si
+[1647] Si
+[1648] No
+[1649] Si
+[1650] Si
+[1651] Si
+[1652] No
+[1653] No
+[1654] Si
+[1655] No
+[1656] No
+[1657] No
+[1658] No
+[1659] Diarrea
+[1660] 1.7628E+12
+[1661] 37.4219983
+[1662] 5
+[1663] 0
+[1664] 26/11/2025 19:39
+[1665] https://www.google.com/maps/?q=37.4219983,5.0004/04/2025
+[1666] Laura Gómez
+[1667] Valle del Cauca
+[1668] Bolívar
+[1669] CoV-CAMPOALEGRE
+[1670] Carrera 8#10-05
+[1671] 1110202
+[1672] 3191210041
+[1673] 0000-00-00
+[1674] Grifo
+[1675] Queda más cerca
+[1676] 6
+[1677] 1
+[1678] Hijo
+[1679] Riego y consumo
+[1680] No nota cambios
+[1681] Clara y buena
+[1682] Mala
+[1683] Si
+[1684] No
+[1685] No
+[1686] No
+[1687] 45000
+[1688] 45
+[1689] Jabon
+[1690] Detergente
+[1691] No
+[1692] No
+[1693] No
+[1694] Si
+[1695] No
+[1696] Si
+[1697] Si
+[1698] No
+[1699] No
+[1700] No
+[1701] No
+[1702] Si
+[1703] No
+[1704] Hepatitis
+[1705] 1.7628E+12
+[1706] 37.4219983
+[1707] 5
+[1708] 0
+[1709] 26/11/2025 19:39
+[1710] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[1711] Juan Esteban
+[1712] Valle del Cauca
+[1713] Bolívar
+[1714] CoV-BUENOS AIRES
+[1715] Carrera 8#10-05
+[1716] 1110209
+[1717] 3528151908
+[1718] 0000-00-00
+[1719] Naciente
+[1720] Es mas Sencillo
+[1721] 7
+[1722] 0
+[1723] Mama
+[1724] Riego y consumo
+[1725] Hay menos sedimentos
+[1726] Clara y buena
+[1727] Mala
+[1728] No
+[1729] Si
+[1730] Si
+[1731] Si
+[1732] 65000
+[1733] 30
+[1734] Jabon
+[1735] Detergente
+[1736] Si
+[1737] No
+[1738] No
+[1739] No
+[1740] No
+[1741] No
+[1742] No
+[1743] Si
+[1744] No
+[1745] Si
+[1746] Si
+[1747] Si
+[1748] Si
+[1749] Diarrea
+[1750] 1.7628E+12
+[1751] 37.4219983
+[1752] 5
+[1753] 0
+[1754] 26/11/2025 19:39
+[1755] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[1756] Laura Gómez
+[1757] Valle del Cauca
+[1758] Bolívar
+[1759] CoV-EL BOSQUE
+[1760] Carrera 8#10-05
+[1761] 1110217
+[1762] 3188164498
+[1763] 11/07/2025
+[1764] Naciente
+[1765] Es mas Sencillo
+[1766] 3
+[1767] 0
+[1768] Hijo
+[1769] Solo consumo
+[1770] Es mas limpio el agua
+[1771] Un poco turbia
+[1772] Mala
+[1773] No
+[1774] Si
+[1775] Si
+[1776] Si
+[1777] 55000
+[1778] 43
+[1779] Jabon
+[1780] Jabon
+[1781] No
+[1782] No
+[1783] Si
+[1784] No
+[1785] No
+[1786] Si
+[1787] Si
+[1788] No
+[1789] Si
+[1790] Si
+[1791] No
+[1792] Si
+[1793] No
+[1794] Ninguna
+[1795] 1.7628E+12
+[1796] 37.4219983
+[1797] 5
+[1798] 0
+[1799] 26/11/2025 19:39
+[1800] https://www.google.com/maps/?q=37.4219983,5.0002/11/2025
+[1801] Christian Frank
+[1802] Valle del Cauca
+[1803] Bolívar
+[1804] CoV-EL BOSQUE
+[1805] Carrera 8#10-05
+[1806] 1110219
+[1807] 3161183892
+[1808] 08/10/2025
+[1809] Naciente
+[1810] Es mas Sencillo
+[1811] 4
+[1812] 2
+[1813] Padre
+[1814] Solo consumo
+[1815] Hay menos sedimentos
+[1816] Un poco turbia
+[1817] Buena
+[1818] Si
+[1819] No
+[1820] Si
+[1821] No
+[1822] 35000
+[1823] 11
+[1824] Jabon
+[1825] Jabon
+[1826] No
+[1827] Si
+[1828] No
+[1829] No
+[1830] No
+[1831] No
+[1832] Si
+[1833] No
+[1834] Si
+[1835] Si
+[1836] Si
+[1837] No
+[1838] No
+[1839] Vómito
+[1840] 1.7628E+12
+[1841] 37.4219983
+[1842] 5
+[1843] 0
+[1844] 26/11/2025 19:39
+[1845] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[1846] Carlos Pérez
+[1847] Valle del Cauca
+[1848] Bolívar
+[1849] CoV-EL JARDÍN
+[1850] Calle 34#09-01
+[1851] 1110231
+[1852] 3432107423
+[1853] 0000-00-00
+[1854] Naciente
+[1855] Es mas Sencillo
+[1856] 8
+[1857] 4
+[1858] Padre
+[1859] Solo consumo
+[1860] Es mas limpio el agua
+[1861] Clara y buena
+[1862] Regular
+[1863] Si
+[1864] Si
+[1865] No
+[1866] No
+[1867] 75000
+[1868] 23
+[1869] Jabon
+[1870] Jabon
+[1871] No
+[1872] Si
+[1873] No
+[1874] No
+[1875] No
+[1876] Si
+[1877] No
+[1878] No
+[1879] Si
+[1880] Si
+[1881] Si
+[1882] No
+[1883] No
+[1884] Ninguna
+[1885] 1.7628E+12
+[1886] 37.4219983
+[1887] 5
+[1888] 0
+[1889] 26/11/2025 19:39
+[1890] https://www.google.com/maps/?q=37.4219983,5.0007/10/2025
+[1891] Juan Esteban
+[1892] Valle del Cauca
+[1893] Bolívar
+[1894] CoV-LA PLAYA
+[1895] Calle 34#09-01
+[1896] 1110244
+[1897] 3594967239
+[1898] 0000-00-00
+[1899] Naciente
+[1900] Siempre ha sido así
+[1901] 6
+[1902] 4
+[1903] Abuelo
+[1904] Riego y consumo
+[1905] Hay menos sedimentos
+[1906] Clara
+[1907] Mala
+[1908] Si
+[1909] Si
+[1910] No
+[1911] Si
+[1912] 25000
+[1913] 40
+[1914] Jabon
+[1915] Jabon
+[1916] No
+[1917] Si
+[1918] Si
+[1919] Si
+[1920] No
+[1921] Si
+[1922] Si
+[1923] No
+[1924] No
+[1925] No
+[1926] No
+[1927] No
+[1928] Si
+[1929] Hepatitis
+[1930] 1.7628E+12
+[1931] 37.4219983
+[1932] 5
+[1933] 0
+[1934] 26/11/2025 19:39
+[1935] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[1936] Christian Frank
+[1937] Valle del Cauca
+[1938] Bolívar
+[1939] CoV-LA PLAYA
+[1940] Calle 12#03-21
+[1941] 1110247
+[1942] 3166350804
+[1943] 0000-00-00
+[1944] Naciente
+[1945] Queda más cerca
+[1946] 8
+[1947] 1
+[1948] Mama
+[1949] Doméstico y consumo
+[1950] Es mas limpio el agua
+[1951] Un poco turbia
+[1952] Mala
+[1953] No
+[1954] Si
+[1955] No
+[1956] Si
+[1957] 60000
+[1958] 58
+[1959] Jabon
+[1960] Detergente
+[1961] Si
+[1962] Si
+[1963] No
+[1964] Si
+[1965] No
+[1966] No
+[1967] No
+[1968] No
+[1969] No
+[1970] No
+[1971] Si
+[1972] No
+[1973] Si
+[1974] Ninguna
+[1975] 1.7628E+12
+[1976] 37.4219983
+[1977] 5
+[1978] 0
+[1979] 26/11/2025 19:39
+[1980] https://www.google.com/maps/?q=37.4219983,5.0004/08/2025
+[1981] Juan Esteban
+[1982] Valle del Cauca
+[1983] Bolívar
+[1984] CoV-EL BOSQUE
+[1985] Vereda sin dirección
+[1986] 1110248
+[1987] 3731053647
+[1988] 0000-00-00
+[1989] Grifo
+[1990] Es mas Sencillo
+[1991] 7
+[1992] 1
+[1993] Abuelo
+[1994] Cosas Domesticas
+[1995] Ahora sale con menos olor
+[1996] Clara y buena
+[1997] Buena
+[1998] No
+[1999] No
+[2000] Si
+[2001] Si
+[2002] 35000
+[2003] 31
+[2004] Jabon
+[2005] Jabon
+[2006] Si
+[2007] No
+[2008] Si
+[2009] No
+[2010] No
+[2011] Si
+[2012] Si
+[2013] No
+[2014] Si
+[2015] Si
+[2016] Si
+[2017] No
+[2018] Si
+[2019] Hepatitis
+[2020] 1.7628E+12
+[2021] 37.4219983
+[2022] 5
+[2023] 0
+[2024] 26/11/2025 19:39
+[2025] https://www.google.com/maps/?q=37.4219983,5.0001/12/2025
+[2026] Christian Frank
+[2027] Valle del Cauca
+[2028] Bolívar
+[2029] CoV-EL JARDÍN
+[2030] Calle 34#09-01
+[2031] 1110253
+[2032] 3107315121
+[2033] 05/05/2025
+[2034] Grifo
+[2035] Es más económica
+[2036] 2
+[2037] 3
+[2038] Mama
+[2039] Riego y consumo
+[2040] Hay menos sedimentos
+[2041] Clara
+[2042] Buena
+[2043] No
+[2044] No
+[2045] No
+[2046] Si
+[2047] 35000
+[2048] 53
+[2049] Jabon
+[2050] Jabon
+[2051] Si
+[2052] No
+[2053] Si
+[2054] Si
+[2055] Si
+[2056] Si
+[2057] No
+[2058] Si
+[2059] No
+[2060] Si
+[2061] No
+[2062] No
+[2063] Si
+[2064] Hepatitis
+[2065] 1.7628E+12
+[2066] 37.4219983
+[2067] 5
+[2068] 0
+[2069] 26/11/2025 19:39
+[2070] https://www.google.com/maps/?q=37.4219983,5.0002/06/2025
+[2071] María Fernanda
+[2072] Valle del Cauca
+[2073] Bolívar
+[2074] CoV-LA PLAYA
+[2075] Calle 12#03-21
+[2076] 1110256
+[2077] 3797263695
+[2078] 08/02/2025
+[2079] Grifo
+[2080] Siempre ha sido así
+[2081] 8
+[2082] 3
+[2083] Hijo
+[2084] Cosas Domesticas
+[2085] Es mas limpio el agua
+[2086] Un poco turbia
+[2087] Regular
+[2088] No
+[2089] No
+[2090] No
+[2091] No
+[2092] 70000
+[2093] 20
+[2094] Jabon
+[2095] Detergente
+[2096] No
+[2097] No
+[2098] No
+[2099] No
+[2100] No
+[2101] No
+[2102] No
+[2103] No
+[2104] Si
+[2105] No
+[2106] Si
+[2107] Si
+[2108] Si
+[2109] Vómito
+[2110] 1.7628E+12
+[2111] 37.4219983
+[2112] 5
+[2113] 0
+[2114] 26/11/2025 19:39
+[2115] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[2116] Ana María
+[2117] Valle del Cauca
+[2118] Bolívar
+[2119] CoV-CAMPOALEGRE
+[2120] Mz 3 Casa 7
+[2121] 1110257
+[2122] 3487026967
+[2123] 0000-00-00
+[2124] Grifo
+[2125] Siempre ha sido así
+[2126] 6
+[2127] 4
+[2128] Hijo
+[2129] Solo consumo
+[2130] Hay menos sedimentos
+[2131] Clara
+[2132] Regular
+[2133] Si
+[2134] No
+[2135] No
+[2136] No
+[2137] 70000
+[2138] 38
+[2139] Jabon
+[2140] Jabon
+[2141] Si
+[2142] No
+[2143] No
+[2144] No
+[2145] Si
+[2146] No
+[2147] Si
+[2148] Si
+[2149] Si
+[2150] Si
+[2151] Si
+[2152] Si
+[2153] Si
+[2154] Diarrea
+[2155] 1.7628E+12
+[2156] 37.4219983
+[2157] 5
+[2158] 0
+[2159] 26/11/2025 19:39
+[2160] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[2161] María Fernanda
+[2162] Valle del Cauca
+[2163] Bolívar
+[2164] CoV-LA PLAYA
+[2165] Calle 34#09-01
+[2166] 1110261
+[2167] 3789657659
+[2168] 03/02/2025
+[2169] Pozo
+[2170] Queda más cerca
+[2171] 3
+[2172] 0
+[2173] Hijo
+[2174] Doméstico y consumo
+[2175] Ahora sale con menos olor
+[2176] Clara
+[2177] Buena
+[2178] No
+[2179] Si
+[2180] Si
+[2181] No
+[2182] 10000
+[2183] 18
+[2184] Jabon
+[2185] Jabon
+[2186] Si
+[2187] No
+[2188] Si
+[2189] No
+[2190] No
+[2191] Si
+[2192] No
+[2193] Si
+[2194] No
+[2195] Si
+[2196] No
+[2197] No
+[2198] Si
+[2199] Diarrea
+[2200] 1.7628E+12
+[2201] 37.4219983
+[2202] 5
+[2203] 0
+[2204] 26/11/2025 19:39
+[2205] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[2206] María Fernanda
+[2207] Valle del Cauca
+[2208] Bolívar
+[2209] CoV-EL BOSQUE
+[2210] Calle 34#09-01
+[2211] 1110262
+[2212] 3599378553
+[2213] 08/01/2025
+[2214] Naciente
+[2215] Es mas Sencillo
+[2216] 5
+[2217] 4
+[2218] Hijo
+[2219] Doméstico y consumo
+[2220] Es mas limpio el agua
+[2221] Clara y buena
+[2222] Buena
+[2223] No
+[2224] No
+[2225] No
+[2226] No
+[2227] 70000
+[2228] 58
+[2229] Jabon
+[2230] Detergente
+[2231] No
+[2232] No
+[2233] Si
+[2234] Si
+[2235] Si
+[2236] No
+[2237] No
+[2238] No
+[2239] No
+[2240] Si
+[2241] Si
+[2242] Si
+[2243] No
+[2244] Diarrea
+[2245] 1.7628E+12
+[2246] 37.4219983
+[2247] 5
+[2248] 0
+[2249] 26/11/2025 19:39
+[2250] https://www.google.com/maps/?q=37.4219983,5.0008/07/2025
+[2251] Juan Esteban
+[2252] Valle del Cauca
+[2253] Bolívar
+[2254] CoV-EL BOSQUE
+[2255] Calle 12#03-21
+[2256] 1110269
+[2257] 3341751952
+[2258] 0000-00-00
+[2259] Grifo
+[2260] Siempre ha sido así
+[2261] 8
+[2262] 2
+[2263] Padre
+[2264] Riego y consumo
+[2265] No nota cambios
+[2266] Un poco turbia
+[2267] Buena
+[2268] No
+[2269] Si
+[2270] No
+[2271] No
+[2272] 10000
+[2273] 49
+[2274] Jabon
+[2275] Jabon
+[2276] Si
+[2277] No
+[2278] Si
+[2279] No
+[2280] No
+[2281] No
+[2282] No
+[2283] Si
+[2284] Si
+[2285] Si
+[2286] Si
+[2287] Si
+[2288] No
+[2289] Diarrea
+[2290] 1.7628E+12
+[2291] 37.4219983
+[2292] 5
+[2293] 0
+[2294] 26/11/2025 19:39
+[2295] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[2296] María Fernanda
+[2297] Valle del Cauca
+[2298] Bolívar
+[2299] CoV-EL BOSQUE
+[2300] Mz 3 Casa 7
+[2301] 1110270
+[2302] 3502599130
+[2303] 04/11/2025
+[2304] Naciente
+[2305] Siempre ha sido así
+[2306] 7
+[2307] 1
+[2308] Hijo
+[2309] Doméstico y consumo
+[2310] No nota cambios
+[2311] Clara
+[2312] Mala
+[2313] No
+[2314] Si
+[2315] Si
+[2316] No
+[2317] 15000
+[2318] 41
+[2319] Jabon
+[2320] Detergente
+[2321] Si
+[2322] No
+[2323] Si
+[2324] Si
+[2325] No
+[2326] Si
+[2327] No
+[2328] Si
+[2329] No
+[2330] No
+[2331] No
+[2332] No
+[2333] No
+[2334] Vómito
+[2335] 1.7628E+12
+[2336] 37.4219983
+[2337] 5
+[2338] 0
+[2339] 26/11/2025 19:39
+[2340] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[2341] Carlos Pérez
+[2342] Valle del Cauca
+[2343] Bolívar
+[2344] CoV-CAMPOALEGRE
+[2345] Calle 12#03-21
+[2346] 1110271
+[2347] 3957009326
+[2348] 0000-00-00
+[2349] Naciente
+[2350] Es más económica
+[2351] 2
+[2352] 0
+[2353] Mama
+[2354] Doméstico y consumo
+[2355] Ahora sale con menos olor
+[2356] Clara
+[2357] Buena
+[2358] No
+[2359] No
+[2360] No
+[2361] Si
+[2362] 40000
+[2363] 13
+[2364] Jabon
+[2365] Jabon
+[2366] No
+[2367] Si
+[2368] Si
+[2369] Si
+[2370] Si
+[2371] No
+[2372] Si
+[2373] Si
+[2374] Si
+[2375] No
+[2376] No
+[2377] Si
+[2378] No
+[2379] Diarrea
+[2380] 1.7628E+12
+[2381] 37.4219983
+[2382] 5
+[2383] 0
+[2384] 26/11/2025 19:39
+[2385] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[2386] Christian Frank
+[2387] Valle del Cauca
+[2388] Bolívar
+[2389] CoV-BUENOS AIRES
+[2390] Calle 34#09-01
+[2391] 1110272
+[2392] 3311781863
+[2393] 01/01/2025
+[2394] Pozo
+[2395] Es más económica
+[2396] 5
+[2397] 3
+[2398] Padre
+[2399] Cosas Domesticas
+[2400] No nota cambios
+[2401] Un poco turbia
+[2402] Buena
+[2403] Si
+[2404] Si
+[2405] No
+[2406] Si
+[2407] 95000
+[2408] 60
+[2409] Jabon
+[2410] Detergente
+[2411] No
+[2412] Si
+[2413] No
+[2414] Si
+[2415] No
+[2416] No
+[2417] Si
+[2418] Si
+[2419] Si
+[2420] No
+[2421] Si
+[2422] No
+[2423] No
+[2424] Ninguna
+[2425] 1.7628E+12
+[2426] 37.4219983
+[2427] 5
+[2428] 0
+[2429] 26/11/2025 19:39
+[2430] https://www.google.com/maps/?q=37.4219983,5.0006/03/2025
+[2431] Christian Frank
+[2432] Valle del Cauca
+[2433] Bolívar
+[2434] CoV-LA PLAYA
+[2435] Mz 3 Casa 7
+[2436] 1110287
+[2437] 3113135130
+[2438] 09/05/2025
+[2439] Naciente
+[2440] Siempre ha sido así
+[2441] 8
+[2442] 1
+[2443] Abuelo
+[2444] Riego y consumo
+[2445] Hay menos sedimentos
+[2446] Un poco turbia
+[2447] Regular
+[2448] Si
+[2449] Si
+[2450] Si
+[2451] Si
+[2452] 75000
+[2453] 40
+[2454] Jabon
+[2455] Detergente
+[2456] Si
+[2457] No
+[2458] No
+[2459] Si
+[2460] No
+[2461] Si
+[2462] No
+[2463] Si
+[2464] No
+[2465] Si
+[2466] Si
+[2467] Si
+[2468] Si
+[2469] Hepatitis
+[2470] 1.7628E+12
+[2471] 37.4219983
+[2472] 5
+[2473] 0
+[2474] 26/11/2025 19:39
+[2475] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[2476] Juan Esteban
+[2477] Valle del Cauca
+[2478] Bolívar
+[2479] CoV-BUENOS AIRES
+[2480] Mz 3 Casa 7
+[2481] 1110288
+[2482] 3601864527
+[2483] 0000-00-00
+[2484] Pozo
+[2485] Es mas Sencillo
+[2486] 7
+[2487] 0
+[2488] Mama
+[2489] Solo consumo
+[2490] No nota cambios
+[2491] Un poco turbia
+[2492] Buena
+[2493] Si
+[2494] Si
+[2495] No
+[2496] Si
+[2497] 20000
+[2498] 49
+[2499] Jabon
+[2500] Detergente
+[2501] No
+[2502] No
+[2503] No
+[2504] Si
+[2505] Si
+[2506] No
+[2507] Si
+[2508] No
+[2509] Si
+[2510] No
+[2511] No
+[2512] Si
+[2513] No
+[2514] Vómito
+[2515] 1.7628E+12
+[2516] 37.4219983
+[2517] 5
+[2518] 0
+[2519] 26/11/2025 19:39
+[2520] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[2521] Ana María
+[2522] Valle del Cauca
+[2523] Bolívar
+[2524] CoV-LA PLAYA
+[2525] Calle 34#09-01
+[2526] 1110289
+[2527] 3230577899
+[2528] 11/06/2025
+[2529] Grifo
+[2530] Es mas Sencillo
+[2531] 4
+[2532] 4
+[2533] Abuelo
+[2534] Doméstico y consumo
+[2535] Ahora sale con menos olor
+[2536] Un poco turbia
+[2537] Buena
+[2538] Si
+[2539] No
+[2540] No
+[2541] No
+[2542] 15000
+[2543] 11
+[2544] Jabon
+[2545] Detergente
+[2546] Si
+[2547] Si
+[2548] Si
+[2549] No
+[2550] No
+[2551] No
+[2552] Si
+[2553] No
+[2554] No
+[2555] No
+[2556] No
+[2557] No
+[2558] No
+[2559] Vómito
+[2560] 1.7628E+12
+[2561] 37.4219983
+[2562] 5
+[2563] 0
+[2564] 26/11/2025 19:39
+[2565] https://www.google.com/maps/?q=37.4219983,5.0011/09/2025
+[2566] María Fernanda
+[2567] Valle del Cauca
+[2568] Bolívar
+[2569] CoV-EL BOSQUE
+[2570] Vereda sin dirección
+[2571] 1110310
+[2572] 3545907620
+[2573] 04/11/2025
+[2574] Grifo
+[2575] Es mas Sencillo
+[2576] 3
+[2577] 4
+[2578] Hijo
+[2579] Doméstico y consumo
+[2580] Es mas limpio el agua
+[2581] Clara y buena
+[2582] Mala
+[2583] Si
+[2584] No
+[2585] Si
+[2586] No
+[2587] 50000
+[2588] 59
+[2589] Jabon
+[2590] Jabon
+[2591] No
+[2592] Si
+[2593] No
+[2594] Si
+[2595] Si
+[2596] No
+[2597] Si
+[2598] Si
+[2599] Si
+[2600] Si
+[2601] Si
+[2602] Si
+[2603] No
+[2604] Diarrea
+[2605] 1.7628E+12
+[2606] 37.4219983
+[2607] 5
+[2608] 0
+[2609] 26/11/2025 19:39
+[2610] https://www.google.com/maps/?q=37.4219983,5.0003/11/2025
+[2611] Carlos Pérez
+[2612] Valle del Cauca
+[2613] Bolívar
+[2614] CoV-LA PLAYA
+[2615] Mz 3 Casa 7
+[2616] 1110319
+[2617] 3206473172
+[2618] 06/01/2025
+[2619] Pozo
+[2620] Siempre ha sido así
+[2621] 4
+[2622] 1
+[2623] Mama
+[2624] Doméstico y consumo
+[2625] Ahora sale con menos olor
+[2626] Un poco turbia
+[2627] Regular
+[2628] Si
+[2629] Si
+[2630] Si
+[2631] Si
+[2632] 65000
+[2633] 26
+[2634] Jabon
+[2635] Jabon
+[2636] No
+[2637] No
+[2638] No
+[2639] No
+[2640] Si
+[2641] No
+[2642] No
+[2643] Si
+[2644] No
+[2645] Si
+[2646] No
+[2647] Si
+[2648] No
+[2649] Ninguna
+[2650] 1.7628E+12
+[2651] 37.4219983
+[2652] 5
+[2653] 0
+[2654] 26/11/2025 19:39
+[2655] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[2656] María Fernanda
+[2657] Valle del Cauca
+[2658] Bolívar
+[2659] CoV-EL JARDÍN
+[2660] Carrera 8#10-05
+[2661] 1110325
+[2662] 3510027474
+[2663] 11/06/2025
+[2664] Grifo
+[2665] Queda más cerca
+[2666] 5
+[2667] 0
+[2668] Padre
+[2669] Riego y consumo
+[2670] No nota cambios
+[2671] Clara y buena
+[2672] Mala
+[2673] Si
+[2674] No
+[2675] No
+[2676] No
+[2677] 10000
+[2678] 43
+[2679] Jabon
+[2680] Jabon
+[2681] No
+[2682] No
+[2683] No
+[2684] No
+[2685] Si
+[2686] Si
+[2687] Si
+[2688] No
+[2689] Si
+[2690] Si
+[2691] Si
+[2692] Si
+[2693] No
+[2694] Diarrea
+[2695] 1.7628E+12
+[2696] 37.4219983
+[2697] 5
+[2698] 0
+[2699] 26/11/2025 19:39
+[2700] https://www.google.com/maps/?q=37.4219983,5.0004/08/2025
+[2701] Juan Esteban
+[2702] Valle del Cauca
+[2703] Bolívar
+[2704] CoV-EL BOSQUE
+[2705] Calle 12#03-21
+[2706] 1110327
+[2707] 3152065818
+[2708] 0000-00-00
+[2709] Grifo
+[2710] Es mas Sencillo
+[2711] 3
+[2712] 2
+[2713] Mama
+[2714] Solo consumo
+[2715] Hay menos sedimentos
+[2716] Clara y buena
+[2717] Mala
+[2718] Si
+[2719] Si
+[2720] No
+[2721] No
+[2722] 40000
+[2723] 60
+[2724] Jabon
+[2725] Detergente
+[2726] No
+[2727] Si
+[2728] Si
+[2729] Si
+[2730] No
+[2731] Si
+[2732] Si
+[2733] No
+[2734] Si
+[2735] Si
+[2736] Si
+[2737] Si
+[2738] No
+[2739] Diarrea
+[2740] 1.7628E+12
+[2741] 37.4219983
+[2742] 5
+[2743] 0
+[2744] 26/11/2025 19:39
+[2745] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[2746] Ana María
+[2747] Valle del Cauca
+[2748] Bolívar
+[2749] CoV-EL BOSQUE
+[2750] Mz 3 Casa 7
+[2751] 1110329
+[2752] 3987928635
+[2753] 0000-00-00
+[2754] Grifo
+[2755] Es más económica
+[2756] 8
+[2757] 2
+[2758] Padre
+[2759] Cosas Domesticas
+[2760] No nota cambios
+[2761] Un poco turbia
+[2762] Buena
+[2763] No
+[2764] Si
+[2765] Si
+[2766] No
+[2767] 85000
+[2768] 21
+[2769] Jabon
+[2770] Jabon
+[2771] No
+[2772] No
+[2773] Si
+[2774] No
+[2775] Si
+[2776] No
+[2777] No
+[2778] No
+[2779] No
+[2780] Si
+[2781] Si
+[2782] No
+[2783] No
+[2784] Diarrea
+[2785] 1.7628E+12
+[2786] 37.4219983
+[2787] 5
+[2788] 0
+[2789] 26/11/2025 19:39
+[2790] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[2791] Ana María
+[2792] Valle del Cauca
+[2793] Bolívar
+[2794] CoV-CAMPOALEGRE
+[2795] Vereda sin dirección
+[2796] 1110342
+[2797] 3483528806
+[2798] 01/03/2025
+[2799] Grifo
+[2800] Siempre ha sido así
+[2801] 2
+[2802] 3
+[2803] Abuelo
+[2804] Riego y consumo
+[2805] Hay menos sedimentos
+[2806] Un poco turbia
+[2807] Mala
+[2808] No
+[2809] Si
+[2810] No
+[2811] Si
+[2812] 55000
+[2813] 29
+[2814] Jabon
+[2815] Jabon
+[2816] No
+[2817] No
+[2818] Si
+[2819] No
+[2820] No
+[2821] Si
+[2822] Si
+[2823] No
+[2824] No
+[2825] Si
+[2826] No
+[2827] No
+[2828] No
+[2829] Hepatitis
+[2830] 1.7628E+12
+[2831] 37.4219983
+[2832] 5
+[2833] 0
+[2834] 26/11/2025 19:39
+[2835] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[2836] Christian Frank
+[2837] Valle del Cauca
+[2838] Bolívar
+[2839] CoV-LA PLAYA
+[2840] Carrera 8#10-05
+[2841] 1110343
+[2842] 3454311629
+[2843] 04/12/2025
+[2844] Grifo
+[2845] Es mas Sencillo
+[2846] 3
+[2847] 4
+[2848] Abuelo
+[2849] Solo consumo
+[2850] No nota cambios
+[2851] Un poco turbia
+[2852] Regular
+[2853] No
+[2854] Si
+[2855] Si
+[2856] No
+[2857] 50000
+[2858] 52
+[2859] Jabon
+[2860] Detergente
+[2861] No
+[2862] Si
+[2863] No
+[2864] Si
+[2865] No
+[2866] Si
+[2867] No
+[2868] No
+[2869] No
+[2870] Si
+[2871] Si
+[2872] Si
+[2873] No
+[2874] Hepatitis
+[2875] 1.7628E+12
+[2876] 37.4219983
+[2877] 5
+[2878] 0
+[2879] 26/11/2025 19:39
+[2880] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[2881] Juan Esteban
+[2882] Valle del Cauca
+[2883] Bolívar
+[2884] CoV-BUENOS AIRES
+[2885] Calle 12#03-21
+[2886] 1110344
+[2887] 3642934617
+[2888] 02/10/2025
+[2889] Pozo
+[2890] Siempre ha sido así
+[2891] 5
+[2892] 4
+[2893] Hijo
+[2894] Doméstico y consumo
+[2895] No nota cambios
+[2896] Un poco turbia
+[2897] Buena
+[2898] No
+[2899] No
+[2900] Si
+[2901] Si
+[2902] 80000
+[2903] 36
+[2904] Jabon
+[2905] Jabon
+[2906] Si
+[2907] No
+[2908] No
+[2909] No
+[2910] Si
+[2911] Si
+[2912] No
+[2913] No
+[2914] No
+[2915] Si
+[2916] No
+[2917] No
+[2918] Si
+[2919] Diarrea
+[2920] 1.7628E+12
+[2921] 37.4219983
+[2922] 5
+[2923] 0
+[2924] 26/11/2025 19:39
+[2925] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[2926] Christian Frank
+[2927] Valle del Cauca
+[2928] Bolívar
+[2929] CoV-EL BOSQUE
+[2930] Carrera 8#10-05
+[2931] 1110352
+[2932] 3853694479
+[2933] 01/01/2025
+[2934] Pozo
+[2935] Es mas Sencillo
+[2936] 5
+[2937] 4
+[2938] Mama
+[2939] Doméstico y consumo
+[2940] Ahora sale con menos olor
+[2941] Un poco turbia
+[2942] Buena
+[2943] No
+[2944] No
+[2945] No
+[2946] Si
+[2947] 80000
+[2948] 51
+[2949] Jabon
+[2950] Detergente
+[2951] Si
+[2952] Si
+[2953] No
+[2954] No
+[2955] No
+[2956] No
+[2957] No
+[2958] Si
+[2959] Si
+[2960] No
+[2961] No
+[2962] Si
+[2963] Si
+[2964] Diarrea
+[2965] 1.7628E+12
+[2966] 37.4219983
+[2967] 5
+[2968] 0
+[2969] 26/11/2025 19:39
+[2970] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[2971] Juan Esteban
+[2972] Valle del Cauca
+[2973] Bolívar
+[2974] CoV-CAMPOALEGRE
+[2975] Calle 34#09-01
+[2976] 1110354
+[2977] 3750600784
+[2978] 01/04/2025
+[2979] Grifo
+[2980] Queda más cerca
+[2981] 7
+[2982] 4
+[2983] Abuelo
+[2984] Doméstico y consumo
+[2985] Es mas limpio el agua
+[2986] Clara y buena
+[2987] Buena
+[2988] No
+[2989] No
+[2990] No
+[2991] No
+[2992] 70000
+[2993] 56
+[2994] Jabon
+[2995] Detergente
+[2996] No
+[2997] Si
+[2998] No
+[2999] No
+[3000] No
+[3001] No
+[3002] No
+[3003] Si
+[3004] Si
+[3005] No
+[3006] No
+[3007] No
+[3008] Si
+[3009] Ninguna
+[3010] 1.7628E+12
+[3011] 37.4219983
+[3012] 5
+[3013] 0
+[3014] 26/11/2025 19:39
+[3015] https://www.google.com/maps/?q=37.4219983,5.0005/02/2025
+[3016] Christian Frank
+[3017] Valle del Cauca
+[3018] Bolívar
+[3019] CoV-CAMPOALEGRE
+[3020] Carrera 8#10-05
+[3021] 1110368
+[3022] 3136706397
+[3023] 0000-00-00
+[3024] Grifo
+[3025] Queda más cerca
+[3026] 2
+[3027] 1
+[3028] Hijo
+[3029] Solo consumo
+[3030] No nota cambios
+[3031] Clara y buena
+[3032] Regular
+[3033] No
+[3034] Si
+[3035] No
+[3036] Si
+[3037] 45000
+[3038] 49
+[3039] Jabon
+[3040] Jabon
+[3041] No
+[3042] No
+[3043] Si
+[3044] Si
+[3045] No
+[3046] No
+[3047] No
+[3048] No
+[3049] Si
+[3050] Si
+[3051] Si
+[3052] No
+[3053] No
+[3054] Vómito
+[3055] 1.7628E+12
+[3056] 37.4219983
+[3057] 5
+[3058] 0
+[3059] 26/11/2025 19:39
+[3060] https://www.google.com/maps/?q=37.4219983,5.0011/02/2025
+[3061] Ana María
+[3062] Valle del Cauca
+[3063] Bolívar
+[3064] CoV-LA PLAYA
+[3065] Mz 3 Casa 7
+[3066] 1110372
+[3067] 3782669481
+[3068] 11/04/2025
+[3069] Grifo
+[3070] Siempre ha sido así
+[3071] 5
+[3072] 3
+[3073] Hijo
+[3074] Riego y consumo
+[3075] No nota cambios
+[3076] Clara
+[3077] Regular
+[3078] No
+[3079] Si
+[3080] Si
+[3081] No
+[3082] 25000
+[3083] 14
+[3084] Jabon
+[3085] Jabon
+[3086] Si
+[3087] No
+[3088] No
+[3089] No
+[3090] No
+[3091] Si
+[3092] Si
+[3093] Si
+[3094] Si
+[3095] No
+[3096] Si
+[3097] Si
+[3098] No
+[3099] Hepatitis
+[3100] 1.7628E+12
+[3101] 37.4219983
+[3102] 5
+[3103] 0
+[3104] 26/11/2025 19:39
+[3105] https://www.google.com/maps/?q=37.4219983,5.0009/07/2025
+[3106] Laura Gómez
+[3107] Valle del Cauca
+[3108] Bolívar
+[3109] CoV-BUENOS AIRES
+[3110] Mz 3 Casa 7
+[3111] 1110385
+[3112] 3790737656
+[3113] 02/09/2025
+[3114] Pozo
+[3115] Es más económica
+[3116] 4
+[3117] 3
+[3118] Padre
+[3119] Solo consumo
+[3120] Es mas limpio el agua
+[3121] Clara
+[3122] Regular
+[3123] Si
+[3124] Si
+[3125] No
+[3126] No
+[3127] 50000
+[3128] 32
+[3129] Jabon
+[3130] Jabon
+[3131] Si
+[3132] No
+[3133] No
+[3134] Si
+[3135] No
+[3136] No
+[3137] No
+[3138] Si
+[3139] Si
+[3140] Si
+[3141] No
+[3142] Si
+[3143] Si
+[3144] Ninguna
+[3145] 1.7628E+12
+[3146] 37.4219983
+[3147] 5
+[3148] 0
+[3149] 26/11/2025 19:39
+[3150] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[3151] Ana María
+[3152] Valle del Cauca
+[3153] Bolívar
+[3154] CoV-EL JARDÍN
+[3155] Mz 3 Casa 7
+[3156] 1110387
+[3157] 3800874442
+[3158] 0000-00-00
+[3159] Pozo
+[3160] Siempre ha sido así
+[3161] 2
+[3162] 2
+[3163] Mama
+[3164] Solo consumo
+[3165] Ahora sale con menos olor
+[3166] Un poco turbia
+[3167] Buena
+[3168] No
+[3169] Si
+[3170] Si
+[3171] Si
+[3172] 25000
+[3173] 44
+[3174] Jabon
+[3175] Jabon
+[3176] Si
+[3177] Si
+[3178] No
+[3179] No
+[3180] No
+[3181] Si
+[3182] Si
+[3183] Si
+[3184] No
+[3185] Si
+[3186] No
+[3187] No
+[3188] Si
+[3189] Diarrea
+[3190] 1.7628E+12
+[3191] 37.4219983
+[3192] 5
+[3193] 0
+[3194] 26/11/2025 19:39
+[3195] https://www.google.com/maps/?q=37.4219983,5.0011/03/2025
+[3196] Laura Gómez
+[3197] Valle del Cauca
+[3198] Bolívar
+[3199] CoV-EL JARDÍN
+[3200] Mz 3 Casa 7
+[3201] 1110389
+[3202] 3753390835
+[3203] 09/09/2025
+[3204] Grifo
+[3205] Queda más cerca
+[3206] 2
+[3207] 2
+[3208] Mama
+[3209] Riego y consumo
+[3210] Hay menos sedimentos
+[3211] Clara
+[3212] Mala
+[3213] No
+[3214] Si
+[3215] No
+[3216] No
+[3217] 30000
+[3218] 57
+[3219] Jabon
+[3220] Detergente
+[3221] Si
+[3222] No
+[3223] Si
+[3224] Si
+[3225] Si
+[3226] Si
+[3227] No
+[3228] No
+[3229] No
+[3230] Si
+[3231] Si
+[3232] No
+[3233] No
+[3234] Ninguna
+[3235] 1.7628E+12
+[3236] 37.4219983
+[3237] 5
+[3238] 0
+[3239] 26/11/2025 19:39
+[3240] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[3241] Laura Gómez
+[3242] Valle del Cauca
+[3243] Bolívar
+[3244] CoV-EL JARDÍN
+[3245] Carrera 8#10-05
+[3246] 1110390
+[3247] 3362243714
+[3248] 0000-00-00
+[3249] Grifo
+[3250] Queda más cerca
+[3251] 4
+[3252] 4
+[3253] Mama
+[3254] Cosas Domesticas
+[3255] Hay menos sedimentos
+[3256] Un poco turbia
+[3257] Buena
+[3258] No
+[3259] No
+[3260] Si
+[3261] No
+[3262] 50000
+[3263] 44
+[3264] Jabon
+[3265] Detergente
+[3266] No
+[3267] Si
+[3268] No
+[3269] No
+[3270] Si
+[3271] No
+[3272] Si
+[3273] Si
+[3274] Si
+[3275] No
+[3276] No
+[3277] No
+[3278] No
+[3279] Vómito
+[3280] 1.7628E+12
+[3281] 37.4219983
+[3282] 5
+[3283] 0
+[3284] 26/11/2025 19:39
+[3285] https://www.google.com/maps/?q=37.4219983,5.0003/10/2025
+[3286] Laura Gómez
+[3287] Valle del Cauca
+[3288] Bolívar
+[3289] CoV-LA PLAYA
+[3290] Mz 3 Casa 7
+[3291] 1110391
+[3292] 3221017896
+[3293] 01/08/2025
+[3294] Grifo
+[3295] Es mas Sencillo
+[3296] 5
+[3297] 2
+[3298] Padre
+[3299] Solo consumo
+[3300] Hay menos sedimentos
+[3301] Clara
+[3302] Mala
+[3303] No
+[3304] Si
+[3305] Si
+[3306] Si
+[3307] 85000
+[3308] 31
+[3309] Jabon
+[3310] Detergente
+[3311] Si
+[3312] Si
+[3313] Si
+[3314] Si
+[3315] Si
+[3316] Si
+[3317] No
+[3318] Si
+[3319] No
+[3320] Si
+[3321] No
+[3322] No
+[3323] No
+[3324] Hepatitis
+[3325] 1.7628E+12
+[3326] 37.4219983
+[3327] 5
+[3328] 0
+[3329] 26/11/2025 19:39
+[3330] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[3331] Juan Esteban
+[3332] Valle del Cauca
+[3333] Bolívar
+[3334] CoV-BUENOS AIRES
+[3335] Calle 34#09-01
+[3336] 1110400
+[3337] 3950690226
+[3338] 0000-00-00
+[3339] Naciente
+[3340] Queda más cerca
+[3341] 3
+[3342] 0
+[3343] Abuelo
+[3344] Doméstico y consumo
+[3345] Ahora sale con menos olor
+[3346] Un poco turbia
+[3347] Buena
+[3348] No
+[3349] No
+[3350] Si
+[3351] Si
+[3352] 80000
+[3353] 25
+[3354] Jabon
+[3355] Detergente
+[3356] No
+[3357] Si
+[3358] Si
+[3359] Si
+[3360] Si
+[3361] Si
+[3362] Si
+[3363] Si
+[3364] Si
+[3365] No
+[3366] No
+[3367] Si
+[3368] Si
+[3369] Vómito
+[3370] 1.7628E+12
+[3371] 37.4219983
+[3372] 5
+[3373] 0
+[3374] 26/11/2025 19:39
+[3375] https://www.google.com/maps/?q=37.4219983,5.0001/04/2025
+[3376] Laura Gómez
+[3377] Valle del Cauca
+[3378] Bolívar
+[3379] CoV-EL BOSQUE
+[3380] Carrera 8#10-05
+[3381] 1110401
+[3382] 3233893308
+[3383] 05/10/2025
+[3384] Grifo
+[3385] Es más económica
+[3386] 2
+[3387] 3
+[3388] Mama
+[3389] Cosas Domesticas
+[3390] No nota cambios
+[3391] Clara
+[3392] Regular
+[3393] No
+[3394] Si
+[3395] Si
+[3396] Si
+[3397] 50000
+[3398] 43
+[3399] Jabon
+[3400] Detergente
+[3401] Si
+[3402] No
+[3403] Si
+[3404] Si
+[3405] Si
+[3406] Si
+[3407] Si
+[3408] Si
+[3409] Si
+[3410] Si
+[3411] No
+[3412] No
+[3413] Si
+[3414] Vómito
+[3415] 1.7628E+12
+[3416] 37.4219983
+[3417] 5
+[3418] 0
+[3419] 26/11/2025 19:39
+[3420] https://www.google.com/maps/?q=37.4219983,5.0006/02/2025
+[3421] Laura Gómez
+[3422] Valle del Cauca
+[3423] Bolívar
+[3424] CoV-LA PLAYA
+[3425] Carrera 8#10-05
+[3426] 1110403
+[3427] 3687502890
+[3428] 04/12/2025
+[3429] Naciente
+[3430] Es más económica
+[3431] 6
+[3432] 0
+[3433] Abuelo
+[3434] Doméstico y consumo
+[3435] No nota cambios
+[3436] Clara y buena
+[3437] Mala
+[3438] Si
+[3439] No
+[3440] Si
+[3441] No
+[3442] 80000
+[3443] 28
+[3444] Jabon
+[3445] Detergente
+[3446] No
+[3447] Si
+[3448] Si
+[3449] Si
+[3450] No
+[3451] Si
+[3452] Si
+[3453] No
+[3454] No
+[3455] Si
+[3456] Si
+[3457] Si
+[3458] Si
+[3459] Ninguna
+[3460] 1.7628E+12
+[3461] 37.4219983
+[3462] 5
+[3463] 0
+[3464] 26/11/2025 19:39
+[3465] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[3466] Christian Frank
+[3467] Valle del Cauca
+[3468] Bolívar
+[3469] CoV-EL JARDÍN
+[3470] Calle 34#09-01
+[3471] 1110406
+[3472] 3879418756
+[3473] 06/05/2025
+[3474] Naciente
+[3475] Es más económica
+[3476] 5
+[3477] 1
+[3478] Abuelo
+[3479] Cosas Domesticas
+[3480] Hay menos sedimentos
+[3481] Clara y buena
+[3482] Regular
+[3483] Si
+[3484] No
+[3485] Si
+[3486] Si
+[3487] 40000
+[3488] 14
+[3489] Jabon
+[3490] Jabon
+[3491] No
+[3492] No
+[3493] Si
+[3494] No
+[3495] Si
+[3496] No
+[3497] No
+[3498] No
+[3499] No
+[3500] Si
+[3501] Si
+[3502] Si
+[3503] Si
+[3504] Diarrea
+[3505] 1.7628E+12
+[3506] 37.4219983
+[3507] 5
+[3508] 0
+[3509] 26/11/2025 19:39
+[3510] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[3511] María Fernanda
+[3512] Valle del Cauca
+[3513] Bolívar
+[3514] CoV-CAMPOALEGRE
+[3515] Carrera 8#10-05
+[3516] 1110410
+[3517] 3830144896
+[3518] 0000-00-00
+[3519] Grifo
+[3520] Queda más cerca
+[3521] 2
+[3522] 4
+[3523] Hijo
+[3524] Doméstico y consumo
+[3525] Ahora sale con menos olor
+[3526] Clara y buena
+[3527] Buena
+[3528] No
+[3529] No
+[3530] No
+[3531] No
+[3532] 15000
+[3533] 53
+[3534] Jabon
+[3535] Detergente
+[3536] No
+[3537] No
+[3538] Si
+[3539] No
+[3540] Si
+[3541] No
+[3542] Si
+[3543] No
+[3544] No
+[3545] Si
+[3546] Si
+[3547] No
+[3548] No
+[3549] Vómito
+[3550] 1.7628E+12
+[3551] 37.4219983
+[3552] 5
+[3553] 0
+[3554] 26/11/2025 19:39
+[3555] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[3556] Christian Frank
+[3557] Valle del Cauca
+[3558] Bolívar
+[3559] CoV-BUENOS AIRES
+[3560] Calle 34#09-01
+[3561] 1110413
+[3562] 3320971402
+[3563] 0000-00-00
+[3564] Grifo
+[3565] Siempre ha sido así
+[3566] 2
+[3567] 3
+[3568] Hijo
+[3569] Solo consumo
+[3570] Hay menos sedimentos
+[3571] Un poco turbia
+[3572] Mala
+[3573] No
+[3574] No
+[3575] Si
+[3576] No
+[3577] 50000
+[3578] 37
+[3579] Jabon
+[3580] Jabon
+[3581] Si
+[3582] Si
+[3583] Si
+[3584] No
+[3585] Si
+[3586] No
+[3587] No
+[3588] Si
+[3589] No
+[3590] Si
+[3591] Si
+[3592] Si
+[3593] No
+[3594] Ninguna
+[3595] 1.7628E+12
+[3596] 37.4219983
+[3597] 5
+[3598] 0
+[3599] 26/11/2025 19:39
+[3600] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[3601] Laura Gómez
+[3602] Valle del Cauca
+[3603] Bolívar
+[3604] CoV-EL BOSQUE
+[3605] Calle 12#03-21
+[3606] 1110417
+[3607] 3965047350
+[3608] 0000-00-00
+[3609] Pozo
+[3610] Es mas Sencillo
+[3611] 4
+[3612] 2
+[3613] Mama
+[3614] Solo consumo
+[3615] Hay menos sedimentos
+[3616] Un poco turbia
+[3617] Regular
+[3618] No
+[3619] Si
+[3620] Si
+[3621] No
+[3622] 80000
+[3623] 11
+[3624] Jabon
+[3625] Detergente
+[3626] No
+[3627] Si
+[3628] Si
+[3629] No
+[3630] Si
+[3631] No
+[3632] Si
+[3633] Si
+[3634] No
+[3635] Si
+[3636] No
+[3637] No
+[3638] Si
+[3639] Vómito
+[3640] 1.7628E+12
+[3641] 37.4219983
+[3642] 5
+[3643] 0
+[3644] 26/11/2025 19:39
+[3645] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[3646] Ana María
+[3647] Valle del Cauca
+[3648] Bolívar
+[3649] CoV-EL BOSQUE
+[3650] Mz 3 Casa 7
+[3651] 1110423
+[3652] 3745560615
+[3653] 05/05/2025
+[3654] Pozo
+[3655] Siempre ha sido así
+[3656] 5
+[3657] 3
+[3658] Mama
+[3659] Solo consumo
+[3660] Ahora sale con menos olor
+[3661] Un poco turbia
+[3662] Mala
+[3663] No
+[3664] No
+[3665] No
+[3666] No
+[3667] 55000
+[3668] 16
+[3669] Jabon
+[3670] Detergente
+[3671] No
+[3672] Si
+[3673] Si
+[3674] Si
+[3675] Si
+[3676] Si
+[3677] No
+[3678] Si
+[3679] No
+[3680] Si
+[3681] Si
+[3682] Si
+[3683] No
+[3684] Hepatitis
+[3685] 1.7628E+12
+[3686] 37.4219983
+[3687] 5
+[3688] 0
+[3689] 26/11/2025 19:39
+[3690] https://www.google.com/maps/?q=37.4219983,5.0009/07/2025
+[3691] Ana María
+[3692] Valle del Cauca
+[3693] Bolívar
+[3694] CoV-LA PLAYA
+[3695] Carrera 8#10-05
+[3696] 1110428
+[3697] 3578112045
+[3698] 0000-00-00
+[3699] Grifo
+[3700] Siempre ha sido así
+[3701] 5
+[3702] 4
+[3703] Mama
+[3704] Solo consumo
+[3705] Es mas limpio el agua
+[3706] Clara
+[3707] Buena
+[3708] Si
+[3709] No
+[3710] Si
+[3711] Si
+[3712] 40000
+[3713] 38
+[3714] Jabon
+[3715] Detergente
+[3716] No
+[3717] No
+[3718] No
+[3719] No
+[3720] No
+[3721] No
+[3722] Si
+[3723] No
+[3724] No
+[3725] No
+[3726] Si
+[3727] Si
+[3728] Si
+[3729] Diarrea
+[3730] 1.7628E+12
+[3731] 37.4219983
+[3732] 5
+[3733] 0
+[3734] 26/11/2025 19:39
+[3735] https://www.google.com/maps/?q=37.4219983,5.0011/12/2025
+[3736] Ana María
+[3737] Valle del Cauca
+[3738] Bolívar
+[3739] CoV-EL BOSQUE
+[3740] Calle 12#03-21
+[3741] 1110436
+[3742] 3853336489
+[3743] 03/10/2025
+[3744] Pozo
+[3745] Queda más cerca
+[3746] 2
+[3747] 2
+[3748] Padre
+[3749] Solo consumo
+[3750] No nota cambios
+[3751] Clara
+[3752] Buena
+[3753] No
+[3754] Si
+[3755] No
+[3756] No
+[3757] 45000
+[3758] 59
+[3759] Jabon
+[3760] Jabon
+[3761] No
+[3762] Si
+[3763] No
+[3764] Si
+[3765] No
+[3766] Si
+[3767] No
+[3768] Si
+[3769] No
+[3770] Si
+[3771] No
+[3772] Si
+[3773] No
+[3774] Diarrea
+[3775] 1.7628E+12
+[3776] 37.4219983
+[3777] 5
+[3778] 0
+[3779] 26/11/2025 19:39
+[3780] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[3781] Carlos Pérez
+[3782] Valle del Cauca
+[3783] Bolívar
+[3784] CoV-EL JARDÍN
+[3785] Vereda sin dirección
+[3786] 1110447
+[3787] 3140370806
+[3788] 0000-00-00
+[3789] Pozo
+[3790] Queda más cerca
+[3791] 2
+[3792] 4
+[3793] Mama
+[3794] Cosas Domesticas
+[3795] No nota cambios
+[3796] Clara y buena
+[3797] Mala
+[3798] No
+[3799] Si
+[3800] No
+[3801] Si
+[3802] 20000
+[3803] 31
+[3804] Jabon
+[3805] Jabon
+[3806] Si
+[3807] Si
+[3808] Si
+[3809] No
+[3810] Si
+[3811] No
+[3812] Si
+[3813] No
+[3814] Si
+[3815] No
+[3816] Si
+[3817] No
+[3818] Si
+[3819] Diarrea
+[3820] 1.7628E+12
+[3821] 37.4219983
+[3822] 5
+[3823] 0
+[3824] 26/11/2025 19:39
+[3825] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[3826] Laura Gómez
+[3827] Valle del Cauca
+[3828] Bolívar
+[3829] CoV-LA PLAYA
+[3830] Vereda sin dirección
+[3831] 1110449
+[3832] 3499783871
+[3833] 0000-00-00
+[3834] Grifo
+[3835] Es más económica
+[3836] 6
+[3837] 2
+[3838] Abuelo
+[3839] Doméstico y consumo
+[3840] Hay menos sedimentos
+[3841] Clara
+[3842] Regular
+[3843] No
+[3844] Si
+[3845] Si
+[3846] Si
+[3847] 95000
+[3848] 23
+[3849] Jabon
+[3850] Detergente
+[3851] Si
+[3852] Si
+[3853] Si
+[3854] Si
+[3855] Si
+[3856] Si
+[3857] No
+[3858] No
+[3859] No
+[3860] Si
+[3861] Si
+[3862] No
+[3863] Si
+[3864] Hepatitis
+[3865] 1.7628E+12
+[3866] 37.4219983
+[3867] 5
+[3868] 0
+[3869] 26/11/2025 19:39
+[3870] https://www.google.com/maps/?q=37.4219983,5.0004/10/2025
+[3871] Juan Esteban
+[3872] Valle del Cauca
+[3873] Bolívar
+[3874] CoV-BUENOS AIRES
+[3875] Carrera 8#10-05
+[3876] 1110453
+[3877] 3605469698
+[3878] 0000-00-00
+[3879] Naciente
+[3880] Es mas Sencillo
+[3881] 5
+[3882] 4
+[3883] Abuelo
+[3884] Doméstico y consumo
+[3885] Es mas limpio el agua
+[3886] Clara
+[3887] Mala
+[3888] Si
+[3889] Si
+[3890] Si
+[3891] No
+[3892] 75000
+[3893] 35
+[3894] Jabon
+[3895] Detergente
+[3896] Si
+[3897] Si
+[3898] No
+[3899] No
+[3900] Si
+[3901] Si
+[3902] No
+[3903] Si
+[3904] Si
+[3905] Si
+[3906] Si
+[3907] No
+[3908] No
+[3909] Ninguna
+[3910] 1.7628E+12
+[3911] 37.4219983
+[3912] 5
+[3913] 0
+[3914] 26/11/2025 19:39
+[3915] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[3916] Ana María
+[3917] Valle del Cauca
+[3918] Bolívar
+[3919] CoV-CAMPOALEGRE
+[3920] Vereda sin dirección
+[3921] 1110454
+[3922] 3854643849
+[3923] 0000-00-00
+[3924] Naciente
+[3925] Queda más cerca
+[3926] 3
+[3927] 3
+[3928] Abuelo
+[3929] Cosas Domesticas
+[3930] Es mas limpio el agua
+[3931] Clara
+[3932] Regular
+[3933] No
+[3934] Si
+[3935] No
+[3936] No
+[3937] 80000
+[3938] 14
+[3939] Jabon
+[3940] Detergente
+[3941] No
+[3942] No
+[3943] Si
+[3944] No
+[3945] Si
+[3946] No
+[3947] Si
+[3948] No
+[3949] No
+[3950] Si
+[3951] Si
+[3952] No
+[3953] Si
+[3954] Diarrea
+[3955] 1.7628E+12
+[3956] 37.4219983
+[3957] 5
+[3958] 0
+[3959] 26/11/2025 19:39
+[3960] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[3961] Ana María
+[3962] Valle del Cauca
+[3963] Bolívar
+[3964] CoV-EL BOSQUE
+[3965] Carrera 8#10-05
+[3966] 1110455
+[3967] 3568856926
+[3968] 0000-00-00
+[3969] Naciente
+[3970] Es más económica
+[3971] 7
+[3972] 0
+[3973] Abuelo
+[3974] Riego y consumo
+[3975] No nota cambios
+[3976] Un poco turbia
+[3977] Buena
+[3978] Si
+[3979] Si
+[3980] No
+[3981] Si
+[3982] 35000
+[3983] 22
+[3984] Jabon
+[3985] Detergente
+[3986] No
+[3987] No
+[3988] No
+[3989] Si
+[3990] Si
+[3991] Si
+[3992] No
+[3993] Si
+[3994] No
+[3995] Si
+[3996] No
+[3997] Si
+[3998] No
+[3999] Vómito
+[4000] 1.7628E+12
+[4001] 37.4219983
+[4002] 5
+[4003] 0
+[4004] 26/11/2025 19:39
+[4005] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[4006] Christian Frank
+[4007] Valle del Cauca
+[4008] Bolívar
+[4009] CoV-CAMPOALEGRE
+[4010] Mz 3 Casa 7
+[4011] 1110472
+[4012] 3194420911
+[4013] 05/06/2025
+[4014] Naciente
+[4015] Queda más cerca
+[4016] 8
+[4017] 1
+[4018] Mama
+[4019] Cosas Domesticas
+[4020] Hay menos sedimentos
+[4021] Un poco turbia
+[4022] Mala
+[4023] No
+[4024] Si
+[4025] Si
+[4026] Si
+[4027] 75000
+[4028] 25
+[4029] Jabon
+[4030] Detergente
+[4031] Si
+[4032] No
+[4033] No
+[4034] No
+[4035] Si
+[4036] No
+[4037] No
+[4038] No
+[4039] No
+[4040] Si
+[4041] Si
+[4042] No
+[4043] Si
+[4044] Hepatitis
+[4045] 1.7628E+12
+[4046] 37.4219983
+[4047] 5
+[4048] 0
+[4049] 26/11/2025 19:39
+[4050] https://www.google.com/maps/?q=37.4219983,5.0010/05/2025
+[4051] María Fernanda
+[4052] Valle del Cauca
+[4053] Bolívar
+[4054] CoV-CAMPOALEGRE
+[4055] Calle 34#09-01
+[4056] 1110473
+[4057] 3776404485
+[4058] 01/01/2025
+[4059] Pozo
+[4060] Queda más cerca
+[4061] 3
+[4062] 3
+[4063] Mama
+[4064] Solo consumo
+[4065] Es mas limpio el agua
+[4066] Un poco turbia
+[4067] Mala
+[4068] Si
+[4069] No
+[4070] Si
+[4071] No
+[4072] 45000
+[4073] 33
+[4074] Jabon
+[4075] Jabon
+[4076] Si
+[4077] Si
+[4078] No
+[4079] Si
+[4080] Si
+[4081] Si
+[4082] Si
+[4083] No
+[4084] Si
+[4085] No
+[4086] No
+[4087] Si
+[4088] No
+[4089] Vómito
+[4090] 1.7628E+12
+[4091] 37.4219983
+[4092] 5
+[4093] 0
+[4094] 26/11/2025 19:39
+[4095] https://www.google.com/maps/?q=37.4219983,5.0003/07/2025
+[4096] Ana María
+[4097] Valle del Cauca
+[4098] Bolívar
+[4099] CoV-BUENOS AIRES
+[4100] Carrera 8#10-05
+[4101] 1110475
+[4102] 3475785736
+[4103] 0000-00-00
+[4104] Naciente
+[4105] Es mas Sencillo
+[4106] 2
+[4107] 4
+[4108] Hijo
+[4109] Solo consumo
+[4110] No nota cambios
+[4111] Un poco turbia
+[4112] Mala
+[4113] Si
+[4114] Si
+[4115] Si
+[4116] No
+[4117] 25000
+[4118] 21
+[4119] Jabon
+[4120] Jabon
+[4121] Si
+[4122] No
+[4123] Si
+[4124] No
+[4125] Si
+[4126] No
+[4127] Si
+[4128] Si
+[4129] No
+[4130] Si
+[4131] No
+[4132] No
+[4133] Si
+[4134] Hepatitis
+[4135] 1.7628E+12
+[4136] 37.4219983
+[4137] 5
+[4138] 0
+[4139] 26/11/2025 19:39
+[4140] https://www.google.com/maps/?q=37.4219983,5.0008/06/2025
+[4141] Laura Gómez
+[4142] Valle del Cauca
+[4143] Bolívar
+[4144] CoV-LA PLAYA
+[4145] Mz 3 Casa 7
+[4146] 1110483
+[4147] 3443622261
+[4148] 0000-00-00
+[4149] Pozo
+[4150] Siempre ha sido así
+[4151] 8
+[4152] 1
+[4153] Mama
+[4154] Doméstico y consumo
+[4155] Es mas limpio el agua
+[4156] Un poco turbia
+[4157] Regular
+[4158] No
+[4159] Si
+[4160] No
+[4161] Si
+[4162] 70000
+[4163] 33
+[4164] Jabon
+[4165] Detergente
+[4166] Si
+[4167] No
+[4168] Si
+[4169] Si
+[4170] No
+[4171] Si
+[4172] Si
+[4173] Si
+[4174] Si
+[4175] No
+[4176] No
+[4177] No
+[4178] No
+[4179] Diarrea
+[4180] 1.7628E+12
+[4181] 37.4219983
+[4182] 5
+[4183] 0
+[4184] 26/11/2025 19:39
+[4185] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[4186] Carlos Pérez
+[4187] Valle del Cauca
+[4188] Bolívar
+[4189] CoV-EL BOSQUE
+[4190] Calle 12#03-21
+[4191] 1110489
+[4192] 3393529311
+[4193] 04/10/2025
+[4194] Naciente
+[4195] Es más económica
+[4196] 4
+[4197] 1
+[4198] Hijo
+[4199] Riego y consumo
+[4200] Hay menos sedimentos
+[4201] Un poco turbia
+[4202] Regular
+[4203] No
+[4204] Si
+[4205] Si
+[4206] No
+[4207] 50000
+[4208] 36
+[4209] Jabon
+[4210] Jabon
+[4211] Si
+[4212] No
+[4213] Si
+[4214] Si
+[4215] Si
+[4216] No
+[4217] No
+[4218] No
+[4219] Si
+[4220] No
+[4221] Si
+[4222] No
+[4223] No
+[4224] Vómito
+[4225] 1.7628E+12
+[4226] 37.4219983
+[4227] 5
+[4228] 0
+[4229] 26/11/2025 19:39
+[4230] https://www.google.com/maps/?q=37.4219983,5.0007/12/2025
+[4231] Ana María
+[4232] Valle del Cauca
+[4233] Bolívar
+[4234] CoV-EL JARDÍN
+[4235] Mz 3 Casa 7
+[4236] 1110494
+[4237] 3667071992
+[4238] 03/05/2025
+[4239] Pozo
+[4240] Siempre ha sido así
+[4241] 5
+[4242] 4
+[4243] Hijo
+[4244] Solo consumo
+[4245] No nota cambios
+[4246] Clara y buena
+[4247] Mala
+[4248] Si
+[4249] No
+[4250] Si
+[4251] Si
+[4252] 35000
+[4253] 55
+[4254] Jabon
+[4255] Jabon
+[4256] Si
+[4257] No
+[4258] Si
+[4259] No
+[4260] No
+[4261] No
+[4262] No
+[4263] No
+[4264] No
+[4265] Si
+[4266] Si
+[4267] Si
+[4268] No
+[4269] Vómito
+[4270] 1.7628E+12
+[4271] 37.4219983
+[4272] 5
+[4273] 0
+[4274] 26/11/2025 19:39
+[4275] https://www.google.com/maps/?q=37.4219983,5.0004/12/2025
+[4276] Laura Gómez
+[4277] Valle del Cauca
+[4278] Bolívar
+[4279] CoV-EL JARDÍN
+[4280] Carrera 8#10-05
+[4281] 1110499
+[4282] 3948775167
+[4283] 0000-00-00
+[4284] Grifo
+[4285] Es mas Sencillo
+[4286] 7
+[4287] 4
+[4288] Hijo
+[4289] Solo consumo
+[4290] Es mas limpio el agua
+[4291] Clara
+[4292] Buena
+[4293] No
+[4294] Si
+[4295] Si
+[4296] No
+[4297] 55000
+[4298] 21
+[4299] Jabon
+[4300] Detergente
+[4301] No
+[4302] No
+[4303] No
+[4304] Si
+[4305] No
+[4306] No
+[4307] No
+[4308] No
+[4309] No
+[4310] Si
+[4311] No
+[4312] No
+[4313] No
+[4314] Diarrea
+[4315] 1.7628E+12
+[4316] 37.4219983
+[4317] 5
+[4318] 0
+[4319] 26/11/2025 19:39
+[4320] https://www.google.com/maps/?q=37.4219983,5.00
+Columna 'Aprobado' encontrada por nombre en índice: 43
+Columna Aprobado usada (índice): 43
+Filas aprobadas: 0
+
+==== 2025-11-27 14:50:51 ====
+Delimitador detectado: ,
+Encabezados:
+[0] ﻿Fecha
+[1] Encuestador
+[2] Departamento
+[3] Municipio
+[4] Vereda o Corregimiento
+[5] Dirección
+[6] Documento
+[7] Teléfono
+[8] Fecha en que obtuvo el filtro
+[9] Fuente donde toma el agua
+[10] ¿Por qué usas el filtro de arcilla?
+[11] ¿Cuánto tiempo dura el agua almacenada? (días)
+[12] ¿Cuántas veces al día recarga el filtro?
+[13] ¿Qué miembro de la familia recarga el filtro?
+[14] ¿En qué emplea el agua del filtro?
+[15] ¿Qué cambios ha notado con el filtro?
+[16] Percepción del agua después de recibir el filtro
+[17] ¿Qué opina del sabor del agua?
+[18] ¿El agua presenta color?
+[19] ¿El agua presenta olor?
+[20] ¿Han disminuido las enfermedades por agua?
+[21] ¿Han disminuido los gastos por agua apta?
+[22] ¿Cuánto gasta actualmente?
+[23] ¿Cada cuánto realiza mantenimiento?
+[24] Productos limpieza (arcilla)
+[25] Productos limpieza (plástico)
+[26] ¿Conoce vida útil de la arcilla?
+[27] ¿Sabe dónde conseguir repuestos?
+[28] ¿El filtro está en un lugar estable y/o seguro?
+[29] ¿El filtro está ensamblado y tapado?
+[30] ¿El filtro está limpio externamente?
+[31] ¿Lavado de manos previo a la manipulación?
+[32] Manipulación adecuada de la arcilla
+[33] Limpieza del tanque (sin sedimentos)
+[34] Limpieza de la vasija (sin sedimentos)
+[35] ¿Se evidencian fisuras en la arcilla?
+[36] ¿La vasija presenta niveles de agua que imposibiliten su manipulación?
+[37] ¿Cuenta con instalación de lavado de manos?
+[38] ¿Dispone de jabón para lavado de manos
+[39] Observaciones
+[40] Timestamp (ms)
+[41] Latitud
+[42] Altitud
+[43] Aprobado
+[44] Creado En
+[45] GPS0000-00-00
+[46] María Fernanda
+[47] Valle del Cauca
+[48] Bolívar
+[49] CoV-EL BOSQUE
+[50] Vereda sin dirección
+[51] 1110001
+[52] 3840330501
+[53] 08/12/2025
+[54] Pozo
+[55] Siempre ha sido así
+[56] 7
+[57] 1
+[58] Mama
+[59] Doméstico y consumo
+[60] No nota cambios
+[61] Clara y buena
+[62] Regular
+[63] Si
+[64] Si
+[65] No
+[66] No
+[67] 45000
+[68] 36
+[69] Jabon
+[70] Jabon
+[71] Si
+[72] No
+[73] Si
+[74] Si
+[75] No
+[76] No
+[77] No
+[78] No
+[79] No
+[80] No
+[81] Si
+[82] Si
+[83] No
+[84] Hepatitis
+[85] 1.7628E+12
+[86] 37.4219983
+[87] 5
+[88] X
+[89] 26/11/2025 19:39
+[90] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[91] Carlos Pérez
+[92] Valle del Cauca
+[93] Bolívar
+[94] CoV-LA PLAYA
+[95] Carrera 8#10-05
+[96] 1110002
+[97] 3931179200
+[98] 0000-00-00
+[99] Pozo
+[100] Es más económica
+[101] 2
+[102] 3
+[103] Abuelo
+[104] Solo consumo
+[105] Ahora sale con menos olor
+[106] Un poco turbia
+[107] Regular
+[108] No
+[109] Si
+[110] No
+[111] Si
+[112] 30000
+[113] 30
+[114] Jabon
+[115] Jabon
+[116] No
+[117] No
+[118] No
+[119] No
+[120] Si
+[121] No
+[122] Si
+[123] No
+[124] No
+[125] Si
+[126] No
+[127] Si
+[128] Si
+[129] Ninguna
+[130] 1.7628E+12
+[131] 37.4219983
+[132] 5
+[133] X
+[134] 26/11/2025 19:39
+[135] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[136] Laura Gómez
+[137] Valle del Cauca
+[138] Bolívar
+[139] CoV-EL JARDÍN
+[140] Vereda sin dirección
+[141] 1110003
+[142] 3511449561
+[143] 08/08/2025
+[144] Pozo
+[145] Es mas Sencillo
+[146] 7
+[147] 0
+[148] Abuelo
+[149] Solo consumo
+[150] Es mas limpio el agua
+[151] Clara y buena
+[152] Mala
+[153] No
+[154] Si
+[155] Si
+[156] No
+[157] 35000
+[158] 49
+[159] Jabon
+[160] Detergente
+[161] No
+[162] No
+[163] Si
+[164] No
+[165] Si
+[166] No
+[167] No
+[168] Si
+[169] No
+[170] Si
+[171] No
+[172] Si
+[173] Si
+[174] Diarrea
+[175] 1.7628E+12
+[176] 37.4219983
+[177] 5
+[178] X
+[179] 26/11/2025 19:39
+[180] https://www.google.com/maps/?q=37.4219983,5.0004/02/2025
+[181] María Fernanda
+[182] Valle del Cauca
+[183] Bolívar
+[184] CoV-LA PLAYA
+[185] Calle 34#09-01
+[186] 1110012
+[187] 3336369878
+[188] 0000-00-00
+[189] Grifo
+[190] Es más económica
+[191] 4
+[192] 1
+[193] Hijo
+[194] Riego y consumo
+[195] Hay menos sedimentos
+[196] Un poco turbia
+[197] Regular
+[198] Si
+[199] No
+[200] Si
+[201] No
+[202] 55000
+[203] 15
+[204] Jabon
+[205] Jabon
+[206] No
+[207] Si
+[208] Si
+[209] Si
+[210] No
+[211] No
+[212] Si
+[213] Si
+[214] Si
+[215] No
+[216] No
+[217] No
+[218] Si
+[219] Ninguna
+[220] 1.7628E+12
+[221] 37.4219983
+[222] 5
+[223] X
+[224] 26/11/2025 19:39
+[225] https://www.google.com/maps/?q=37.4219983,5.0010/07/2025
+[226] Laura Gómez
+[227] Valle del Cauca
+[228] Bolívar
+[229] CoV-EL BOSQUE
+[230] Carrera 8#10-05
+[231] 1110014
+[232] 3384462583
+[233] 0000-00-00
+[234] Pozo
+[235] Es más económica
+[236] 4
+[237] 0
+[238] Mama
+[239] Riego y consumo
+[240] No nota cambios
+[241] Un poco turbia
+[242] Buena
+[243] Si
+[244] No
+[245] Si
+[246] Si
+[247] 65000
+[248] 48
+[249] Jabon
+[250] Detergente
+[251] Si
+[252] No
+[253] Si
+[254] No
+[255] Si
+[256] Si
+[257] Si
+[258] No
+[259] Si
+[260] No
+[261] No
+[262] Si
+[263] No
+[264] Hepatitis
+[265] 1.7628E+12
+[266] 37.4219983
+[267] 5
+[268] X
+[269] 26/11/2025 19:39
+[270] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[271] Christian Frank
+[272] Valle del Cauca
+[273] Bolívar
+[274] CoV-CAMPOALEGRE
+[275] Carrera 8#10-05
+[276] 1110018
+[277] 3908408285
+[278] 01/08/2025
+[279] Naciente
+[280] Queda más cerca
+[281] 3
+[282] 1
+[283] Hijo
+[284] Solo consumo
+[285] Ahora sale con menos olor
+[286] Clara y buena
+[287] Mala
+[288] No
+[289] No
+[290] Si
+[291] No
+[292] 85000
+[293] 32
+[294] Jabon
+[295] Jabon
+[296] No
+[297] No
+[298] Si
+[299] Si
+[300] Si
+[301] No
+[302] Si
+[303] No
+[304] Si
+[305] No
+[306] Si
+[307] No
+[308] Si
+[309] Vómito
+[310] 1.7628E+12
+[311] 37.4219983
+[312] 5
+[313] X
+[314] 26/11/2025 19:39
+[315] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[316] María Fernanda
+[317] Valle del Cauca
+[318] Bolívar
+[319] CoV-BUENOS AIRES
+[320] Mz 3 Casa 7
+[321] 1110020
+[322] 3961239826
+[323] 10/04/2025
+[324] Grifo
+[325] Es más económica
+[326] 8
+[327] 1
+[328] Hijo
+[329] Doméstico y consumo
+[330] No nota cambios
+[331] Clara y buena
+[332] Buena
+[333] Si
+[334] No
+[335] No
+[336] No
+[337] 15000
+[338] 50
+[339] Jabon
+[340] Jabon
+[341] No
+[342] Si
+[343] No
+[344] No
+[345] Si
+[346] No
+[347] Si
+[348] No
+[349] No
+[350] No
+[351] Si
+[352] No
+[353] Si
+[354] Hepatitis
+[355] 1.7628E+12
+[356] 37.4219983
+[357] 5
+[358] 0
+[359] 26/11/2025 19:39
+[360] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[361] María Fernanda
+[362] Valle del Cauca
+[363] Bolívar
+[364] CoV-EL JARDÍN
+[365] Mz 3 Casa 7
+[366] 1110021
+[367] 3172681827
+[368] 0000-00-00
+[369] Naciente
+[370] Siempre ha sido así
+[371] 6
+[372] 4
+[373] Mama
+[374] Riego y consumo
+[375] No nota cambios
+[376] Clara y buena
+[377] Buena
+[378] No
+[379] Si
+[380] No
+[381] Si
+[382] 20000
+[383] 32
+[384] Jabon
+[385] Detergente
+[386] No
+[387] Si
+[388] Si
+[389] No
+[390] No
+[391] Si
+[392] No
+[393] Si
+[394] Si
+[395] Si
+[396] No
+[397] Si
+[398] Si
+[399] Ninguna
+[400] 1.7628E+12
+[401] 37.4219983
+[402] 5
+[403] 0
+[404] 26/11/2025 19:39
+[405] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[406] Laura Gómez
+[407] Valle del Cauca
+[408] Bolívar
+[409] CoV-CAMPOALEGRE
+[410] Carrera 8#10-05
+[411] 1110024
+[412] 3803273358
+[413] 0000-00-00
+[414] Pozo
+[415] Es mas Sencillo
+[416] 2
+[417] 3
+[418] Abuelo
+[419] Doméstico y consumo
+[420] No nota cambios
+[421] Clara y buena
+[422] Mala
+[423] No
+[424] Si
+[425] Si
+[426] No
+[427] 50000
+[428] 51
+[429] Jabon
+[430] Jabon
+[431] No
+[432] Si
+[433] No
+[434] Si
+[435] No
+[436] No
+[437] Si
+[438] No
+[439] No
+[440] No
+[441] Si
+[442] No
+[443] No
+[444] Hepatitis
+[445] 1.7628E+12
+[446] 37.4219983
+[447] 5
+[448] 0
+[449] 26/11/2025 19:39
+[450] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[451] María Fernanda
+[452] Valle del Cauca
+[453] Bolívar
+[454] CoV-LA PLAYA
+[455] Mz 3 Casa 7
+[456] 1110025
+[457] 3809912507
+[458] 0000-00-00
+[459] Naciente
+[460] Siempre ha sido así
+[461] 5
+[462] 0
+[463] Mama
+[464] Riego y consumo
+[465] Es mas limpio el agua
+[466] Clara y buena
+[467] Regular
+[468] Si
+[469] No
+[470] Si
+[471] Si
+[472] 90000
+[473] 14
+[474] Jabon
+[475] Detergente
+[476] Si
+[477] No
+[478] No
+[479] Si
+[480] No
+[481] Si
+[482] No
+[483] Si
+[484] No
+[485] Si
+[486] No
+[487] No
+[488] No
+[489] Hepatitis
+[490] 1.7628E+12
+[491] 37.4219983
+[492] 5
+[493] 0
+[494] 26/11/2025 19:39
+[495] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[496] Juan Esteban
+[497] Valle del Cauca
+[498] Bolívar
+[499] CoV-EL JARDÍN
+[500] Mz 3 Casa 7
+[501] 1110034
+[502] 3771952509
+[503] 0000-00-00
+[504] Grifo
+[505] Es más económica
+[506] 8
+[507] 2
+[508] Abuelo
+[509] Solo consumo
+[510] No nota cambios
+[511] Un poco turbia
+[512] Regular
+[513] Si
+[514] No
+[515] Si
+[516] Si
+[517] 35000
+[518] 30
+[519] Jabon
+[520] Detergente
+[521] Si
+[522] Si
+[523] Si
+[524] No
+[525] Si
+[526] Si
+[527] Si
+[528] Si
+[529] Si
+[530] No
+[531] No
+[532] Si
+[533] Si
+[534] Vómito
+[535] 1.7628E+12
+[536] 37.4219983
+[537] 5
+[538] 0
+[539] 26/11/2025 19:39
+[540] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[541] Ana María
+[542] Valle del Cauca
+[543] Bolívar
+[544] CoV-BUENOS AIRES
+[545] Calle 34#09-01
+[546] 1110038
+[547] 3833974388
+[548] 0000-00-00
+[549] Naciente
+[550] Es más económica
+[551] 3
+[552] 4
+[553] Abuelo
+[554] Cosas Domesticas
+[555] No nota cambios
+[556] Un poco turbia
+[557] Buena
+[558] Si
+[559] Si
+[560] Si
+[561] Si
+[562] 30000
+[563] 58
+[564] Jabon
+[565] Detergente
+[566] Si
+[567] No
+[568] Si
+[569] Si
+[570] No
+[571] No
+[572] Si
+[573] Si
+[574] No
+[575] No
+[576] Si
+[577] No
+[578] Si
+[579] Hepatitis
+[580] 1.7628E+12
+[581] 37.4219983
+[582] 5
+[583] 0
+[584] 26/11/2025 19:39
+[585] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[586] María Fernanda
+[587] Valle del Cauca
+[588] Bolívar
+[589] CoV-CAMPOALEGRE
+[590] Carrera 8#10-05
+[591] 1110043
+[592] 3224838151
+[593] 0000-00-00
+[594] Pozo
+[595] Siempre ha sido así
+[596] 3
+[597] 2
+[598] Padre
+[599] Solo consumo
+[600] No nota cambios
+[601] Clara
+[602] Regular
+[603] Si
+[604] No
+[605] Si
+[606] No
+[607] 55000
+[608] 56
+[609] Jabon
+[610] Jabon
+[611] Si
+[612] No
+[613] No
+[614] Si
+[615] Si
+[616] Si
+[617] Si
+[618] Si
+[619] No
+[620] Si
+[621] No
+[622] Si
+[623] No
+[624] Diarrea
+[625] 1.7628E+12
+[626] 37.4219983
+[627] 5
+[628] 0
+[629] 26/11/2025 19:39
+[630] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[631] María Fernanda
+[632] Valle del Cauca
+[633] Bolívar
+[634] CoV-EL BOSQUE
+[635] Vereda sin dirección
+[636] 1110046
+[637] 3251854360
+[638] 08/01/2025
+[639] Grifo
+[640] Siempre ha sido así
+[641] 5
+[642] 2
+[643] Mama
+[644] Solo consumo
+[645] No nota cambios
+[646] Un poco turbia
+[647] Buena
+[648] No
+[649] No
+[650] No
+[651] Si
+[652] 85000
+[653] 34
+[654] Jabon
+[655] Jabon
+[656] Si
+[657] No
+[658] Si
+[659] Si
+[660] Si
+[661] No
+[662] Si
+[663] No
+[664] No
+[665] Si
+[666] No
+[667] No
+[668] No
+[669] Vómito
+[670] 1.7628E+12
+[671] 37.4219983
+[672] 5
+[673] 0
+[674] 26/11/2025 19:39
+[675] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[676] Juan Esteban
+[677] Valle del Cauca
+[678] Bolívar
+[679] CoV-BUENOS AIRES
+[680] Vereda sin dirección
+[681] 1110047
+[682] 3926959363
+[683] 0000-00-00
+[684] Naciente
+[685] Siempre ha sido así
+[686] 7
+[687] 4
+[688] Padre
+[689] Solo consumo
+[690] Ahora sale con menos olor
+[691] Un poco turbia
+[692] Regular
+[693] No
+[694] Si
+[695] No
+[696] No
+[697] 95000
+[698] 14
+[699] Jabon
+[700] Jabon
+[701] Si
+[702] No
+[703] No
+[704] No
+[705] Si
+[706] No
+[707] No
+[708] Si
+[709] No
+[710] Si
+[711] No
+[712] No
+[713] No
+[714] Hepatitis
+[715] 1.7628E+12
+[716] 37.4219983
+[717] 5
+[718] 0
+[719] 26/11/2025 19:39
+[720] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[721] Ana María
+[722] Valle del Cauca
+[723] Bolívar
+[724] CoV-CAMPOALEGRE
+[725] Calle 12#03-21
+[726] 1110049
+[727] 3160166360
+[728] 11/05/2025
+[729] Naciente
+[730] Es más económica
+[731] 8
+[732] 3
+[733] Hijo
+[734] Riego y consumo
+[735] Es mas limpio el agua
+[736] Clara y buena
+[737] Mala
+[738] No
+[739] No
+[740] No
+[741] No
+[742] 40000
+[743] 15
+[744] Jabon
+[745] Detergente
+[746] Si
+[747] No
+[748] No
+[749] Si
+[750] Si
+[751] No
+[752] Si
+[753] No
+[754] No
+[755] No
+[756] Si
+[757] Si
+[758] No
+[759] Vómito
+[760] 1.7628E+12
+[761] 37.4219983
+[762] 5
+[763] 0
+[764] 26/11/2025 19:39
+[765] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[766] Carlos Pérez
+[767] Valle del Cauca
+[768] Bolívar
+[769] CoV-EL JARDÍN
+[770] Vereda sin dirección
+[771] 1110055
+[772] 3261217775
+[773] 04/03/2025
+[774] Pozo
+[775] Es más económica
+[776] 8
+[777] 2
+[778] Abuelo
+[779] Cosas Domesticas
+[780] Es mas limpio el agua
+[781] Un poco turbia
+[782] Mala
+[783] No
+[784] Si
+[785] No
+[786] No
+[787] 25000
+[788] 20
+[789] Jabon
+[790] Detergente
+[791] No
+[792] No
+[793] Si
+[794] No
+[795] Si
+[796] No
+[797] No
+[798] Si
+[799] Si
+[800] Si
+[801] Si
+[802] Si
+[803] No
+[804] Hepatitis
+[805] 1.7628E+12
+[806] 37.4219983
+[807] 5
+[808] 0
+[809] 26/11/2025 19:39
+[810] https://www.google.com/maps/?q=37.4219983,5.0011/11/2025
+[811] Carlos Pérez
+[812] Valle del Cauca
+[813] Bolívar
+[814] CoV-BUENOS AIRES
+[815] Calle 12#03-21
+[816] 1110062
+[817] 3796975006
+[818] 0000-00-00
+[819] Naciente
+[820] Es más económica
+[821] 3
+[822] 0
+[823] Padre
+[824] Doméstico y consumo
+[825] No nota cambios
+[826] Clara y buena
+[827] Buena
+[828] No
+[829] No
+[830] Si
+[831] No
+[832] 20000
+[833] 14
+[834] Jabon
+[835] Detergente
+[836] No
+[837] No
+[838] No
+[839] No
+[840] No
+[841] Si
+[842] No
+[843] Si
+[844] No
+[845] No
+[846] No
+[847] No
+[848] No
+[849] Vómito
+[850] 1.7628E+12
+[851] 37.4219983
+[852] 5
+[853] 0
+[854] 26/11/2025 19:39
+[855] https://www.google.com/maps/?q=37.4219983,5.0002/04/2025
+[856] Juan Esteban
+[857] Valle del Cauca
+[858] Bolívar
+[859] CoV-LA PLAYA
+[860] Calle 12#03-21
+[861] 1110069
+[862] 3167240183
+[863] 0000-00-00
+[864] Naciente
+[865] Queda más cerca
+[866] 8
+[867] 0
+[868] Hijo
+[869] Doméstico y consumo
+[870] Ahora sale con menos olor
+[871] Un poco turbia
+[872] Regular
+[873] No
+[874] Si
+[875] No
+[876] Si
+[877] 85000
+[878] 17
+[879] Jabon
+[880] Jabon
+[881] No
+[882] Si
+[883] No
+[884] No
+[885] Si
+[886] No
+[887] Si
+[888] No
+[889] No
+[890] No
+[891] Si
+[892] Si
+[893] Si
+[894] Hepatitis
+[895] 1.7628E+12
+[896] 37.4219983
+[897] 5
+[898] 0
+[899] 26/11/2025 19:39
+[900] https://www.google.com/maps/?q=37.4219983,5.0010/11/2025
+[901] Juan Esteban
+[902] Valle del Cauca
+[903] Bolívar
+[904] CoV-EL JARDÍN
+[905] Vereda sin dirección
+[906] 1110079
+[907] 3103964417
+[908] 09/02/2025
+[909] Naciente
+[910] Siempre ha sido así
+[911] 2
+[912] 2
+[913] Padre
+[914] Cosas Domesticas
+[915] Hay menos sedimentos
+[916] Clara y buena
+[917] Mala
+[918] Si
+[919] Si
+[920] No
+[921] Si
+[922] 30000
+[923] 55
+[924] Jabon
+[925] Detergente
+[926] No
+[927] No
+[928] No
+[929] Si
+[930] Si
+[931] No
+[932] Si
+[933] No
+[934] Si
+[935] Si
+[936] Si
+[937] No
+[938] Si
+[939] Diarrea
+[940] 1.7628E+12
+[941] 37.4219983
+[942] 5
+[943] 0
+[944] 26/11/2025 19:39
+[945] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[946] Juan Esteban
+[947] Valle del Cauca
+[948] Bolívar
+[949] CoV-BUENOS AIRES
+[950] Calle 34#09-01
+[951] 1110080
+[952] 3663201757
+[953] 0000-00-00
+[954] Pozo
+[955] Es más económica
+[956] 5
+[957] 0
+[958] Abuelo
+[959] Cosas Domesticas
+[960] No nota cambios
+[961] Clara y buena
+[962] Buena
+[963] No
+[964] Si
+[965] Si
+[966] Si
+[967] 65000
+[968] 18
+[969] Jabon
+[970] Detergente
+[971] No
+[972] Si
+[973] Si
+[974] Si
+[975] No
+[976] Si
+[977] Si
+[978] Si
+[979] Si
+[980] Si
+[981] Si
+[982] Si
+[983] No
+[984] Ninguna
+[985] 1.7628E+12
+[986] 37.4219983
+[987] 5
+[988] 0
+[989] 26/11/2025 19:39
+[990] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[991] Ana María
+[992] Valle del Cauca
+[993] Bolívar
+[994] CoV-BUENOS AIRES
+[995] Carrera 8#10-05
+[996] 1110083
+[997] 3988655427
+[998] 07/10/2025
+[999] Pozo
+[1000] Queda más cerca
+[1001] 3
+[1002] 4
+[1003] Padre
+[1004] Doméstico y consumo
+[1005] Es mas limpio el agua
+[1006] Un poco turbia
+[1007] Buena
+[1008] Si
+[1009] Si
+[1010] Si
+[1011] No
+[1012] 65000
+[1013] 11
+[1014] Jabon
+[1015] Detergente
+[1016] Si
+[1017] Si
+[1018] No
+[1019] No
+[1020] No
+[1021] No
+[1022] No
+[1023] Si
+[1024] No
+[1025] No
+[1026] Si
+[1027] Si
+[1028] No
+[1029] Diarrea
+[1030] 1.7628E+12
+[1031] 37.4219983
+[1032] 5
+[1033] 0
+[1034] 26/11/2025 19:39
+[1035] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[1036] Juan Esteban
+[1037] Valle del Cauca
+[1038] Bolívar
+[1039] CoV-EL JARDÍN
+[1040] Calle 34#09-01
+[1041] 1110100
+[1042] 3561061036
+[1043] 09/08/2025
+[1044] Naciente
+[1045] Es mas Sencillo
+[1046] 3
+[1047] 3
+[1048] Abuelo
+[1049] Solo consumo
+[1050] No nota cambios
+[1051] Clara
+[1052] Mala
+[1053] Si
+[1054] Si
+[1055] No
+[1056] Si
+[1057] 75000
+[1058] 37
+[1059] Jabon
+[1060] Detergente
+[1061] No
+[1062] No
+[1063] No
+[1064] Si
+[1065] No
+[1066] Si
+[1067] Si
+[1068] No
+[1069] No
+[1070] No
+[1071] Si
+[1072] No
+[1073] Si
+[1074] Ninguna
+[1075] 1.7628E+12
+[1076] 37.4219983
+[1077] 5
+[1078] 0
+[1079] 26/11/2025 19:39
+[1080] https://www.google.com/maps/?q=37.4219983,5.0002/08/2025
+[1081] Juan Esteban
+[1082] Valle del Cauca
+[1083] Bolívar
+[1084] CoV-EL JARDÍN
+[1085] Carrera 8#10-05
+[1086] 1110103
+[1087] 3320206619
+[1088] 0000-00-00
+[1089] Pozo
+[1090] Es mas Sencillo
+[1091] 8
+[1092] 0
+[1093] Padre
+[1094] Cosas Domesticas
+[1095] No nota cambios
+[1096] Un poco turbia
+[1097] Buena
+[1098] No
+[1099] Si
+[1100] No
+[1101] Si
+[1102] 20000
+[1103] 54
+[1104] Jabon
+[1105] Detergente
+[1106] Si
+[1107] No
+[1108] Si
+[1109] Si
+[1110] No
+[1111] Si
+[1112] Si
+[1113] Si
+[1114] No
+[1115] Si
+[1116] No
+[1117] No
+[1118] No
+[1119] Vómito
+[1120] 1.7628E+12
+[1121] 37.4219983
+[1122] 5
+[1123] 0
+[1124] 26/11/2025 19:39
+[1125] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[1126] Ana María
+[1127] Valle del Cauca
+[1128] Bolívar
+[1129] CoV-BUENOS AIRES
+[1130] Calle 12#03-21
+[1131] 1110111
+[1132] 3294382001
+[1133] 0000-00-00
+[1134] Grifo
+[1135] Siempre ha sido así
+[1136] 6
+[1137] 0
+[1138] Padre
+[1139] Solo consumo
+[1140] No nota cambios
+[1141] Clara y buena
+[1142] Buena
+[1143] Si
+[1144] Si
+[1145] No
+[1146] Si
+[1147] 90000
+[1148] 51
+[1149] Jabon
+[1150] Detergente
+[1151] Si
+[1152] Si
+[1153] No
+[1154] Si
+[1155] Si
+[1156] No
+[1157] Si
+[1158] No
+[1159] Si
+[1160] No
+[1161] Si
+[1162] Si
+[1163] Si
+[1164] Diarrea
+[1165] 1.7628E+12
+[1166] 37.4219983
+[1167] 5
+[1168] 0
+[1169] 26/11/2025 19:39
+[1170] https://www.google.com/maps/?q=37.4219983,5.0008/08/2025
+[1171] Christian Frank
+[1172] Valle del Cauca
+[1173] Bolívar
+[1174] CoV-CAMPOALEGRE
+[1175] Vereda sin dirección
+[1176] 1110113
+[1177] 3925943503
+[1178] 0000-00-00
+[1179] Pozo
+[1180] Queda más cerca
+[1181] 5
+[1182] 3
+[1183] Padre
+[1184] Riego y consumo
+[1185] Ahora sale con menos olor
+[1186] Un poco turbia
+[1187] Mala
+[1188] No
+[1189] Si
+[1190] No
+[1191] No
+[1192] 35000
+[1193] 22
+[1194] Jabon
+[1195] Jabon
+[1196] No
+[1197] No
+[1198] Si
+[1199] Si
+[1200] No
+[1201] Si
+[1202] No
+[1203] Si
+[1204] Si
+[1205] Si
+[1206] Si
+[1207] No
+[1208] Si
+[1209] Hepatitis
+[1210] 1.7628E+12
+[1211] 37.4219983
+[1212] 5
+[1213] 0
+[1214] 26/11/2025 19:39
+[1215] https://www.google.com/maps/?q=37.4219983,5.0005/04/2025
+[1216] Christian Frank
+[1217] Valle del Cauca
+[1218] Bolívar
+[1219] CoV-EL JARDÍN
+[1220] Calle 34#09-01
+[1221] 1110116
+[1222] 3892461984
+[1223] 0000-00-00
+[1224] Pozo
+[1225] Siempre ha sido así
+[1226] 4
+[1227] 3
+[1228] Hijo
+[1229] Cosas Domesticas
+[1230] No nota cambios
+[1231] Clara y buena
+[1232] Regular
+[1233] Si
+[1234] Si
+[1235] No
+[1236] Si
+[1237] 75000
+[1238] 57
+[1239] Jabon
+[1240] Jabon
+[1241] No
+[1242] Si
+[1243] No
+[1244] Si
+[1245] No
+[1246] No
+[1247] No
+[1248] Si
+[1249] Si
+[1250] Si
+[1251] No
+[1252] No
+[1253] No
+[1254] Hepatitis
+[1255] 1.7628E+12
+[1256] 37.4219983
+[1257] 5
+[1258] 0
+[1259] 26/11/2025 19:39
+[1260] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[1261] Juan Esteban
+[1262] Valle del Cauca
+[1263] Bolívar
+[1264] CoV-CAMPOALEGRE
+[1265] Carrera 8#10-05
+[1266] 1110119
+[1267] 3843022367
+[1268] 0000-00-00
+[1269] Pozo
+[1270] Es mas Sencillo
+[1271] 4
+[1272] 0
+[1273] Padre
+[1274] Riego y consumo
+[1275] No nota cambios
+[1276] Un poco turbia
+[1277] Regular
+[1278] No
+[1279] Si
+[1280] Si
+[1281] No
+[1282] 95000
+[1283] 60
+[1284] Jabon
+[1285] Jabon
+[1286] No
+[1287] Si
+[1288] No
+[1289] No
+[1290] No
+[1291] Si
+[1292] No
+[1293] No
+[1294] No
+[1295] No
+[1296] Si
+[1297] No
+[1298] Si
+[1299] Vómito
+[1300] 1.7628E+12
+[1301] 37.4219983
+[1302] 5
+[1303] 0
+[1304] 26/11/2025 19:39
+[1305] https://www.google.com/maps/?q=37.4219983,5.0005/11/2025
+[1306] Carlos Pérez
+[1307] Valle del Cauca
+[1308] Bolívar
+[1309] CoV-CAMPOALEGRE
+[1310] Vereda sin dirección
+[1311] 1110121
+[1312] 3689463169
+[1313] 0000-00-00
+[1314] Naciente
+[1315] Es mas Sencillo
+[1316] 8
+[1317] 3
+[1318] Mama
+[1319] Cosas Domesticas
+[1320] Hay menos sedimentos
+[1321] Clara y buena
+[1322] Regular
+[1323] No
+[1324] No
+[1325] Si
+[1326] No
+[1327] 25000
+[1328] 33
+[1329] Jabon
+[1330] Detergente
+[1331] No
+[1332] Si
+[1333] Si
+[1334] Si
+[1335] No
+[1336] No
+[1337] No
+[1338] Si
+[1339] No
+[1340] Si
+[1341] No
+[1342] No
+[1343] Si
+[1344] Diarrea
+[1345] 1.7628E+12
+[1346] 37.4219983
+[1347] 5
+[1348] 0
+[1349] 26/11/2025 19:39
+[1350] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[1351] Juan Esteban
+[1352] Valle del Cauca
+[1353] Bolívar
+[1354] CoV-BUENOS AIRES
+[1355] Calle 34#09-01
+[1356] 1110125
+[1357] 3953185427
+[1358] 01/01/2025
+[1359] Pozo
+[1360] Es más económica
+[1361] 7
+[1362] 3
+[1363] Padre
+[1364] Solo consumo
+[1365] Es mas limpio el agua
+[1366] Clara
+[1367] Regular
+[1368] Si
+[1369] Si
+[1370] No
+[1371] Si
+[1372] 15000
+[1373] 20
+[1374] Jabon
+[1375] Jabon
+[1376] Si
+[1377] No
+[1378] Si
+[1379] No
+[1380] No
+[1381] Si
+[1382] Si
+[1383] No
+[1384] Si
+[1385] Si
+[1386] Si
+[1387] No
+[1388] No
+[1389] Vómito
+[1390] 1.7628E+12
+[1391] 37.4219983
+[1392] 5
+[1393] 0
+[1394] 26/11/2025 19:39
+[1395] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[1396] Carlos Pérez
+[1397] Valle del Cauca
+[1398] Bolívar
+[1399] CoV-BUENOS AIRES
+[1400] Carrera 8#10-05
+[1401] 1110139
+[1402] 3766955097
+[1403] 05/05/2025
+[1404] Naciente
+[1405] Siempre ha sido así
+[1406] 7
+[1407] 1
+[1408] Hijo
+[1409] Doméstico y consumo
+[1410] Ahora sale con menos olor
+[1411] Un poco turbia
+[1412] Buena
+[1413] No
+[1414] Si
+[1415] Si
+[1416] Si
+[1417] 85000
+[1418] 24
+[1419] Jabon
+[1420] Jabon
+[1421] No
+[1422] No
+[1423] Si
+[1424] No
+[1425] Si
+[1426] No
+[1427] No
+[1428] No
+[1429] No
+[1430] No
+[1431] Si
+[1432] Si
+[1433] Si
+[1434] Ninguna
+[1435] 1.7628E+12
+[1436] 37.4219983
+[1437] 5
+[1438] 0
+[1439] 26/11/2025 19:39
+[1440] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[1441] Ana María
+[1442] Valle del Cauca
+[1443] Bolívar
+[1444] CoV-LA PLAYA
+[1445] Calle 12#03-21
+[1446] 1110142
+[1447] 3476956603
+[1448] 0000-00-00
+[1449] Pozo
+[1450] Siempre ha sido así
+[1451] 2
+[1452] 4
+[1453] Hijo
+[1454] Solo consumo
+[1455] No nota cambios
+[1456] Un poco turbia
+[1457] Mala
+[1458] Si
+[1459] Si
+[1460] Si
+[1461] Si
+[1462] 60000
+[1463] 26
+[1464] Jabon
+[1465] Jabon
+[1466] Si
+[1467] Si
+[1468] No
+[1469] Si
+[1470] No
+[1471] Si
+[1472] No
+[1473] No
+[1474] No
+[1475] Si
+[1476] No
+[1477] No
+[1478] Si
+[1479] Hepatitis
+[1480] 1.7628E+12
+[1481] 37.4219983
+[1482] 5
+[1483] 0
+[1484] 26/11/2025 19:39
+[1485] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[1486] Juan Esteban
+[1487] Valle del Cauca
+[1488] Bolívar
+[1489] CoV-BUENOS AIRES
+[1490] Carrera 8#10-05
+[1491] 1110150
+[1492] 3756194397
+[1493] 07/02/2025
+[1494] Pozo
+[1495] Queda más cerca
+[1496] 6
+[1497] 4
+[1498] Abuelo
+[1499] Solo consumo
+[1500] Es mas limpio el agua
+[1501] Clara
+[1502] Buena
+[1503] Si
+[1504] No
+[1505] Si
+[1506] No
+[1507] 70000
+[1508] 20
+[1509] Jabon
+[1510] Jabon
+[1511] Si
+[1512] Si
+[1513] No
+[1514] No
+[1515] Si
+[1516] Si
+[1517] No
+[1518] No
+[1519] Si
+[1520] Si
+[1521] No
+[1522] No
+[1523] Si
+[1524] Vómito
+[1525] 1.7628E+12
+[1526] 37.4219983
+[1527] 5
+[1528] 0
+[1529] 26/11/2025 19:39
+[1530] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[1531] Christian Frank
+[1532] Valle del Cauca
+[1533] Bolívar
+[1534] CoV-CAMPOALEGRE
+[1535] Calle 34#09-01
+[1536] 1110165
+[1537] 3800913693
+[1538] 0000-00-00
+[1539] Pozo
+[1540] Siempre ha sido así
+[1541] 7
+[1542] 1
+[1543] Hijo
+[1544] Doméstico y consumo
+[1545] Hay menos sedimentos
+[1546] Clara
+[1547] Buena
+[1548] Si
+[1549] No
+[1550] Si
+[1551] Si
+[1552] 40000
+[1553] 40
+[1554] Jabon
+[1555] Jabon
+[1556] No
+[1557] Si
+[1558] Si
+[1559] No
+[1560] Si
+[1561] No
+[1562] No
+[1563] No
+[1564] No
+[1565] No
+[1566] Si
+[1567] Si
+[1568] Si
+[1569] Diarrea
+[1570] 1.7628E+12
+[1571] 37.4219983
+[1572] 5
+[1573] 0
+[1574] 26/11/2025 19:39
+[1575] https://www.google.com/maps/?q=37.4219983,5.0007/09/2025
+[1576] María Fernanda
+[1577] Valle del Cauca
+[1578] Bolívar
+[1579] CoV-EL BOSQUE
+[1580] Mz 3 Casa 7
+[1581] 1110176
+[1582] 3858650655
+[1583] 09/07/2025
+[1584] Naciente
+[1585] Siempre ha sido así
+[1586] 4
+[1587] 2
+[1588] Hijo
+[1589] Riego y consumo
+[1590] Ahora sale con menos olor
+[1591] Clara
+[1592] Buena
+[1593] Si
+[1594] Si
+[1595] No
+[1596] No
+[1597] 95000
+[1598] 38
+[1599] Jabon
+[1600] Jabon
+[1601] No
+[1602] No
+[1603] Si
+[1604] Si
+[1605] No
+[1606] No
+[1607] No
+[1608] No
+[1609] No
+[1610] Si
+[1611] No
+[1612] No
+[1613] No
+[1614] Ninguna
+[1615] 1.7628E+12
+[1616] 37.4219983
+[1617] 5
+[1618] 0
+[1619] 26/11/2025 19:39
+[1620] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[1621] Juan Esteban
+[1622] Valle del Cauca
+[1623] Bolívar
+[1624] CoV-EL BOSQUE
+[1625] Vereda sin dirección
+[1626] 1110194
+[1627] 3703657771
+[1628] 10/09/2025
+[1629] Grifo
+[1630] Es mas Sencillo
+[1631] 6
+[1632] 0
+[1633] Abuelo
+[1634] Riego y consumo
+[1635] No nota cambios
+[1636] Clara y buena
+[1637] Buena
+[1638] Si
+[1639] Si
+[1640] No
+[1641] Si
+[1642] 50000
+[1643] 31
+[1644] Jabon
+[1645] Detergente
+[1646] Si
+[1647] Si
+[1648] No
+[1649] Si
+[1650] Si
+[1651] Si
+[1652] No
+[1653] No
+[1654] Si
+[1655] No
+[1656] No
+[1657] No
+[1658] No
+[1659] Diarrea
+[1660] 1.7628E+12
+[1661] 37.4219983
+[1662] 5
+[1663] 0
+[1664] 26/11/2025 19:39
+[1665] https://www.google.com/maps/?q=37.4219983,5.0004/04/2025
+[1666] Laura Gómez
+[1667] Valle del Cauca
+[1668] Bolívar
+[1669] CoV-CAMPOALEGRE
+[1670] Carrera 8#10-05
+[1671] 1110202
+[1672] 3191210041
+[1673] 0000-00-00
+[1674] Grifo
+[1675] Queda más cerca
+[1676] 6
+[1677] 1
+[1678] Hijo
+[1679] Riego y consumo
+[1680] No nota cambios
+[1681] Clara y buena
+[1682] Mala
+[1683] Si
+[1684] No
+[1685] No
+[1686] No
+[1687] 45000
+[1688] 45
+[1689] Jabon
+[1690] Detergente
+[1691] No
+[1692] No
+[1693] No
+[1694] Si
+[1695] No
+[1696] Si
+[1697] Si
+[1698] No
+[1699] No
+[1700] No
+[1701] No
+[1702] Si
+[1703] No
+[1704] Hepatitis
+[1705] 1.7628E+12
+[1706] 37.4219983
+[1707] 5
+[1708] 0
+[1709] 26/11/2025 19:39
+[1710] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[1711] Juan Esteban
+[1712] Valle del Cauca
+[1713] Bolívar
+[1714] CoV-BUENOS AIRES
+[1715] Carrera 8#10-05
+[1716] 1110209
+[1717] 3528151908
+[1718] 0000-00-00
+[1719] Naciente
+[1720] Es mas Sencillo
+[1721] 7
+[1722] 0
+[1723] Mama
+[1724] Riego y consumo
+[1725] Hay menos sedimentos
+[1726] Clara y buena
+[1727] Mala
+[1728] No
+[1729] Si
+[1730] Si
+[1731] Si
+[1732] 65000
+[1733] 30
+[1734] Jabon
+[1735] Detergente
+[1736] Si
+[1737] No
+[1738] No
+[1739] No
+[1740] No
+[1741] No
+[1742] No
+[1743] Si
+[1744] No
+[1745] Si
+[1746] Si
+[1747] Si
+[1748] Si
+[1749] Diarrea
+[1750] 1.7628E+12
+[1751] 37.4219983
+[1752] 5
+[1753] 0
+[1754] 26/11/2025 19:39
+[1755] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[1756] Laura Gómez
+[1757] Valle del Cauca
+[1758] Bolívar
+[1759] CoV-EL BOSQUE
+[1760] Carrera 8#10-05
+[1761] 1110217
+[1762] 3188164498
+[1763] 11/07/2025
+[1764] Naciente
+[1765] Es mas Sencillo
+[1766] 3
+[1767] 0
+[1768] Hijo
+[1769] Solo consumo
+[1770] Es mas limpio el agua
+[1771] Un poco turbia
+[1772] Mala
+[1773] No
+[1774] Si
+[1775] Si
+[1776] Si
+[1777] 55000
+[1778] 43
+[1779] Jabon
+[1780] Jabon
+[1781] No
+[1782] No
+[1783] Si
+[1784] No
+[1785] No
+[1786] Si
+[1787] Si
+[1788] No
+[1789] Si
+[1790] Si
+[1791] No
+[1792] Si
+[1793] No
+[1794] Ninguna
+[1795] 1.7628E+12
+[1796] 37.4219983
+[1797] 5
+[1798] 0
+[1799] 26/11/2025 19:39
+[1800] https://www.google.com/maps/?q=37.4219983,5.0002/11/2025
+[1801] Christian Frank
+[1802] Valle del Cauca
+[1803] Bolívar
+[1804] CoV-EL BOSQUE
+[1805] Carrera 8#10-05
+[1806] 1110219
+[1807] 3161183892
+[1808] 08/10/2025
+[1809] Naciente
+[1810] Es mas Sencillo
+[1811] 4
+[1812] 2
+[1813] Padre
+[1814] Solo consumo
+[1815] Hay menos sedimentos
+[1816] Un poco turbia
+[1817] Buena
+[1818] Si
+[1819] No
+[1820] Si
+[1821] No
+[1822] 35000
+[1823] 11
+[1824] Jabon
+[1825] Jabon
+[1826] No
+[1827] Si
+[1828] No
+[1829] No
+[1830] No
+[1831] No
+[1832] Si
+[1833] No
+[1834] Si
+[1835] Si
+[1836] Si
+[1837] No
+[1838] No
+[1839] Vómito
+[1840] 1.7628E+12
+[1841] 37.4219983
+[1842] 5
+[1843] 0
+[1844] 26/11/2025 19:39
+[1845] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[1846] Carlos Pérez
+[1847] Valle del Cauca
+[1848] Bolívar
+[1849] CoV-EL JARDÍN
+[1850] Calle 34#09-01
+[1851] 1110231
+[1852] 3432107423
+[1853] 0000-00-00
+[1854] Naciente
+[1855] Es mas Sencillo
+[1856] 8
+[1857] 4
+[1858] Padre
+[1859] Solo consumo
+[1860] Es mas limpio el agua
+[1861] Clara y buena
+[1862] Regular
+[1863] Si
+[1864] Si
+[1865] No
+[1866] No
+[1867] 75000
+[1868] 23
+[1869] Jabon
+[1870] Jabon
+[1871] No
+[1872] Si
+[1873] No
+[1874] No
+[1875] No
+[1876] Si
+[1877] No
+[1878] No
+[1879] Si
+[1880] Si
+[1881] Si
+[1882] No
+[1883] No
+[1884] Ninguna
+[1885] 1.7628E+12
+[1886] 37.4219983
+[1887] 5
+[1888] 0
+[1889] 26/11/2025 19:39
+[1890] https://www.google.com/maps/?q=37.4219983,5.0007/10/2025
+[1891] Juan Esteban
+[1892] Valle del Cauca
+[1893] Bolívar
+[1894] CoV-LA PLAYA
+[1895] Calle 34#09-01
+[1896] 1110244
+[1897] 3594967239
+[1898] 0000-00-00
+[1899] Naciente
+[1900] Siempre ha sido así
+[1901] 6
+[1902] 4
+[1903] Abuelo
+[1904] Riego y consumo
+[1905] Hay menos sedimentos
+[1906] Clara
+[1907] Mala
+[1908] Si
+[1909] Si
+[1910] No
+[1911] Si
+[1912] 25000
+[1913] 40
+[1914] Jabon
+[1915] Jabon
+[1916] No
+[1917] Si
+[1918] Si
+[1919] Si
+[1920] No
+[1921] Si
+[1922] Si
+[1923] No
+[1924] No
+[1925] No
+[1926] No
+[1927] No
+[1928] Si
+[1929] Hepatitis
+[1930] 1.7628E+12
+[1931] 37.4219983
+[1932] 5
+[1933] 0
+[1934] 26/11/2025 19:39
+[1935] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[1936] Christian Frank
+[1937] Valle del Cauca
+[1938] Bolívar
+[1939] CoV-LA PLAYA
+[1940] Calle 12#03-21
+[1941] 1110247
+[1942] 3166350804
+[1943] 0000-00-00
+[1944] Naciente
+[1945] Queda más cerca
+[1946] 8
+[1947] 1
+[1948] Mama
+[1949] Doméstico y consumo
+[1950] Es mas limpio el agua
+[1951] Un poco turbia
+[1952] Mala
+[1953] No
+[1954] Si
+[1955] No
+[1956] Si
+[1957] 60000
+[1958] 58
+[1959] Jabon
+[1960] Detergente
+[1961] Si
+[1962] Si
+[1963] No
+[1964] Si
+[1965] No
+[1966] No
+[1967] No
+[1968] No
+[1969] No
+[1970] No
+[1971] Si
+[1972] No
+[1973] Si
+[1974] Ninguna
+[1975] 1.7628E+12
+[1976] 37.4219983
+[1977] 5
+[1978] 0
+[1979] 26/11/2025 19:39
+[1980] https://www.google.com/maps/?q=37.4219983,5.0004/08/2025
+[1981] Juan Esteban
+[1982] Valle del Cauca
+[1983] Bolívar
+[1984] CoV-EL BOSQUE
+[1985] Vereda sin dirección
+[1986] 1110248
+[1987] 3731053647
+[1988] 0000-00-00
+[1989] Grifo
+[1990] Es mas Sencillo
+[1991] 7
+[1992] 1
+[1993] Abuelo
+[1994] Cosas Domesticas
+[1995] Ahora sale con menos olor
+[1996] Clara y buena
+[1997] Buena
+[1998] No
+[1999] No
+[2000] Si
+[2001] Si
+[2002] 35000
+[2003] 31
+[2004] Jabon
+[2005] Jabon
+[2006] Si
+[2007] No
+[2008] Si
+[2009] No
+[2010] No
+[2011] Si
+[2012] Si
+[2013] No
+[2014] Si
+[2015] Si
+[2016] Si
+[2017] No
+[2018] Si
+[2019] Hepatitis
+[2020] 1.7628E+12
+[2021] 37.4219983
+[2022] 5
+[2023] 0
+[2024] 26/11/2025 19:39
+[2025] https://www.google.com/maps/?q=37.4219983,5.0001/12/2025
+[2026] Christian Frank
+[2027] Valle del Cauca
+[2028] Bolívar
+[2029] CoV-EL JARDÍN
+[2030] Calle 34#09-01
+[2031] 1110253
+[2032] 3107315121
+[2033] 05/05/2025
+[2034] Grifo
+[2035] Es más económica
+[2036] 2
+[2037] 3
+[2038] Mama
+[2039] Riego y consumo
+[2040] Hay menos sedimentos
+[2041] Clara
+[2042] Buena
+[2043] No
+[2044] No
+[2045] No
+[2046] Si
+[2047] 35000
+[2048] 53
+[2049] Jabon
+[2050] Jabon
+[2051] Si
+[2052] No
+[2053] Si
+[2054] Si
+[2055] Si
+[2056] Si
+[2057] No
+[2058] Si
+[2059] No
+[2060] Si
+[2061] No
+[2062] No
+[2063] Si
+[2064] Hepatitis
+[2065] 1.7628E+12
+[2066] 37.4219983
+[2067] 5
+[2068] 0
+[2069] 26/11/2025 19:39
+[2070] https://www.google.com/maps/?q=37.4219983,5.0002/06/2025
+[2071] María Fernanda
+[2072] Valle del Cauca
+[2073] Bolívar
+[2074] CoV-LA PLAYA
+[2075] Calle 12#03-21
+[2076] 1110256
+[2077] 3797263695
+[2078] 08/02/2025
+[2079] Grifo
+[2080] Siempre ha sido así
+[2081] 8
+[2082] 3
+[2083] Hijo
+[2084] Cosas Domesticas
+[2085] Es mas limpio el agua
+[2086] Un poco turbia
+[2087] Regular
+[2088] No
+[2089] No
+[2090] No
+[2091] No
+[2092] 70000
+[2093] 20
+[2094] Jabon
+[2095] Detergente
+[2096] No
+[2097] No
+[2098] No
+[2099] No
+[2100] No
+[2101] No
+[2102] No
+[2103] No
+[2104] Si
+[2105] No
+[2106] Si
+[2107] Si
+[2108] Si
+[2109] Vómito
+[2110] 1.7628E+12
+[2111] 37.4219983
+[2112] 5
+[2113] 0
+[2114] 26/11/2025 19:39
+[2115] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[2116] Ana María
+[2117] Valle del Cauca
+[2118] Bolívar
+[2119] CoV-CAMPOALEGRE
+[2120] Mz 3 Casa 7
+[2121] 1110257
+[2122] 3487026967
+[2123] 0000-00-00
+[2124] Grifo
+[2125] Siempre ha sido así
+[2126] 6
+[2127] 4
+[2128] Hijo
+[2129] Solo consumo
+[2130] Hay menos sedimentos
+[2131] Clara
+[2132] Regular
+[2133] Si
+[2134] No
+[2135] No
+[2136] No
+[2137] 70000
+[2138] 38
+[2139] Jabon
+[2140] Jabon
+[2141] Si
+[2142] No
+[2143] No
+[2144] No
+[2145] Si
+[2146] No
+[2147] Si
+[2148] Si
+[2149] Si
+[2150] Si
+[2151] Si
+[2152] Si
+[2153] Si
+[2154] Diarrea
+[2155] 1.7628E+12
+[2156] 37.4219983
+[2157] 5
+[2158] 0
+[2159] 26/11/2025 19:39
+[2160] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[2161] María Fernanda
+[2162] Valle del Cauca
+[2163] Bolívar
+[2164] CoV-LA PLAYA
+[2165] Calle 34#09-01
+[2166] 1110261
+[2167] 3789657659
+[2168] 03/02/2025
+[2169] Pozo
+[2170] Queda más cerca
+[2171] 3
+[2172] 0
+[2173] Hijo
+[2174] Doméstico y consumo
+[2175] Ahora sale con menos olor
+[2176] Clara
+[2177] Buena
+[2178] No
+[2179] Si
+[2180] Si
+[2181] No
+[2182] 10000
+[2183] 18
+[2184] Jabon
+[2185] Jabon
+[2186] Si
+[2187] No
+[2188] Si
+[2189] No
+[2190] No
+[2191] Si
+[2192] No
+[2193] Si
+[2194] No
+[2195] Si
+[2196] No
+[2197] No
+[2198] Si
+[2199] Diarrea
+[2200] 1.7628E+12
+[2201] 37.4219983
+[2202] 5
+[2203] 0
+[2204] 26/11/2025 19:39
+[2205] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[2206] María Fernanda
+[2207] Valle del Cauca
+[2208] Bolívar
+[2209] CoV-EL BOSQUE
+[2210] Calle 34#09-01
+[2211] 1110262
+[2212] 3599378553
+[2213] 08/01/2025
+[2214] Naciente
+[2215] Es mas Sencillo
+[2216] 5
+[2217] 4
+[2218] Hijo
+[2219] Doméstico y consumo
+[2220] Es mas limpio el agua
+[2221] Clara y buena
+[2222] Buena
+[2223] No
+[2224] No
+[2225] No
+[2226] No
+[2227] 70000
+[2228] 58
+[2229] Jabon
+[2230] Detergente
+[2231] No
+[2232] No
+[2233] Si
+[2234] Si
+[2235] Si
+[2236] No
+[2237] No
+[2238] No
+[2239] No
+[2240] Si
+[2241] Si
+[2242] Si
+[2243] No
+[2244] Diarrea
+[2245] 1.7628E+12
+[2246] 37.4219983
+[2247] 5
+[2248] 0
+[2249] 26/11/2025 19:39
+[2250] https://www.google.com/maps/?q=37.4219983,5.0008/07/2025
+[2251] Juan Esteban
+[2252] Valle del Cauca
+[2253] Bolívar
+[2254] CoV-EL BOSQUE
+[2255] Calle 12#03-21
+[2256] 1110269
+[2257] 3341751952
+[2258] 0000-00-00
+[2259] Grifo
+[2260] Siempre ha sido así
+[2261] 8
+[2262] 2
+[2263] Padre
+[2264] Riego y consumo
+[2265] No nota cambios
+[2266] Un poco turbia
+[2267] Buena
+[2268] No
+[2269] Si
+[2270] No
+[2271] No
+[2272] 10000
+[2273] 49
+[2274] Jabon
+[2275] Jabon
+[2276] Si
+[2277] No
+[2278] Si
+[2279] No
+[2280] No
+[2281] No
+[2282] No
+[2283] Si
+[2284] Si
+[2285] Si
+[2286] Si
+[2287] Si
+[2288] No
+[2289] Diarrea
+[2290] 1.7628E+12
+[2291] 37.4219983
+[2292] 5
+[2293] 0
+[2294] 26/11/2025 19:39
+[2295] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[2296] María Fernanda
+[2297] Valle del Cauca
+[2298] Bolívar
+[2299] CoV-EL BOSQUE
+[2300] Mz 3 Casa 7
+[2301] 1110270
+[2302] 3502599130
+[2303] 04/11/2025
+[2304] Naciente
+[2305] Siempre ha sido así
+[2306] 7
+[2307] 1
+[2308] Hijo
+[2309] Doméstico y consumo
+[2310] No nota cambios
+[2311] Clara
+[2312] Mala
+[2313] No
+[2314] Si
+[2315] Si
+[2316] No
+[2317] 15000
+[2318] 41
+[2319] Jabon
+[2320] Detergente
+[2321] Si
+[2322] No
+[2323] Si
+[2324] Si
+[2325] No
+[2326] Si
+[2327] No
+[2328] Si
+[2329] No
+[2330] No
+[2331] No
+[2332] No
+[2333] No
+[2334] Vómito
+[2335] 1.7628E+12
+[2336] 37.4219983
+[2337] 5
+[2338] 0
+[2339] 26/11/2025 19:39
+[2340] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[2341] Carlos Pérez
+[2342] Valle del Cauca
+[2343] Bolívar
+[2344] CoV-CAMPOALEGRE
+[2345] Calle 12#03-21
+[2346] 1110271
+[2347] 3957009326
+[2348] 0000-00-00
+[2349] Naciente
+[2350] Es más económica
+[2351] 2
+[2352] 0
+[2353] Mama
+[2354] Doméstico y consumo
+[2355] Ahora sale con menos olor
+[2356] Clara
+[2357] Buena
+[2358] No
+[2359] No
+[2360] No
+[2361] Si
+[2362] 40000
+[2363] 13
+[2364] Jabon
+[2365] Jabon
+[2366] No
+[2367] Si
+[2368] Si
+[2369] Si
+[2370] Si
+[2371] No
+[2372] Si
+[2373] Si
+[2374] Si
+[2375] No
+[2376] No
+[2377] Si
+[2378] No
+[2379] Diarrea
+[2380] 1.7628E+12
+[2381] 37.4219983
+[2382] 5
+[2383] 0
+[2384] 26/11/2025 19:39
+[2385] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[2386] Christian Frank
+[2387] Valle del Cauca
+[2388] Bolívar
+[2389] CoV-BUENOS AIRES
+[2390] Calle 34#09-01
+[2391] 1110272
+[2392] 3311781863
+[2393] 01/01/2025
+[2394] Pozo
+[2395] Es más económica
+[2396] 5
+[2397] 3
+[2398] Padre
+[2399] Cosas Domesticas
+[2400] No nota cambios
+[2401] Un poco turbia
+[2402] Buena
+[2403] Si
+[2404] Si
+[2405] No
+[2406] Si
+[2407] 95000
+[2408] 60
+[2409] Jabon
+[2410] Detergente
+[2411] No
+[2412] Si
+[2413] No
+[2414] Si
+[2415] No
+[2416] No
+[2417] Si
+[2418] Si
+[2419] Si
+[2420] No
+[2421] Si
+[2422] No
+[2423] No
+[2424] Ninguna
+[2425] 1.7628E+12
+[2426] 37.4219983
+[2427] 5
+[2428] 0
+[2429] 26/11/2025 19:39
+[2430] https://www.google.com/maps/?q=37.4219983,5.0006/03/2025
+[2431] Christian Frank
+[2432] Valle del Cauca
+[2433] Bolívar
+[2434] CoV-LA PLAYA
+[2435] Mz 3 Casa 7
+[2436] 1110287
+[2437] 3113135130
+[2438] 09/05/2025
+[2439] Naciente
+[2440] Siempre ha sido así
+[2441] 8
+[2442] 1
+[2443] Abuelo
+[2444] Riego y consumo
+[2445] Hay menos sedimentos
+[2446] Un poco turbia
+[2447] Regular
+[2448] Si
+[2449] Si
+[2450] Si
+[2451] Si
+[2452] 75000
+[2453] 40
+[2454] Jabon
+[2455] Detergente
+[2456] Si
+[2457] No
+[2458] No
+[2459] Si
+[2460] No
+[2461] Si
+[2462] No
+[2463] Si
+[2464] No
+[2465] Si
+[2466] Si
+[2467] Si
+[2468] Si
+[2469] Hepatitis
+[2470] 1.7628E+12
+[2471] 37.4219983
+[2472] 5
+[2473] 0
+[2474] 26/11/2025 19:39
+[2475] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[2476] Juan Esteban
+[2477] Valle del Cauca
+[2478] Bolívar
+[2479] CoV-BUENOS AIRES
+[2480] Mz 3 Casa 7
+[2481] 1110288
+[2482] 3601864527
+[2483] 0000-00-00
+[2484] Pozo
+[2485] Es mas Sencillo
+[2486] 7
+[2487] 0
+[2488] Mama
+[2489] Solo consumo
+[2490] No nota cambios
+[2491] Un poco turbia
+[2492] Buena
+[2493] Si
+[2494] Si
+[2495] No
+[2496] Si
+[2497] 20000
+[2498] 49
+[2499] Jabon
+[2500] Detergente
+[2501] No
+[2502] No
+[2503] No
+[2504] Si
+[2505] Si
+[2506] No
+[2507] Si
+[2508] No
+[2509] Si
+[2510] No
+[2511] No
+[2512] Si
+[2513] No
+[2514] Vómito
+[2515] 1.7628E+12
+[2516] 37.4219983
+[2517] 5
+[2518] 0
+[2519] 26/11/2025 19:39
+[2520] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[2521] Ana María
+[2522] Valle del Cauca
+[2523] Bolívar
+[2524] CoV-LA PLAYA
+[2525] Calle 34#09-01
+[2526] 1110289
+[2527] 3230577899
+[2528] 11/06/2025
+[2529] Grifo
+[2530] Es mas Sencillo
+[2531] 4
+[2532] 4
+[2533] Abuelo
+[2534] Doméstico y consumo
+[2535] Ahora sale con menos olor
+[2536] Un poco turbia
+[2537] Buena
+[2538] Si
+[2539] No
+[2540] No
+[2541] No
+[2542] 15000
+[2543] 11
+[2544] Jabon
+[2545] Detergente
+[2546] Si
+[2547] Si
+[2548] Si
+[2549] No
+[2550] No
+[2551] No
+[2552] Si
+[2553] No
+[2554] No
+[2555] No
+[2556] No
+[2557] No
+[2558] No
+[2559] Vómito
+[2560] 1.7628E+12
+[2561] 37.4219983
+[2562] 5
+[2563] 0
+[2564] 26/11/2025 19:39
+[2565] https://www.google.com/maps/?q=37.4219983,5.0011/09/2025
+[2566] María Fernanda
+[2567] Valle del Cauca
+[2568] Bolívar
+[2569] CoV-EL BOSQUE
+[2570] Vereda sin dirección
+[2571] 1110310
+[2572] 3545907620
+[2573] 04/11/2025
+[2574] Grifo
+[2575] Es mas Sencillo
+[2576] 3
+[2577] 4
+[2578] Hijo
+[2579] Doméstico y consumo
+[2580] Es mas limpio el agua
+[2581] Clara y buena
+[2582] Mala
+[2583] Si
+[2584] No
+[2585] Si
+[2586] No
+[2587] 50000
+[2588] 59
+[2589] Jabon
+[2590] Jabon
+[2591] No
+[2592] Si
+[2593] No
+[2594] Si
+[2595] Si
+[2596] No
+[2597] Si
+[2598] Si
+[2599] Si
+[2600] Si
+[2601] Si
+[2602] Si
+[2603] No
+[2604] Diarrea
+[2605] 1.7628E+12
+[2606] 37.4219983
+[2607] 5
+[2608] 0
+[2609] 26/11/2025 19:39
+[2610] https://www.google.com/maps/?q=37.4219983,5.0003/11/2025
+[2611] Carlos Pérez
+[2612] Valle del Cauca
+[2613] Bolívar
+[2614] CoV-LA PLAYA
+[2615] Mz 3 Casa 7
+[2616] 1110319
+[2617] 3206473172
+[2618] 06/01/2025
+[2619] Pozo
+[2620] Siempre ha sido así
+[2621] 4
+[2622] 1
+[2623] Mama
+[2624] Doméstico y consumo
+[2625] Ahora sale con menos olor
+[2626] Un poco turbia
+[2627] Regular
+[2628] Si
+[2629] Si
+[2630] Si
+[2631] Si
+[2632] 65000
+[2633] 26
+[2634] Jabon
+[2635] Jabon
+[2636] No
+[2637] No
+[2638] No
+[2639] No
+[2640] Si
+[2641] No
+[2642] No
+[2643] Si
+[2644] No
+[2645] Si
+[2646] No
+[2647] Si
+[2648] No
+[2649] Ninguna
+[2650] 1.7628E+12
+[2651] 37.4219983
+[2652] 5
+[2653] 0
+[2654] 26/11/2025 19:39
+[2655] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[2656] María Fernanda
+[2657] Valle del Cauca
+[2658] Bolívar
+[2659] CoV-EL JARDÍN
+[2660] Carrera 8#10-05
+[2661] 1110325
+[2662] 3510027474
+[2663] 11/06/2025
+[2664] Grifo
+[2665] Queda más cerca
+[2666] 5
+[2667] 0
+[2668] Padre
+[2669] Riego y consumo
+[2670] No nota cambios
+[2671] Clara y buena
+[2672] Mala
+[2673] Si
+[2674] No
+[2675] No
+[2676] No
+[2677] 10000
+[2678] 43
+[2679] Jabon
+[2680] Jabon
+[2681] No
+[2682] No
+[2683] No
+[2684] No
+[2685] Si
+[2686] Si
+[2687] Si
+[2688] No
+[2689] Si
+[2690] Si
+[2691] Si
+[2692] Si
+[2693] No
+[2694] Diarrea
+[2695] 1.7628E+12
+[2696] 37.4219983
+[2697] 5
+[2698] 0
+[2699] 26/11/2025 19:39
+[2700] https://www.google.com/maps/?q=37.4219983,5.0004/08/2025
+[2701] Juan Esteban
+[2702] Valle del Cauca
+[2703] Bolívar
+[2704] CoV-EL BOSQUE
+[2705] Calle 12#03-21
+[2706] 1110327
+[2707] 3152065818
+[2708] 0000-00-00
+[2709] Grifo
+[2710] Es mas Sencillo
+[2711] 3
+[2712] 2
+[2713] Mama
+[2714] Solo consumo
+[2715] Hay menos sedimentos
+[2716] Clara y buena
+[2717] Mala
+[2718] Si
+[2719] Si
+[2720] No
+[2721] No
+[2722] 40000
+[2723] 60
+[2724] Jabon
+[2725] Detergente
+[2726] No
+[2727] Si
+[2728] Si
+[2729] Si
+[2730] No
+[2731] Si
+[2732] Si
+[2733] No
+[2734] Si
+[2735] Si
+[2736] Si
+[2737] Si
+[2738] No
+[2739] Diarrea
+[2740] 1.7628E+12
+[2741] 37.4219983
+[2742] 5
+[2743] 0
+[2744] 26/11/2025 19:39
+[2745] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[2746] Ana María
+[2747] Valle del Cauca
+[2748] Bolívar
+[2749] CoV-EL BOSQUE
+[2750] Mz 3 Casa 7
+[2751] 1110329
+[2752] 3987928635
+[2753] 0000-00-00
+[2754] Grifo
+[2755] Es más económica
+[2756] 8
+[2757] 2
+[2758] Padre
+[2759] Cosas Domesticas
+[2760] No nota cambios
+[2761] Un poco turbia
+[2762] Buena
+[2763] No
+[2764] Si
+[2765] Si
+[2766] No
+[2767] 85000
+[2768] 21
+[2769] Jabon
+[2770] Jabon
+[2771] No
+[2772] No
+[2773] Si
+[2774] No
+[2775] Si
+[2776] No
+[2777] No
+[2778] No
+[2779] No
+[2780] Si
+[2781] Si
+[2782] No
+[2783] No
+[2784] Diarrea
+[2785] 1.7628E+12
+[2786] 37.4219983
+[2787] 5
+[2788] 0
+[2789] 26/11/2025 19:39
+[2790] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[2791] Ana María
+[2792] Valle del Cauca
+[2793] Bolívar
+[2794] CoV-CAMPOALEGRE
+[2795] Vereda sin dirección
+[2796] 1110342
+[2797] 3483528806
+[2798] 01/03/2025
+[2799] Grifo
+[2800] Siempre ha sido así
+[2801] 2
+[2802] 3
+[2803] Abuelo
+[2804] Riego y consumo
+[2805] Hay menos sedimentos
+[2806] Un poco turbia
+[2807] Mala
+[2808] No
+[2809] Si
+[2810] No
+[2811] Si
+[2812] 55000
+[2813] 29
+[2814] Jabon
+[2815] Jabon
+[2816] No
+[2817] No
+[2818] Si
+[2819] No
+[2820] No
+[2821] Si
+[2822] Si
+[2823] No
+[2824] No
+[2825] Si
+[2826] No
+[2827] No
+[2828] No
+[2829] Hepatitis
+[2830] 1.7628E+12
+[2831] 37.4219983
+[2832] 5
+[2833] 0
+[2834] 26/11/2025 19:39
+[2835] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[2836] Christian Frank
+[2837] Valle del Cauca
+[2838] Bolívar
+[2839] CoV-LA PLAYA
+[2840] Carrera 8#10-05
+[2841] 1110343
+[2842] 3454311629
+[2843] 04/12/2025
+[2844] Grifo
+[2845] Es mas Sencillo
+[2846] 3
+[2847] 4
+[2848] Abuelo
+[2849] Solo consumo
+[2850] No nota cambios
+[2851] Un poco turbia
+[2852] Regular
+[2853] No
+[2854] Si
+[2855] Si
+[2856] No
+[2857] 50000
+[2858] 52
+[2859] Jabon
+[2860] Detergente
+[2861] No
+[2862] Si
+[2863] No
+[2864] Si
+[2865] No
+[2866] Si
+[2867] No
+[2868] No
+[2869] No
+[2870] Si
+[2871] Si
+[2872] Si
+[2873] No
+[2874] Hepatitis
+[2875] 1.7628E+12
+[2876] 37.4219983
+[2877] 5
+[2878] 0
+[2879] 26/11/2025 19:39
+[2880] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[2881] Juan Esteban
+[2882] Valle del Cauca
+[2883] Bolívar
+[2884] CoV-BUENOS AIRES
+[2885] Calle 12#03-21
+[2886] 1110344
+[2887] 3642934617
+[2888] 02/10/2025
+[2889] Pozo
+[2890] Siempre ha sido así
+[2891] 5
+[2892] 4
+[2893] Hijo
+[2894] Doméstico y consumo
+[2895] No nota cambios
+[2896] Un poco turbia
+[2897] Buena
+[2898] No
+[2899] No
+[2900] Si
+[2901] Si
+[2902] 80000
+[2903] 36
+[2904] Jabon
+[2905] Jabon
+[2906] Si
+[2907] No
+[2908] No
+[2909] No
+[2910] Si
+[2911] Si
+[2912] No
+[2913] No
+[2914] No
+[2915] Si
+[2916] No
+[2917] No
+[2918] Si
+[2919] Diarrea
+[2920] 1.7628E+12
+[2921] 37.4219983
+[2922] 5
+[2923] 0
+[2924] 26/11/2025 19:39
+[2925] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[2926] Christian Frank
+[2927] Valle del Cauca
+[2928] Bolívar
+[2929] CoV-EL BOSQUE
+[2930] Carrera 8#10-05
+[2931] 1110352
+[2932] 3853694479
+[2933] 01/01/2025
+[2934] Pozo
+[2935] Es mas Sencillo
+[2936] 5
+[2937] 4
+[2938] Mama
+[2939] Doméstico y consumo
+[2940] Ahora sale con menos olor
+[2941] Un poco turbia
+[2942] Buena
+[2943] No
+[2944] No
+[2945] No
+[2946] Si
+[2947] 80000
+[2948] 51
+[2949] Jabon
+[2950] Detergente
+[2951] Si
+[2952] Si
+[2953] No
+[2954] No
+[2955] No
+[2956] No
+[2957] No
+[2958] Si
+[2959] Si
+[2960] No
+[2961] No
+[2962] Si
+[2963] Si
+[2964] Diarrea
+[2965] 1.7628E+12
+[2966] 37.4219983
+[2967] 5
+[2968] 0
+[2969] 26/11/2025 19:39
+[2970] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[2971] Juan Esteban
+[2972] Valle del Cauca
+[2973] Bolívar
+[2974] CoV-CAMPOALEGRE
+[2975] Calle 34#09-01
+[2976] 1110354
+[2977] 3750600784
+[2978] 01/04/2025
+[2979] Grifo
+[2980] Queda más cerca
+[2981] 7
+[2982] 4
+[2983] Abuelo
+[2984] Doméstico y consumo
+[2985] Es mas limpio el agua
+[2986] Clara y buena
+[2987] Buena
+[2988] No
+[2989] No
+[2990] No
+[2991] No
+[2992] 70000
+[2993] 56
+[2994] Jabon
+[2995] Detergente
+[2996] No
+[2997] Si
+[2998] No
+[2999] No
+[3000] No
+[3001] No
+[3002] No
+[3003] Si
+[3004] Si
+[3005] No
+[3006] No
+[3007] No
+[3008] Si
+[3009] Ninguna
+[3010] 1.7628E+12
+[3011] 37.4219983
+[3012] 5
+[3013] 0
+[3014] 26/11/2025 19:39
+[3015] https://www.google.com/maps/?q=37.4219983,5.0005/02/2025
+[3016] Christian Frank
+[3017] Valle del Cauca
+[3018] Bolívar
+[3019] CoV-CAMPOALEGRE
+[3020] Carrera 8#10-05
+[3021] 1110368
+[3022] 3136706397
+[3023] 0000-00-00
+[3024] Grifo
+[3025] Queda más cerca
+[3026] 2
+[3027] 1
+[3028] Hijo
+[3029] Solo consumo
+[3030] No nota cambios
+[3031] Clara y buena
+[3032] Regular
+[3033] No
+[3034] Si
+[3035] No
+[3036] Si
+[3037] 45000
+[3038] 49
+[3039] Jabon
+[3040] Jabon
+[3041] No
+[3042] No
+[3043] Si
+[3044] Si
+[3045] No
+[3046] No
+[3047] No
+[3048] No
+[3049] Si
+[3050] Si
+[3051] Si
+[3052] No
+[3053] No
+[3054] Vómito
+[3055] 1.7628E+12
+[3056] 37.4219983
+[3057] 5
+[3058] 0
+[3059] 26/11/2025 19:39
+[3060] https://www.google.com/maps/?q=37.4219983,5.0011/02/2025
+[3061] Ana María
+[3062] Valle del Cauca
+[3063] Bolívar
+[3064] CoV-LA PLAYA
+[3065] Mz 3 Casa 7
+[3066] 1110372
+[3067] 3782669481
+[3068] 11/04/2025
+[3069] Grifo
+[3070] Siempre ha sido así
+[3071] 5
+[3072] 3
+[3073] Hijo
+[3074] Riego y consumo
+[3075] No nota cambios
+[3076] Clara
+[3077] Regular
+[3078] No
+[3079] Si
+[3080] Si
+[3081] No
+[3082] 25000
+[3083] 14
+[3084] Jabon
+[3085] Jabon
+[3086] Si
+[3087] No
+[3088] No
+[3089] No
+[3090] No
+[3091] Si
+[3092] Si
+[3093] Si
+[3094] Si
+[3095] No
+[3096] Si
+[3097] Si
+[3098] No
+[3099] Hepatitis
+[3100] 1.7628E+12
+[3101] 37.4219983
+[3102] 5
+[3103] 0
+[3104] 26/11/2025 19:39
+[3105] https://www.google.com/maps/?q=37.4219983,5.0009/07/2025
+[3106] Laura Gómez
+[3107] Valle del Cauca
+[3108] Bolívar
+[3109] CoV-BUENOS AIRES
+[3110] Mz 3 Casa 7
+[3111] 1110385
+[3112] 3790737656
+[3113] 02/09/2025
+[3114] Pozo
+[3115] Es más económica
+[3116] 4
+[3117] 3
+[3118] Padre
+[3119] Solo consumo
+[3120] Es mas limpio el agua
+[3121] Clara
+[3122] Regular
+[3123] Si
+[3124] Si
+[3125] No
+[3126] No
+[3127] 50000
+[3128] 32
+[3129] Jabon
+[3130] Jabon
+[3131] Si
+[3132] No
+[3133] No
+[3134] Si
+[3135] No
+[3136] No
+[3137] No
+[3138] Si
+[3139] Si
+[3140] Si
+[3141] No
+[3142] Si
+[3143] Si
+[3144] Ninguna
+[3145] 1.7628E+12
+[3146] 37.4219983
+[3147] 5
+[3148] 0
+[3149] 26/11/2025 19:39
+[3150] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[3151] Ana María
+[3152] Valle del Cauca
+[3153] Bolívar
+[3154] CoV-EL JARDÍN
+[3155] Mz 3 Casa 7
+[3156] 1110387
+[3157] 3800874442
+[3158] 0000-00-00
+[3159] Pozo
+[3160] Siempre ha sido así
+[3161] 2
+[3162] 2
+[3163] Mama
+[3164] Solo consumo
+[3165] Ahora sale con menos olor
+[3166] Un poco turbia
+[3167] Buena
+[3168] No
+[3169] Si
+[3170] Si
+[3171] Si
+[3172] 25000
+[3173] 44
+[3174] Jabon
+[3175] Jabon
+[3176] Si
+[3177] Si
+[3178] No
+[3179] No
+[3180] No
+[3181] Si
+[3182] Si
+[3183] Si
+[3184] No
+[3185] Si
+[3186] No
+[3187] No
+[3188] Si
+[3189] Diarrea
+[3190] 1.7628E+12
+[3191] 37.4219983
+[3192] 5
+[3193] 0
+[3194] 26/11/2025 19:39
+[3195] https://www.google.com/maps/?q=37.4219983,5.0011/03/2025
+[3196] Laura Gómez
+[3197] Valle del Cauca
+[3198] Bolívar
+[3199] CoV-EL JARDÍN
+[3200] Mz 3 Casa 7
+[3201] 1110389
+[3202] 3753390835
+[3203] 09/09/2025
+[3204] Grifo
+[3205] Queda más cerca
+[3206] 2
+[3207] 2
+[3208] Mama
+[3209] Riego y consumo
+[3210] Hay menos sedimentos
+[3211] Clara
+[3212] Mala
+[3213] No
+[3214] Si
+[3215] No
+[3216] No
+[3217] 30000
+[3218] 57
+[3219] Jabon
+[3220] Detergente
+[3221] Si
+[3222] No
+[3223] Si
+[3224] Si
+[3225] Si
+[3226] Si
+[3227] No
+[3228] No
+[3229] No
+[3230] Si
+[3231] Si
+[3232] No
+[3233] No
+[3234] Ninguna
+[3235] 1.7628E+12
+[3236] 37.4219983
+[3237] 5
+[3238] 0
+[3239] 26/11/2025 19:39
+[3240] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[3241] Laura Gómez
+[3242] Valle del Cauca
+[3243] Bolívar
+[3244] CoV-EL JARDÍN
+[3245] Carrera 8#10-05
+[3246] 1110390
+[3247] 3362243714
+[3248] 0000-00-00
+[3249] Grifo
+[3250] Queda más cerca
+[3251] 4
+[3252] 4
+[3253] Mama
+[3254] Cosas Domesticas
+[3255] Hay menos sedimentos
+[3256] Un poco turbia
+[3257] Buena
+[3258] No
+[3259] No
+[3260] Si
+[3261] No
+[3262] 50000
+[3263] 44
+[3264] Jabon
+[3265] Detergente
+[3266] No
+[3267] Si
+[3268] No
+[3269] No
+[3270] Si
+[3271] No
+[3272] Si
+[3273] Si
+[3274] Si
+[3275] No
+[3276] No
+[3277] No
+[3278] No
+[3279] Vómito
+[3280] 1.7628E+12
+[3281] 37.4219983
+[3282] 5
+[3283] 0
+[3284] 26/11/2025 19:39
+[3285] https://www.google.com/maps/?q=37.4219983,5.0003/10/2025
+[3286] Laura Gómez
+[3287] Valle del Cauca
+[3288] Bolívar
+[3289] CoV-LA PLAYA
+[3290] Mz 3 Casa 7
+[3291] 1110391
+[3292] 3221017896
+[3293] 01/08/2025
+[3294] Grifo
+[3295] Es mas Sencillo
+[3296] 5
+[3297] 2
+[3298] Padre
+[3299] Solo consumo
+[3300] Hay menos sedimentos
+[3301] Clara
+[3302] Mala
+[3303] No
+[3304] Si
+[3305] Si
+[3306] Si
+[3307] 85000
+[3308] 31
+[3309] Jabon
+[3310] Detergente
+[3311] Si
+[3312] Si
+[3313] Si
+[3314] Si
+[3315] Si
+[3316] Si
+[3317] No
+[3318] Si
+[3319] No
+[3320] Si
+[3321] No
+[3322] No
+[3323] No
+[3324] Hepatitis
+[3325] 1.7628E+12
+[3326] 37.4219983
+[3327] 5
+[3328] 0
+[3329] 26/11/2025 19:39
+[3330] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[3331] Juan Esteban
+[3332] Valle del Cauca
+[3333] Bolívar
+[3334] CoV-BUENOS AIRES
+[3335] Calle 34#09-01
+[3336] 1110400
+[3337] 3950690226
+[3338] 0000-00-00
+[3339] Naciente
+[3340] Queda más cerca
+[3341] 3
+[3342] 0
+[3343] Abuelo
+[3344] Doméstico y consumo
+[3345] Ahora sale con menos olor
+[3346] Un poco turbia
+[3347] Buena
+[3348] No
+[3349] No
+[3350] Si
+[3351] Si
+[3352] 80000
+[3353] 25
+[3354] Jabon
+[3355] Detergente
+[3356] No
+[3357] Si
+[3358] Si
+[3359] Si
+[3360] Si
+[3361] Si
+[3362] Si
+[3363] Si
+[3364] Si
+[3365] No
+[3366] No
+[3367] Si
+[3368] Si
+[3369] Vómito
+[3370] 1.7628E+12
+[3371] 37.4219983
+[3372] 5
+[3373] 0
+[3374] 26/11/2025 19:39
+[3375] https://www.google.com/maps/?q=37.4219983,5.0001/04/2025
+[3376] Laura Gómez
+[3377] Valle del Cauca
+[3378] Bolívar
+[3379] CoV-EL BOSQUE
+[3380] Carrera 8#10-05
+[3381] 1110401
+[3382] 3233893308
+[3383] 05/10/2025
+[3384] Grifo
+[3385] Es más económica
+[3386] 2
+[3387] 3
+[3388] Mama
+[3389] Cosas Domesticas
+[3390] No nota cambios
+[3391] Clara
+[3392] Regular
+[3393] No
+[3394] Si
+[3395] Si
+[3396] Si
+[3397] 50000
+[3398] 43
+[3399] Jabon
+[3400] Detergente
+[3401] Si
+[3402] No
+[3403] Si
+[3404] Si
+[3405] Si
+[3406] Si
+[3407] Si
+[3408] Si
+[3409] Si
+[3410] Si
+[3411] No
+[3412] No
+[3413] Si
+[3414] Vómito
+[3415] 1.7628E+12
+[3416] 37.4219983
+[3417] 5
+[3418] 0
+[3419] 26/11/2025 19:39
+[3420] https://www.google.com/maps/?q=37.4219983,5.0006/02/2025
+[3421] Laura Gómez
+[3422] Valle del Cauca
+[3423] Bolívar
+[3424] CoV-LA PLAYA
+[3425] Carrera 8#10-05
+[3426] 1110403
+[3427] 3687502890
+[3428] 04/12/2025
+[3429] Naciente
+[3430] Es más económica
+[3431] 6
+[3432] 0
+[3433] Abuelo
+[3434] Doméstico y consumo
+[3435] No nota cambios
+[3436] Clara y buena
+[3437] Mala
+[3438] Si
+[3439] No
+[3440] Si
+[3441] No
+[3442] 80000
+[3443] 28
+[3444] Jabon
+[3445] Detergente
+[3446] No
+[3447] Si
+[3448] Si
+[3449] Si
+[3450] No
+[3451] Si
+[3452] Si
+[3453] No
+[3454] No
+[3455] Si
+[3456] Si
+[3457] Si
+[3458] Si
+[3459] Ninguna
+[3460] 1.7628E+12
+[3461] 37.4219983
+[3462] 5
+[3463] 0
+[3464] 26/11/2025 19:39
+[3465] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[3466] Christian Frank
+[3467] Valle del Cauca
+[3468] Bolívar
+[3469] CoV-EL JARDÍN
+[3470] Calle 34#09-01
+[3471] 1110406
+[3472] 3879418756
+[3473] 06/05/2025
+[3474] Naciente
+[3475] Es más económica
+[3476] 5
+[3477] 1
+[3478] Abuelo
+[3479] Cosas Domesticas
+[3480] Hay menos sedimentos
+[3481] Clara y buena
+[3482] Regular
+[3483] Si
+[3484] No
+[3485] Si
+[3486] Si
+[3487] 40000
+[3488] 14
+[3489] Jabon
+[3490] Jabon
+[3491] No
+[3492] No
+[3493] Si
+[3494] No
+[3495] Si
+[3496] No
+[3497] No
+[3498] No
+[3499] No
+[3500] Si
+[3501] Si
+[3502] Si
+[3503] Si
+[3504] Diarrea
+[3505] 1.7628E+12
+[3506] 37.4219983
+[3507] 5
+[3508] 0
+[3509] 26/11/2025 19:39
+[3510] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[3511] María Fernanda
+[3512] Valle del Cauca
+[3513] Bolívar
+[3514] CoV-CAMPOALEGRE
+[3515] Carrera 8#10-05
+[3516] 1110410
+[3517] 3830144896
+[3518] 0000-00-00
+[3519] Grifo
+[3520] Queda más cerca
+[3521] 2
+[3522] 4
+[3523] Hijo
+[3524] Doméstico y consumo
+[3525] Ahora sale con menos olor
+[3526] Clara y buena
+[3527] Buena
+[3528] No
+[3529] No
+[3530] No
+[3531] No
+[3532] 15000
+[3533] 53
+[3534] Jabon
+[3535] Detergente
+[3536] No
+[3537] No
+[3538] Si
+[3539] No
+[3540] Si
+[3541] No
+[3542] Si
+[3543] No
+[3544] No
+[3545] Si
+[3546] Si
+[3547] No
+[3548] No
+[3549] Vómito
+[3550] 1.7628E+12
+[3551] 37.4219983
+[3552] 5
+[3553] 0
+[3554] 26/11/2025 19:39
+[3555] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[3556] Christian Frank
+[3557] Valle del Cauca
+[3558] Bolívar
+[3559] CoV-BUENOS AIRES
+[3560] Calle 34#09-01
+[3561] 1110413
+[3562] 3320971402
+[3563] 0000-00-00
+[3564] Grifo
+[3565] Siempre ha sido así
+[3566] 2
+[3567] 3
+[3568] Hijo
+[3569] Solo consumo
+[3570] Hay menos sedimentos
+[3571] Un poco turbia
+[3572] Mala
+[3573] No
+[3574] No
+[3575] Si
+[3576] No
+[3577] 50000
+[3578] 37
+[3579] Jabon
+[3580] Jabon
+[3581] Si
+[3582] Si
+[3583] Si
+[3584] No
+[3585] Si
+[3586] No
+[3587] No
+[3588] Si
+[3589] No
+[3590] Si
+[3591] Si
+[3592] Si
+[3593] No
+[3594] Ninguna
+[3595] 1.7628E+12
+[3596] 37.4219983
+[3597] 5
+[3598] 0
+[3599] 26/11/2025 19:39
+[3600] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[3601] Laura Gómez
+[3602] Valle del Cauca
+[3603] Bolívar
+[3604] CoV-EL BOSQUE
+[3605] Calle 12#03-21
+[3606] 1110417
+[3607] 3965047350
+[3608] 0000-00-00
+[3609] Pozo
+[3610] Es mas Sencillo
+[3611] 4
+[3612] 2
+[3613] Mama
+[3614] Solo consumo
+[3615] Hay menos sedimentos
+[3616] Un poco turbia
+[3617] Regular
+[3618] No
+[3619] Si
+[3620] Si
+[3621] No
+[3622] 80000
+[3623] 11
+[3624] Jabon
+[3625] Detergente
+[3626] No
+[3627] Si
+[3628] Si
+[3629] No
+[3630] Si
+[3631] No
+[3632] Si
+[3633] Si
+[3634] No
+[3635] Si
+[3636] No
+[3637] No
+[3638] Si
+[3639] Vómito
+[3640] 1.7628E+12
+[3641] 37.4219983
+[3642] 5
+[3643] 0
+[3644] 26/11/2025 19:39
+[3645] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[3646] Ana María
+[3647] Valle del Cauca
+[3648] Bolívar
+[3649] CoV-EL BOSQUE
+[3650] Mz 3 Casa 7
+[3651] 1110423
+[3652] 3745560615
+[3653] 05/05/2025
+[3654] Pozo
+[3655] Siempre ha sido así
+[3656] 5
+[3657] 3
+[3658] Mama
+[3659] Solo consumo
+[3660] Ahora sale con menos olor
+[3661] Un poco turbia
+[3662] Mala
+[3663] No
+[3664] No
+[3665] No
+[3666] No
+[3667] 55000
+[3668] 16
+[3669] Jabon
+[3670] Detergente
+[3671] No
+[3672] Si
+[3673] Si
+[3674] Si
+[3675] Si
+[3676] Si
+[3677] No
+[3678] Si
+[3679] No
+[3680] Si
+[3681] Si
+[3682] Si
+[3683] No
+[3684] Hepatitis
+[3685] 1.7628E+12
+[3686] 37.4219983
+[3687] 5
+[3688] 0
+[3689] 26/11/2025 19:39
+[3690] https://www.google.com/maps/?q=37.4219983,5.0009/07/2025
+[3691] Ana María
+[3692] Valle del Cauca
+[3693] Bolívar
+[3694] CoV-LA PLAYA
+[3695] Carrera 8#10-05
+[3696] 1110428
+[3697] 3578112045
+[3698] 0000-00-00
+[3699] Grifo
+[3700] Siempre ha sido así
+[3701] 5
+[3702] 4
+[3703] Mama
+[3704] Solo consumo
+[3705] Es mas limpio el agua
+[3706] Clara
+[3707] Buena
+[3708] Si
+[3709] No
+[3710] Si
+[3711] Si
+[3712] 40000
+[3713] 38
+[3714] Jabon
+[3715] Detergente
+[3716] No
+[3717] No
+[3718] No
+[3719] No
+[3720] No
+[3721] No
+[3722] Si
+[3723] No
+[3724] No
+[3725] No
+[3726] Si
+[3727] Si
+[3728] Si
+[3729] Diarrea
+[3730] 1.7628E+12
+[3731] 37.4219983
+[3732] 5
+[3733] 0
+[3734] 26/11/2025 19:39
+[3735] https://www.google.com/maps/?q=37.4219983,5.0011/12/2025
+[3736] Ana María
+[3737] Valle del Cauca
+[3738] Bolívar
+[3739] CoV-EL BOSQUE
+[3740] Calle 12#03-21
+[3741] 1110436
+[3742] 3853336489
+[3743] 03/10/2025
+[3744] Pozo
+[3745] Queda más cerca
+[3746] 2
+[3747] 2
+[3748] Padre
+[3749] Solo consumo
+[3750] No nota cambios
+[3751] Clara
+[3752] Buena
+[3753] No
+[3754] Si
+[3755] No
+[3756] No
+[3757] 45000
+[3758] 59
+[3759] Jabon
+[3760] Jabon
+[3761] No
+[3762] Si
+[3763] No
+[3764] Si
+[3765] No
+[3766] Si
+[3767] No
+[3768] Si
+[3769] No
+[3770] Si
+[3771] No
+[3772] Si
+[3773] No
+[3774] Diarrea
+[3775] 1.7628E+12
+[3776] 37.4219983
+[3777] 5
+[3778] 0
+[3779] 26/11/2025 19:39
+[3780] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[3781] Carlos Pérez
+[3782] Valle del Cauca
+[3783] Bolívar
+[3784] CoV-EL JARDÍN
+[3785] Vereda sin dirección
+[3786] 1110447
+[3787] 3140370806
+[3788] 0000-00-00
+[3789] Pozo
+[3790] Queda más cerca
+[3791] 2
+[3792] 4
+[3793] Mama
+[3794] Cosas Domesticas
+[3795] No nota cambios
+[3796] Clara y buena
+[3797] Mala
+[3798] No
+[3799] Si
+[3800] No
+[3801] Si
+[3802] 20000
+[3803] 31
+[3804] Jabon
+[3805] Jabon
+[3806] Si
+[3807] Si
+[3808] Si
+[3809] No
+[3810] Si
+[3811] No
+[3812] Si
+[3813] No
+[3814] Si
+[3815] No
+[3816] Si
+[3817] No
+[3818] Si
+[3819] Diarrea
+[3820] 1.7628E+12
+[3821] 37.4219983
+[3822] 5
+[3823] 0
+[3824] 26/11/2025 19:39
+[3825] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[3826] Laura Gómez
+[3827] Valle del Cauca
+[3828] Bolívar
+[3829] CoV-LA PLAYA
+[3830] Vereda sin dirección
+[3831] 1110449
+[3832] 3499783871
+[3833] 0000-00-00
+[3834] Grifo
+[3835] Es más económica
+[3836] 6
+[3837] 2
+[3838] Abuelo
+[3839] Doméstico y consumo
+[3840] Hay menos sedimentos
+[3841] Clara
+[3842] Regular
+[3843] No
+[3844] Si
+[3845] Si
+[3846] Si
+[3847] 95000
+[3848] 23
+[3849] Jabon
+[3850] Detergente
+[3851] Si
+[3852] Si
+[3853] Si
+[3854] Si
+[3855] Si
+[3856] Si
+[3857] No
+[3858] No
+[3859] No
+[3860] Si
+[3861] Si
+[3862] No
+[3863] Si
+[3864] Hepatitis
+[3865] 1.7628E+12
+[3866] 37.4219983
+[3867] 5
+[3868] 0
+[3869] 26/11/2025 19:39
+[3870] https://www.google.com/maps/?q=37.4219983,5.0004/10/2025
+[3871] Juan Esteban
+[3872] Valle del Cauca
+[3873] Bolívar
+[3874] CoV-BUENOS AIRES
+[3875] Carrera 8#10-05
+[3876] 1110453
+[3877] 3605469698
+[3878] 0000-00-00
+[3879] Naciente
+[3880] Es mas Sencillo
+[3881] 5
+[3882] 4
+[3883] Abuelo
+[3884] Doméstico y consumo
+[3885] Es mas limpio el agua
+[3886] Clara
+[3887] Mala
+[3888] Si
+[3889] Si
+[3890] Si
+[3891] No
+[3892] 75000
+[3893] 35
+[3894] Jabon
+[3895] Detergente
+[3896] Si
+[3897] Si
+[3898] No
+[3899] No
+[3900] Si
+[3901] Si
+[3902] No
+[3903] Si
+[3904] Si
+[3905] Si
+[3906] Si
+[3907] No
+[3908] No
+[3909] Ninguna
+[3910] 1.7628E+12
+[3911] 37.4219983
+[3912] 5
+[3913] 0
+[3914] 26/11/2025 19:39
+[3915] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[3916] Ana María
+[3917] Valle del Cauca
+[3918] Bolívar
+[3919] CoV-CAMPOALEGRE
+[3920] Vereda sin dirección
+[3921] 1110454
+[3922] 3854643849
+[3923] 0000-00-00
+[3924] Naciente
+[3925] Queda más cerca
+[3926] 3
+[3927] 3
+[3928] Abuelo
+[3929] Cosas Domesticas
+[3930] Es mas limpio el agua
+[3931] Clara
+[3932] Regular
+[3933] No
+[3934] Si
+[3935] No
+[3936] No
+[3937] 80000
+[3938] 14
+[3939] Jabon
+[3940] Detergente
+[3941] No
+[3942] No
+[3943] Si
+[3944] No
+[3945] Si
+[3946] No
+[3947] Si
+[3948] No
+[3949] No
+[3950] Si
+[3951] Si
+[3952] No
+[3953] Si
+[3954] Diarrea
+[3955] 1.7628E+12
+[3956] 37.4219983
+[3957] 5
+[3958] 0
+[3959] 26/11/2025 19:39
+[3960] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[3961] Ana María
+[3962] Valle del Cauca
+[3963] Bolívar
+[3964] CoV-EL BOSQUE
+[3965] Carrera 8#10-05
+[3966] 1110455
+[3967] 3568856926
+[3968] 0000-00-00
+[3969] Naciente
+[3970] Es más económica
+[3971] 7
+[3972] 0
+[3973] Abuelo
+[3974] Riego y consumo
+[3975] No nota cambios
+[3976] Un poco turbia
+[3977] Buena
+[3978] Si
+[3979] Si
+[3980] No
+[3981] Si
+[3982] 35000
+[3983] 22
+[3984] Jabon
+[3985] Detergente
+[3986] No
+[3987] No
+[3988] No
+[3989] Si
+[3990] Si
+[3991] Si
+[3992] No
+[3993] Si
+[3994] No
+[3995] Si
+[3996] No
+[3997] Si
+[3998] No
+[3999] Vómito
+[4000] 1.7628E+12
+[4001] 37.4219983
+[4002] 5
+[4003] 0
+[4004] 26/11/2025 19:39
+[4005] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[4006] Christian Frank
+[4007] Valle del Cauca
+[4008] Bolívar
+[4009] CoV-CAMPOALEGRE
+[4010] Mz 3 Casa 7
+[4011] 1110472
+[4012] 3194420911
+[4013] 05/06/2025
+[4014] Naciente
+[4015] Queda más cerca
+[4016] 8
+[4017] 1
+[4018] Mama
+[4019] Cosas Domesticas
+[4020] Hay menos sedimentos
+[4021] Un poco turbia
+[4022] Mala
+[4023] No
+[4024] Si
+[4025] Si
+[4026] Si
+[4027] 75000
+[4028] 25
+[4029] Jabon
+[4030] Detergente
+[4031] Si
+[4032] No
+[4033] No
+[4034] No
+[4035] Si
+[4036] No
+[4037] No
+[4038] No
+[4039] No
+[4040] Si
+[4041] Si
+[4042] No
+[4043] Si
+[4044] Hepatitis
+[4045] 1.7628E+12
+[4046] 37.4219983
+[4047] 5
+[4048] 0
+[4049] 26/11/2025 19:39
+[4050] https://www.google.com/maps/?q=37.4219983,5.0010/05/2025
+[4051] María Fernanda
+[4052] Valle del Cauca
+[4053] Bolívar
+[4054] CoV-CAMPOALEGRE
+[4055] Calle 34#09-01
+[4056] 1110473
+[4057] 3776404485
+[4058] 01/01/2025
+[4059] Pozo
+[4060] Queda más cerca
+[4061] 3
+[4062] 3
+[4063] Mama
+[4064] Solo consumo
+[4065] Es mas limpio el agua
+[4066] Un poco turbia
+[4067] Mala
+[4068] Si
+[4069] No
+[4070] Si
+[4071] No
+[4072] 45000
+[4073] 33
+[4074] Jabon
+[4075] Jabon
+[4076] Si
+[4077] Si
+[4078] No
+[4079] Si
+[4080] Si
+[4081] Si
+[4082] Si
+[4083] No
+[4084] Si
+[4085] No
+[4086] No
+[4087] Si
+[4088] No
+[4089] Vómito
+[4090] 1.7628E+12
+[4091] 37.4219983
+[4092] 5
+[4093] 0
+[4094] 26/11/2025 19:39
+[4095] https://www.google.com/maps/?q=37.4219983,5.0003/07/2025
+[4096] Ana María
+[4097] Valle del Cauca
+[4098] Bolívar
+[4099] CoV-BUENOS AIRES
+[4100] Carrera 8#10-05
+[4101] 1110475
+[4102] 3475785736
+[4103] 0000-00-00
+[4104] Naciente
+[4105] Es mas Sencillo
+[4106] 2
+[4107] 4
+[4108] Hijo
+[4109] Solo consumo
+[4110] No nota cambios
+[4111] Un poco turbia
+[4112] Mala
+[4113] Si
+[4114] Si
+[4115] Si
+[4116] No
+[4117] 25000
+[4118] 21
+[4119] Jabon
+[4120] Jabon
+[4121] Si
+[4122] No
+[4123] Si
+[4124] No
+[4125] Si
+[4126] No
+[4127] Si
+[4128] Si
+[4129] No
+[4130] Si
+[4131] No
+[4132] No
+[4133] Si
+[4134] Hepatitis
+[4135] 1.7628E+12
+[4136] 37.4219983
+[4137] 5
+[4138] 0
+[4139] 26/11/2025 19:39
+[4140] https://www.google.com/maps/?q=37.4219983,5.0008/06/2025
+[4141] Laura Gómez
+[4142] Valle del Cauca
+[4143] Bolívar
+[4144] CoV-LA PLAYA
+[4145] Mz 3 Casa 7
+[4146] 1110483
+[4147] 3443622261
+[4148] 0000-00-00
+[4149] Pozo
+[4150] Siempre ha sido así
+[4151] 8
+[4152] 1
+[4153] Mama
+[4154] Doméstico y consumo
+[4155] Es mas limpio el agua
+[4156] Un poco turbia
+[4157] Regular
+[4158] No
+[4159] Si
+[4160] No
+[4161] Si
+[4162] 70000
+[4163] 33
+[4164] Jabon
+[4165] Detergente
+[4166] Si
+[4167] No
+[4168] Si
+[4169] Si
+[4170] No
+[4171] Si
+[4172] Si
+[4173] Si
+[4174] Si
+[4175] No
+[4176] No
+[4177] No
+[4178] No
+[4179] Diarrea
+[4180] 1.7628E+12
+[4181] 37.4219983
+[4182] 5
+[4183] 0
+[4184] 26/11/2025 19:39
+[4185] https://www.google.com/maps/?q=37.4219983,5.000000-00-00
+[4186] Carlos Pérez
+[4187] Valle del Cauca
+[4188] Bolívar
+[4189] CoV-EL BOSQUE
+[4190] Calle 12#03-21
+[4191] 1110489
+[4192] 3393529311
+[4193] 04/10/2025
+[4194] Naciente
+[4195] Es más económica
+[4196] 4
+[4197] 1
+[4198] Hijo
+[4199] Riego y consumo
+[4200] Hay menos sedimentos
+[4201] Un poco turbia
+[4202] Regular
+[4203] No
+[4204] Si
+[4205] Si
+[4206] No
+[4207] 50000
+[4208] 36
+[4209] Jabon
+[4210] Jabon
+[4211] Si
+[4212] No
+[4213] Si
+[4214] Si
+[4215] Si
+[4216] No
+[4217] No
+[4218] No
+[4219] Si
+[4220] No
+[4221] Si
+[4222] No
+[4223] No
+[4224] Vómito
+[4225] 1.7628E+12
+[4226] 37.4219983
+[4227] 5
+[4228] 0
+[4229] 26/11/2025 19:39
+[4230] https://www.google.com/maps/?q=37.4219983,5.0007/12/2025
+[4231] Ana María
+[4232] Valle del Cauca
+[4233] Bolívar
+[4234] CoV-EL JARDÍN
+[4235] Mz 3 Casa 7
+[4236] 1110494
+[4237] 3667071992
+[4238] 03/05/2025
+[4239] Pozo
+[4240] Siempre ha sido así
+[4241] 5
+[4242] 4
+[4243] Hijo
+[4244] Solo consumo
+[4245] No nota cambios
+[4246] Clara y buena
+[4247] Mala
+[4248] Si
+[4249] No
+[4250] Si
+[4251] Si
+[4252] 35000
+[4253] 55
+[4254] Jabon
+[4255] Jabon
+[4256] Si
+[4257] No
+[4258] Si
+[4259] No
+[4260] No
+[4261] No
+[4262] No
+[4263] No
+[4264] No
+[4265] Si
+[4266] Si
+[4267] Si
+[4268] No
+[4269] Vómito
+[4270] 1.7628E+12
+[4271] 37.4219983
+[4272] 5
+[4273] 0
+[4274] 26/11/2025 19:39
+[4275] https://www.google.com/maps/?q=37.4219983,5.0004/12/2025
+[4276] Laura Gómez
+[4277] Valle del Cauca
+[4278] Bolívar
+[4279] CoV-EL JARDÍN
+[4280] Carrera 8#10-05
+[4281] 1110499
+[4282] 3948775167
+[4283] 0000-00-00
+[4284] Grifo
+[4285] Es mas Sencillo
+[4286] 7
+[4287] 4
+[4288] Hijo
+[4289] Solo consumo
+[4290] Es mas limpio el agua
+[4291] Clara
+[4292] Buena
+[4293] No
+[4294] Si
+[4295] Si
+[4296] No
+[4297] 55000
+[4298] 21
+[4299] Jabon
+[4300] Detergente
+[4301] No
+[4302] No
+[4303] No
+[4304] Si
+[4305] No
+[4306] No
+[4307] No
+[4308] No
+[4309] No
+[4310] Si
+[4311] No
+[4312] No
+[4313] No
+[4314] Diarrea
+[4315] 1.7628E+12
+[4316] 37.4219983
+[4317] 5
+[4318] 0
+[4319] 26/11/2025 19:39
+[4320] https://www.google.com/maps/?q=37.4219983,5.00
+Columna 'Aprobado' encontrada por nombre en índice: 43
+Columna Aprobado usada (índice): 43
+Filas aprobadas: 0
+
+==== 2025-11-27 14:53:25 ====
+Delimitador detectado: ,
+Encabezados:
+[0] Fecha
+[1] Encuestador
+[2] Departamento
+[3] Municipio
+[4] Vereda o Corregimiento
+[5] Direcci�n
+[6] Documento
+[7] Tel�fono
+[8] Fecha en que obtuvo el filtro
+[9] Fuente donde toma el agua
+[10] �Por qu� usas el filtro de arcilla?
+[11] �Cu�nto tiempo dura el agua almacenada? (d�as)
+[12] �Cu�ntas veces al d�a recarga el filtro?
+[13] �Qu� miembro de la familia recarga el filtro?
+[14] �En qu� emplea el agua del filtro?
+[15] �Qu� cambios ha notado con el filtro?
+[16] Percepci�n del agua despu�s de recibir el filtro
+[17] �Qu� opina del sabor del agua?
+[18] �El agua presenta color?
+[19] �El agua presenta olor?
+[20] �Han disminuido las enfermedades por agua?
+[21] �Han disminuido los gastos por agua apta?
+[22] �Cu�nto gasta actualmente?
+[23] �Cada cu�nto realiza mantenimiento?
+[24] Productos limpieza (arcilla)
+[25] Productos limpieza (pl�stico)
+[26] �Conoce vida �til de la arcilla?
+[27] �Sabe d�nde conseguir repuestos?
+[28] �El filtro est� en un lugar estable y/o seguro?
+[29] �El filtro est� ensamblado y tapado?
+[30] �El filtro est� limpio externamente?
+[31] �Lavado de manos previo a la manipulaci�n?
+[32] Manipulaci�n adecuada de la arcilla
+[33] Limpieza del tanque (sin sedimentos)
+[34] Limpieza de la vasija (sin sedimentos)
+[35] �Se evidencian fisuras en la arcilla?
+[36] �La vasija presenta niveles de agua que imposibiliten su manipulaci�n?
+[37] �Cuenta con instalaci�n de lavado de manos?
+[38] �Dispone de jab�n para lavado de manos
+[39] Observaciones
+[40] Timestamp (ms)
+[41] Latitud
+[42] Altitud
+[43] Aprobado
+[44] Creado En
+[45] GPS
+Columna 'Aprobado' encontrada por nombre en índice: 43
+Columna Aprobado usada (índice): 43
+Filas aprobadas: 6
+
+==== 2025-11-27 15:26:47 ====
+Delimitador detectado: ,
+Encabezados:
+[0] Fecha
+[1] Encuestador
+[2] Departamento
+[3] Municipio
+[4] Vereda o Corregimiento
+[5] Direcci�n
+[6] Documento
+[7] Tel�fono
+[8] Fecha en que obtuvo el filtro
+[9] Fuente donde toma el agua
+[10] �Por qu� usas el filtro de arcilla?
+[11] �Cu�nto tiempo dura el agua almacenada? (d�as)
+[12] �Cu�ntas veces al d�a recarga el filtro?
+[13] �Qu� miembro de la familia recarga el filtro?
+[14] �En qu� emplea el agua del filtro?
+[15] �Qu� cambios ha notado con el filtro?
+[16] Percepci�n del agua despu�s de recibir el filtro
+[17] �Qu� opina del sabor del agua?
+[18] �El agua presenta color?
+[19] �El agua presenta olor?
+[20] �Han disminuido las enfermedades por agua?
+[21] �Han disminuido los gastos por agua apta?
+[22] �Cu�nto gasta actualmente?
+[23] �Cada cu�nto realiza mantenimiento?
+[24] Productos limpieza (arcilla)
+[25] Productos limpieza (pl�stico)
+[26] �Conoce vida �til de la arcilla?
+[27] �Sabe d�nde conseguir repuestos?
+[28] �El filtro est� en un lugar estable y/o seguro?
+[29] �El filtro est� ensamblado y tapado?
+[30] �El filtro est� limpio externamente?
+[31] �Lavado de manos previo a la manipulaci�n?
+[32] Manipulaci�n adecuada de la arcilla
+[33] Limpieza del tanque (sin sedimentos)
+[34] Limpieza de la vasija (sin sedimentos)
+[35] �Se evidencian fisuras en la arcilla?
+[36] �La vasija presenta niveles de agua que imposibiliten su manipulaci�n?
+[37] �Cuenta con instalaci�n de lavado de manos?
+[38] �Dispone de jab�n para lavado de manos
+[39] Observaciones
+[40] Timestamp (ms)
+[41] Latitud
+[42] Altitud
+[43] Aprobado
+[44] Creado En
+[45] GPS
+Columna 'Aprobado' encontrada por nombre en índice: 43
+Columna Aprobado usada (índice): 43
+Filas aprobadas: 6
+
+==== 2025-11-27 15:43:38 ====
+Delimitador detectado: ,
+Encabezados:
+[0] Fecha
+[1] Encuestador
+[2] Departamento
+[3] Municipio
+[4] Vereda o Corregimiento
+[5] Direcci�n
+[6] Documento
+[7] Tel�fono
+[8] Fecha en que obtuvo el filtro
+[9] Fuente donde toma el agua
+[10] �Por qu� usas el filtro de arcilla?
+[11] �Cu�nto tiempo dura el agua almacenada? (d�as)
+[12] �Cu�ntas veces al d�a recarga el filtro?
+[13] �Qu� miembro de la familia recarga el filtro?
+[14] �En qu� emplea el agua del filtro?
+[15] �Qu� cambios ha notado con el filtro?
+[16] Percepci�n del agua despu�s de recibir el filtro
+[17] �Qu� opina del sabor del agua?
+[18] �El agua presenta color?
+[19] �El agua presenta olor?
+[20] �Han disminuido las enfermedades por agua?
+[21] �Han disminuido los gastos por agua apta?
+[22] �Cu�nto gasta actualmente?
+[23] �Cada cu�nto realiza mantenimiento?
+[24] Productos limpieza (arcilla)
+[25] Productos limpieza (pl�stico)
+[26] �Conoce vida �til de la arcilla?
+[27] �Sabe d�nde conseguir repuestos?
+[28] �El filtro est� en un lugar estable y/o seguro?
+[29] �El filtro est� ensamblado y tapado?
+[30] �El filtro est� limpio externamente?
+[31] �Lavado de manos previo a la manipulaci�n?
+[32] Manipulaci�n adecuada de la arcilla
+[33] Limpieza del tanque (sin sedimentos)
+[34] Limpieza de la vasija (sin sedimentos)
+[35] �Se evidencian fisuras en la arcilla?
+[36] �La vasija presenta niveles de agua que imposibiliten su manipulaci�n?
+[37] �Cuenta con instalaci�n de lavado de manos?
+[38] �Dispone de jab�n para lavado de manos
+[39] Observaciones
+[40] Timestamp (ms)
+[41] Latitud
+[42] Altitud
+[43] Aprobado
+[44] Creado En
+[45] GPS
+Columna 'Aprobado' encontrada por nombre en índice: 43
+Columna Aprobado usada (índice): 43
+Filas aprobadas: 6
+
+==== 2025-11-27 15:44:02 ====
+Delimitador detectado: ,
+Encabezados:
+[0] Fecha
+[1] Encuestador
+[2] Departamento
+[3] Municipio
+[4] Vereda o Corregimiento
+[5] Direcci�n
+[6] Documento
+[7] Tel�fono
+[8] Fecha en que obtuvo el filtro
+[9] Fuente donde toma el agua
+[10] �Por qu� usas el filtro de arcilla?
+[11] �Cu�nto tiempo dura el agua almacenada? (d�as)
+[12] �Cu�ntas veces al d�a recarga el filtro?
+[13] �Qu� miembro de la familia recarga el filtro?
+[14] �En qu� emplea el agua del filtro?
+[15] �Qu� cambios ha notado con el filtro?
+[16] Percepci�n del agua despu�s de recibir el filtro
+[17] �Qu� opina del sabor del agua?
+[18] �El agua presenta color?
+[19] �El agua presenta olor?
+[20] �Han disminuido las enfermedades por agua?
+[21] �Han disminuido los gastos por agua apta?
+[22] �Cu�nto gasta actualmente?
+[23] �Cada cu�nto realiza mantenimiento?
+[24] Productos limpieza (arcilla)
+[25] Productos limpieza (pl�stico)
+[26] �Conoce vida �til de la arcilla?
+[27] �Sabe d�nde conseguir repuestos?
+[28] �El filtro est� en un lugar estable y/o seguro?
+[29] �El filtro est� ensamblado y tapado?
+[30] �El filtro est� limpio externamente?
+[31] �Lavado de manos previo a la manipulaci�n?
+[32] Manipulaci�n adecuada de la arcilla
+[33] Limpieza del tanque (sin sedimentos)
+[34] Limpieza de la vasija (sin sedimentos)
+[35] �Se evidencian fisuras en la arcilla?
+[36] �La vasija presenta niveles de agua que imposibiliten su manipulaci�n?
+[37] �Cuenta con instalaci�n de lavado de manos?
+[38] �Dispone de jab�n para lavado de manos
+[39] Observaciones
+[40] Timestamp (ms)
+[41] Latitud
+[42] Altitud
+[43] Aprobado
+[44] Creado En
+[45] GPS
+Columna 'Aprobado' encontrada por nombre en índice: 43
+Columna Aprobado usada (índice): 43
+Filas aprobadas: 6
+
+==== 2025-11-27 16:24:47 ====
+Delimitador detectado: ,
+Encabezados:
+[0] Fecha
+[1] Encuestador
+[2] Departamento
+[3] Municipio
+[4] Vereda o Corregimiento
+[5] Direcci�n
+[6] Documento
+[7] Tel�fono
+[8] Fecha en que obtuvo el filtro
+[9] Fuente donde toma el agua
+[10] �Por qu� usas el filtro de arcilla?
+[11] �Cu�nto tiempo dura el agua almacenada? (d�as)
+[12] �Cu�ntas veces al d�a recarga el filtro?
+[13] �Qu� miembro de la familia recarga el filtro?
+[14] �En qu� emplea el agua del filtro?
+[15] �Qu� cambios ha notado con el filtro?
+[16] Percepci�n del agua despu�s de recibir el filtro
+[17] �Qu� opina del sabor del agua?
+[18] �El agua presenta color?
+[19] �El agua presenta olor?
+[20] �Han disminuido las enfermedades por agua?
+[21] �Han disminuido los gastos por agua apta?
+[22] �Cu�nto gasta actualmente?
+[23] �Cada cu�nto realiza mantenimiento?
+[24] Productos limpieza (arcilla)
+[25] Productos limpieza (pl�stico)
+[26] �Conoce vida �til de la arcilla?
+[27] �Sabe d�nde conseguir repuestos?
+[28] �El filtro est� en un lugar estable y/o seguro?
+[29] �El filtro est� ensamblado y tapado?
+[30] �El filtro est� limpio externamente?
+[31] �Lavado de manos previo a la manipulaci�n?
+[32] Manipulaci�n adecuada de la arcilla
+[33] Limpieza del tanque (sin sedimentos)
+[34] Limpieza de la vasija (sin sedimentos)
+[35] �Se evidencian fisuras en la arcilla?
+[36] �La vasija presenta niveles de agua que imposibiliten su manipulaci�n?
+[37] �Cuenta con instalaci�n de lavado de manos?
+[38] �Dispone de jab�n para lavado de manos
+[39] Observaciones
+[40] Timestamp (ms)
+[41] Latitud
+[42] Altitud
+[43] Aprobado
+[44] Creado En
+[45] GPS
+Columna 'Aprobado' encontrada por nombre en índice: 43
+Columna Aprobado usada (índice): 43
+Filas aprobadas: 6
+
+==== 2025-11-27 16:29:11 ====
+Delimitador detectado: ,
+Encabezados:
+[0] Fecha
+[1] Encuestador
+[2] Departamento
+[3] Municipio
+[4] Vereda o Corregimiento
+[5] Direcci�n
+[6] Documento
+[7] Tel�fono
+[8] Fecha en que obtuvo el filtro
+[9] Fuente donde toma el agua
+[10] �Por qu� usas el filtro de arcilla?
+[11] �Cu�nto tiempo dura el agua almacenada? (d�as)
+[12] �Cu�ntas veces al d�a recarga el filtro?
+[13] �Qu� miembro de la familia recarga el filtro?
+[14] �En qu� emplea el agua del filtro?
+[15] �Qu� cambios ha notado con el filtro?
+[16] Percepci�n del agua despu�s de recibir el filtro
+[17] �Qu� opina del sabor del agua?
+[18] �El agua presenta color?
+[19] �El agua presenta olor?
+[20] �Han disminuido las enfermedades por agua?
+[21] �Han disminuido los gastos por agua apta?
+[22] �Cu�nto gasta actualmente?
+[23] �Cada cu�nto realiza mantenimiento?
+[24] Productos limpieza (arcilla)
+[25] Productos limpieza (pl�stico)
+[26] �Conoce vida �til de la arcilla?
+[27] �Sabe d�nde conseguir repuestos?
+[28] �El filtro est� en un lugar estable y/o seguro?
+[29] �El filtro est� ensamblado y tapado?
+[30] �El filtro est� limpio externamente?
+[31] �Lavado de manos previo a la manipulaci�n?
+[32] Manipulaci�n adecuada de la arcilla
+[33] Limpieza del tanque (sin sedimentos)
+[34] Limpieza de la vasija (sin sedimentos)
+[35] �Se evidencian fisuras en la arcilla?
+[36] �La vasija presenta niveles de agua que imposibiliten su manipulaci�n?
+[37] �Cuenta con instalaci�n de lavado de manos?
+[38] �Dispone de jab�n para lavado de manos
+[39] Observaciones
+[40] Timestamp (ms)
+[41] Latitud
+[42] Altitud
+[43] Aprobado
+[44] Creado En
+[45] GPS
+Columna 'Aprobado' encontrada por nombre en índice: 43
+Columna Aprobado usada (índice): 43
+Filas aprobadas: 6
+
+==== 2025-11-27 16:36:59 ====
+Delimitador detectado: ,
+Encabezados:
+[0] Fecha
+[1] Encuestador
+[2] Departamento
+[3] Municipio
+[4] Vereda o Corregimiento
+[5] Direcci�n
+[6] Documento
+[7] Tel�fono
+[8] Fecha en que obtuvo el filtro
+[9] Fuente donde toma el agua
+[10] �Por qu� usas el filtro de arcilla?
+[11] �Cu�nto tiempo dura el agua almacenada? (d�as)
+[12] �Cu�ntas veces al d�a recarga el filtro?
+[13] �Qu� miembro de la familia recarga el filtro?
+[14] �En qu� emplea el agua del filtro?
+[15] �Qu� cambios ha notado con el filtro?
+[16] Percepci�n del agua despu�s de recibir el filtro
+[17] �Qu� opina del sabor del agua?
+[18] �El agua presenta color?
+[19] �El agua presenta olor?
+[20] �Han disminuido las enfermedades por agua?
+[21] �Han disminuido los gastos por agua apta?
+[22] �Cu�nto gasta actualmente?
+[23] �Cada cu�nto realiza mantenimiento?
+[24] Productos limpieza (arcilla)
+[25] Productos limpieza (pl�stico)
+[26] �Conoce vida �til de la arcilla?
+[27] �Sabe d�nde conseguir repuestos?
+[28] �El filtro est� en un lugar estable y/o seguro?
+[29] �El filtro est� ensamblado y tapado?
+[30] �El filtro est� limpio externamente?
+[31] �Lavado de manos previo a la manipulaci�n?
+[32] Manipulaci�n adecuada de la arcilla
+[33] Limpieza del tanque (sin sedimentos)
+[34] Limpieza de la vasija (sin sedimentos)
+[35] �Se evidencian fisuras en la arcilla?
+[36] �La vasija presenta niveles de agua que imposibiliten su manipulaci�n?
+[37] �Cuenta con instalaci�n de lavado de manos?
+[38] �Dispone de jab�n para lavado de manos
+[39] Observaciones
+[40] Timestamp (ms)
+[41] Latitud
+[42] Altitud
+[43] Aprobado
+[44] Creado En
+[45] GPS
+Columna 'Aprobado' encontrada por nombre en índice: 43
+Columna Aprobado usada (índice): 43
+Filas aprobadas: 6
+
+==== 2025-11-27 19:09:12 ====
+Delimitador detectado: ,
+No se pudo leer encabezado.
+
+==== 2025-11-27 19:14:39 ====
+Archivo: C:\xampp\htdocs\filtro/uploads/csv/encuesta_20251127_191439_3355.csv
+Delimitador detectado: ,
+No se pudo leer encabezado.
+
+==== 2025-11-27 19:19:06 ====
+Delimitador detectado: ,
+Encabezados:
+[0] Fecha
+[1] Encuestador
+[2] Departamento
+[3] Municipio
+[4] Vereda o Corregimiento
+[5] Direcci�n
+[6] Documento
+[7] Tel�fono
+[8] Fecha en que obtuvo el filtro
+[9] Fuente donde toma el agua
+[10] �Por qu� usas el filtro de arcilla?
+[11] �Cu�nto tiempo dura el agua almacenada? (d�as)
+[12] �Cu�ntas veces al d�a recarga el filtro?
+[13] �Qu� miembro de la familia recarga el filtro?
+[14] �En qu� emplea el agua del filtro?
+[15] �Qu� cambios ha notado con el filtro?
+[16] Percepci�n del agua despu�s de recibir el filtro
+[17] �Qu� opina del sabor del agua?
+[18] �El agua presenta color?
+[19] �El agua presenta olor?
+[20] �Han disminuido las enfermedades por agua?
+[21] �Han disminuido los gastos por agua apta?
+[22] �Cu�nto gasta actualmente?
+[23] �Cada cu�nto realiza mantenimiento?
+[24] Productos limpieza (arcilla)
+[25] Productos limpieza (pl�stico)
+[26] �Conoce vida �til de la arcilla?
+[27] �Sabe d�nde conseguir repuestos?
+[28] �El filtro est� en un lugar estable y/o seguro?
+[29] �El filtro est� ensamblado y tapado?
+[30] �El filtro est� limpio externamente?
+[31] �Lavado de manos previo a la manipulaci�n?
+[32] Manipulaci�n adecuada de la arcilla
+[33] Limpieza del tanque (sin sedimentos)
+[34] Limpieza de la vasija (sin sedimentos)
+[35] �Se evidencian fisuras en la arcilla?
+[36] �La vasija presenta niveles de agua que imposibiliten su manipulaci�n?
+[37] �Cuenta con instalaci�n de lavado de manos?
+[38] �Dispone de jab�n para lavado de manos
+[39] Observaciones
+[40] Timestamp (ms)
+[41] Latitud
+[42] Altitud
+[43] Aprobado
+[44] Creado En
+[45] GPS
+Columna 'Aprobado' encontrada por nombre en índice: 43
+Columna Aprobado usada (índice): 43
+Filas aprobadas: 6
+
+==== 2025-11-27 21:42:20 ====
+Delimitador detectado: ,
+Encabezados:
+[0] ﻿Fecha
+[1] Responsable
+[2] Empresa / Equipo
+[3] No. Cédula
+[4] Tipo de beneficiario
+[5] Grupo Poblacional
+[6] Nombre del beneficiado
+[7] Cédula
+[8] Teléfono (wsp)
+[9] Departamento
+[10] Municipio
+[11] Vereda / Corregimiento
+[12] Dirección
+[13] Menor de 5 años
+[14] Entre 6 y 17 años
+[15] Entre 18 y 64 años
+[16] Mayor de 65 años
+[17] Tiene agua disponible para sus actividades diarias.
+[18] ¿De dónde toma el agua?
+[19] ¿Utiliza otra fuente de agua?
+[20] ¿Quién administra el servicio?
+[21] ¿Cuántas horas al día cuenta con agua?
+[22] ¿Tiene que desplazarse para acceder al agua?
+[23] ¿Qué medio utiliza?
+[24] ¿Cuánto tiempo se demora? (min)
+[25] Percepción del agua
+[26] ¿Qué opina del sabor del agua?
+[27] ¿El agua es clara, oscura o por temporada?
+[28] ¿Presenta olores?
+[29] ¿Almacena agua en tanque?
+[30] ¿Realiza tratamientos al agua? (Opción múltiple)
+[31] En caso de hervir el agua, ¿cómo lo hace?
+[32] ¿Quién realiza estas labores?
+[33] ¿Cuánto dinero invierte al mes?
+[34] ¿El agua tiene contacto con fuentes de contaminación? (Opción múltiple)
+[35] ¿La fuente está protegida?
+[36] ¿Es importante consumir agua de calidad?
+[37] Beneficios de consumir agua potable (Opción múltiple)
+[38] ¿Cuenta con sanitario (taza)?
+[39] ¿Tiene fosa séptica/pozo séptico/alcantarillado?
+[40] ¿Ha recibido capacitación en higiene?
+[41] Prácticas: Lavado de manos
+[42] Prácticas: Limpieza del hogar
+[43] Prácticas: Cepillado dental
+[44] Prácticas: Otras
+[45] Prácticas: Baño diario
+[46] ¿Presentan dolores de estómago?
+[47] ¿Se han presentado enfermedades hídricas? (Opción múltiple)
+[48] Observaciones
+[49] Timestamp (ms)
+[50] Latitud
+[51] Altitud
+[52] Aprobado
+[53] Creado En
+[54] GPS
+Columna 'Aprobado' encontrada por nombre en índice: 52
+Columna Aprobado usada (índice): 52
+Filas aprobadas: 0
+
+==== 2025-11-27 21:44:41 ====
+Delimitador detectado: ,
+Encabezados:
+[0] ﻿Fecha
+[1] Responsable
+[2] Empresa / Equipo
+[3] No. Cédula
+[4] Tipo de beneficiario
+[5] Grupo Poblacional
+[6] Nombre del beneficiado
+[7] Cédula
+[8] Teléfono (wsp)
+[9] Departamento
+[10] Municipio
+[11] Vereda / Corregimiento
+[12] Dirección
+[13] Menor de 5 años
+[14] Entre 6 y 17 años
+[15] Entre 18 y 64 años
+[16] Mayor de 65 años
+[17] Tiene agua disponible para sus actividades diarias.
+[18] ¿De dónde toma el agua?
+[19] ¿Utiliza otra fuente de agua?
+[20] ¿Quién administra el servicio?
+[21] ¿Cuántas horas al día cuenta con agua?
+[22] ¿Tiene que desplazarse para acceder al agua?
+[23] ¿Qué medio utiliza?
+[24] ¿Cuánto tiempo se demora? (min)
+[25] Percepción del agua
+[26] ¿Qué opina del sabor del agua?
+[27] ¿El agua es clara, oscura o por temporada?
+[28] ¿Presenta olores?
+[29] ¿Almacena agua en tanque?
+[30] ¿Realiza tratamientos al agua? (Opción múltiple)
+[31] En caso de hervir el agua, ¿cómo lo hace?
+[32] ¿Quién realiza estas labores?
+[33] ¿Cuánto dinero invierte al mes?
+[34] ¿El agua tiene contacto con fuentes de contaminación? (Opción múltiple)
+[35] ¿La fuente está protegida?
+[36] ¿Es importante consumir agua de calidad?
+[37] Beneficios de consumir agua potable (Opción múltiple)
+[38] ¿Cuenta con sanitario (taza)?
+[39] ¿Tiene fosa séptica/pozo séptico/alcantarillado?
+[40] ¿Ha recibido capacitación en higiene?
+[41] Prácticas: Lavado de manos
+[42] Prácticas: Limpieza del hogar
+[43] Prácticas: Cepillado dental
+[44] Prácticas: Otras
+[45] Prácticas: Baño diario
+[46] ¿Presentan dolores de estómago?
+[47] ¿Se han presentado enfermedades hídricas? (Opción múltiple)
+[48] Observaciones
+[49] Timestamp (ms)
+[50] Latitud
+[51] Altitud
+[52] Aprobado
+[53] Creado En
+[54] GPS
+Columna 'Aprobado' encontrada por nombre en índice: 52
+Columna Aprobado usada (índice): 52
+Filas aprobadas: 1
+
+==== 2025-11-27 21:45:07 ====
+Delimitador detectado: ,
+Encabezados:
+[0] ﻿Fecha
+[1] Responsable
+[2] Empresa / Equipo
+[3] No. Cédula
+[4] Tipo de beneficiario
+[5] Grupo Poblacional
+[6] Nombre del beneficiado
+[7] Cédula
+[8] Teléfono (wsp)
+[9] Departamento
+[10] Municipio
+[11] Vereda / Corregimiento
+[12] Dirección
+[13] Menor de 5 años
+[14] Entre 6 y 17 años
+[15] Entre 18 y 64 años
+[16] Mayor de 65 años
+[17] Tiene agua disponible para sus actividades diarias.
+[18] ¿De dónde toma el agua?
+[19] ¿Utiliza otra fuente de agua?
+[20] ¿Quién administra el servicio?
+[21] ¿Cuántas horas al día cuenta con agua?
+[22] ¿Tiene que desplazarse para acceder al agua?
+[23] ¿Qué medio utiliza?
+[24] ¿Cuánto tiempo se demora? (min)
+[25] Percepción del agua
+[26] ¿Qué opina del sabor del agua?
+[27] ¿El agua es clara, oscura o por temporada?
+[28] ¿Presenta olores?
+[29] ¿Almacena agua en tanque?
+[30] ¿Realiza tratamientos al agua? (Opción múltiple)
+[31] En caso de hervir el agua, ¿cómo lo hace?
+[32] ¿Quién realiza estas labores?
+[33] ¿Cuánto dinero invierte al mes?
+[34] ¿El agua tiene contacto con fuentes de contaminación? (Opción múltiple)
+[35] ¿La fuente está protegida?
+[36] ¿Es importante consumir agua de calidad?
+[37] Beneficios de consumir agua potable (Opción múltiple)
+[38] ¿Cuenta con sanitario (taza)?
+[39] ¿Tiene fosa séptica/pozo séptico/alcantarillado?
+[40] ¿Ha recibido capacitación en higiene?
+[41] Prácticas: Lavado de manos
+[42] Prácticas: Limpieza del hogar
+[43] Prácticas: Cepillado dental
+[44] Prácticas: Otras
+[45] Prácticas: Baño diario
+[46] ¿Presentan dolores de estómago?
+[47] ¿Se han presentado enfermedades hídricas? (Opción múltiple)
+[48] Observaciones
+[49] Timestamp (ms)
+[50] Latitud
+[51] Altitud
+[52] Aprobado
+[53] Creado En
+[54] GPS
+Columna 'Aprobado' encontrada por nombre en índice: 52
+Columna Aprobado usada (índice): 52
+Filas aprobadas: 1
+
+==== 2025-11-27 21:48:05 ====
+Delimitador detectado: ,
+Encabezados:
+[0] ﻿Fecha
+[1] Responsable
+[2] Empresa / Equipo
+[3] No. Cédula
+[4] Tipo de beneficiario
+[5] Grupo Poblacional
+[6] Nombre del beneficiado
+[7] Cédula
+[8] Teléfono (wsp)
+[9] Departamento
+[10] Municipio
+[11] Vereda / Corregimiento
+[12] Dirección
+[13] Menor de 5 años
+[14] Entre 6 y 17 años
+[15] Entre 18 y 64 años
+[16] Mayor de 65 años
+[17] Tiene agua disponible para sus actividades diarias.
+[18] ¿De dónde toma el agua?
+[19] ¿Utiliza otra fuente de agua?
+[20] ¿Quién administra el servicio?
+[21] ¿Cuántas horas al día cuenta con agua?
+[22] ¿Tiene que desplazarse para acceder al agua?
+[23] ¿Qué medio utiliza?
+[24] ¿Cuánto tiempo se demora? (min)
+[25] Percepción del agua
+[26] ¿Qué opina del sabor del agua?
+[27] ¿El agua es clara, oscura o por temporada?
+[28] ¿Presenta olores?
+[29] ¿Almacena agua en tanque?
+[30] ¿Realiza tratamientos al agua? (Opción múltiple)
+[31] En caso de hervir el agua, ¿cómo lo hace?
+[32] ¿Quién realiza estas labores?
+[33] ¿Cuánto dinero invierte al mes?
+[34] ¿El agua tiene contacto con fuentes de contaminación? (Opción múltiple)
+[35] ¿La fuente está protegida?
+[36] ¿Es importante consumir agua de calidad?
+[37] Beneficios de consumir agua potable (Opción múltiple)
+[38] ¿Cuenta con sanitario (taza)?
+[39] ¿Tiene fosa séptica/pozo séptico/alcantarillado?
+[40] ¿Ha recibido capacitación en higiene?
+[41] Prácticas: Lavado de manos
+[42] Prácticas: Limpieza del hogar
+[43] Prácticas: Cepillado dental
+[44] Prácticas: Otras
+[45] Prácticas: Baño diario
+[46] ¿Presentan dolores de estómago?
+[47] ¿Se han presentado enfermedades hídricas? (Opción múltiple)
+[48] Observaciones
+[49] Timestamp (ms)
+[50] Latitud
+[51] Altitud
+[52] Aprobado
+[53] Creado En
+[54] GPS
+Columna 'Aprobado' encontrada por nombre en índice: 52
+Columna Aprobado usada (índice): 52
+Filas aprobadas: 0
+
+==== 2025-11-27 21:54:16 ====
+Delimitador detectado: ,
+Encabezados:
+[0] Fecha
+[1] Encuestador
+[2] Departamento
+[3] Municipio
+[4] Vereda o Corregimiento
+[5] Direcci�n
+[6] Documento
+[7] Tel�fono
+[8] Fecha en que obtuvo el filtro
+[9] Fuente donde toma el agua
+[10] �Por qu� usas el filtro de arcilla?
+[11] �Cu�nto tiempo dura el agua almacenada? (d�as)
+[12] �Cu�ntas veces al d�a recarga el filtro?
+[13] �Qu� miembro de la familia recarga el filtro?
+[14] �En qu� emplea el agua del filtro?
+[15] �Qu� cambios ha notado con el filtro?
+[16] Percepci�n del agua despu�s de recibir el filtro
+[17] �Qu� opina del sabor del agua?
+[18] �El agua presenta color?
+[19] �El agua presenta olor?
+[20] �Han disminuido las enfermedades por agua?
+[21] �Han disminuido los gastos por agua apta?
+[22] �Cu�nto gasta actualmente?
+[23] �Cada cu�nto realiza mantenimiento?
+[24] Productos limpieza (arcilla)
+[25] Productos limpieza (pl�stico)
+[26] �Conoce vida �til de la arcilla?
+[27] �Sabe d�nde conseguir repuestos?
+[28] �El filtro est� en un lugar estable y/o seguro?
+[29] �El filtro est� ensamblado y tapado?
+[30] �El filtro est� limpio externamente?
+[31] �Lavado de manos previo a la manipulaci�n?
+[32] Manipulaci�n adecuada de la arcilla
+[33] Limpieza del tanque (sin sedimentos)
+[34] Limpieza de la vasija (sin sedimentos)
+[35] �Se evidencian fisuras en la arcilla?
+[36] �La vasija presenta niveles de agua que imposibiliten su manipulaci�n?
+[37] �Cuenta con instalaci�n de lavado de manos?
+[38] �Dispone de jab�n para lavado de manos
+[39] Observaciones
+[40] Timestamp (ms)
+[41] Latitud
+[42] Altitud
+[43] Aprobado
+[44] Creado En
+[45] GPS
+Columna 'Aprobado' encontrada por nombre en índice: 43
+Columna Aprobado usada (índice): 43
+Filas aprobadas: 6
+
+==== 2025-11-28 11:42:48 ====
+Delimitador detectado: ,
+Encabezados:
+[0] ﻿Fecha
+[1] Responsable
+[2] Empresa / Equipo
+[3] No. Cédula
+[4] Tipo de beneficiario
+[5] Grupo Poblacional
+[6] Nombre del beneficiado
+[7] Cédula
+[8] Teléfono (wsp)
+[9] Departamento
+[10] Municipio
+[11] Vereda / Corregimiento
+[12] Dirección
+[13] Menor de 5 años
+[14] Entre 6 y 17 años
+[15] Entre 18 y 64 años
+[16] Mayor de 65 años
+[17] Tiene agua disponible para sus actividades diarias.
+[18] ¿De dónde toma el agua?
+[19] ¿Utiliza otra fuente de agua?
+[20] ¿Quién administra el servicio?
+[21] ¿Cuántas horas al día cuenta con agua?
+[22] ¿Tiene que desplazarse para acceder al agua?
+[23] ¿Qué medio utiliza?
+[24] ¿Cuánto tiempo se demora? (min)
+[25] Percepción del agua
+[26] ¿Qué opina del sabor del agua?
+[27] ¿El agua es clara, oscura o por temporada?
+[28] ¿Presenta olores?
+[29] ¿Almacena agua en tanque?
+[30] ¿Realiza tratamientos al agua? (Opción múltiple)
+[31] En caso de hervir el agua, ¿cómo lo hace?
+[32] ¿Quién realiza estas labores?
+[33] ¿Cuánto dinero invierte al mes?
+[34] ¿El agua tiene contacto con fuentes de contaminación? (Opción múltiple)
+[35] ¿La fuente está protegida?
+[36] ¿Es importante consumir agua de calidad?
+[37] Beneficios de consumir agua potable (Opción múltiple)
+[38] ¿Cuenta con sanitario (taza)?
+[39] ¿Tiene fosa séptica/pozo séptico/alcantarillado?
+[40] ¿Ha recibido capacitación en higiene?
+[41] Prácticas: Lavado de manos
+[42] Prácticas: Limpieza del hogar
+[43] Prácticas: Cepillado dental
+[44] Prácticas: Otras
+[45] Prácticas: Baño diario
+[46] ¿Presentan dolores de estómago?
+[47] ¿Se han presentado enfermedades hídricas? (Opción múltiple)
+[48] Observaciones
+[49] Timestamp (ms)
+[50] Latitud
+[51] Altitud
+[52] Aprobado
+[53] Creado En
+[54] GPS
+Columna 'Aprobado' encontrada por nombre en índice: 52
+Columna Aprobado usada (índice): 52
+Filas aprobadas: 0
+
+==== 2025-11-28 11:43:28 ====
+Delimitador detectado: ,
+Encabezados:
+[0] ﻿Fecha
+[1] Responsable
+[2] Empresa / Equipo
+[3] No. Cédula
+[4] Tipo de beneficiario
+[5] Grupo Poblacional
+[6] Nombre del beneficiado
+[7] Cédula
+[8] Teléfono (wsp)
+[9] Departamento
+[10] Municipio
+[11] Vereda / Corregimiento
+[12] Dirección
+[13] Menor de 5 años
+[14] Entre 6 y 17 años
+[15] Entre 18 y 64 años
+[16] Mayor de 65 años
+[17] Tiene agua disponible para sus actividades diarias.
+[18] ¿De dónde toma el agua?
+[19] ¿Utiliza otra fuente de agua?
+[20] ¿Quién administra el servicio?
+[21] ¿Cuántas horas al día cuenta con agua?
+[22] ¿Tiene que desplazarse para acceder al agua?
+[23] ¿Qué medio utiliza?
+[24] ¿Cuánto tiempo se demora? (min)
+[25] Percepción del agua
+[26] ¿Qué opina del sabor del agua?
+[27] ¿El agua es clara, oscura o por temporada?
+[28] ¿Presenta olores?
+[29] ¿Almacena agua en tanque?
+[30] ¿Realiza tratamientos al agua? (Opción múltiple)
+[31] En caso de hervir el agua, ¿cómo lo hace?
+[32] ¿Quién realiza estas labores?
+[33] ¿Cuánto dinero invierte al mes?
+[34] ¿El agua tiene contacto con fuentes de contaminación? (Opción múltiple)
+[35] ¿La fuente está protegida?
+[36] ¿Es importante consumir agua de calidad?
+[37] Beneficios de consumir agua potable (Opción múltiple)
+[38] ¿Cuenta con sanitario (taza)?
+[39] ¿Tiene fosa séptica/pozo séptico/alcantarillado?
+[40] ¿Ha recibido capacitación en higiene?
+[41] Prácticas: Lavado de manos
+[42] Prácticas: Limpieza del hogar
+[43] Prácticas: Cepillado dental
+[44] Prácticas: Otras
+[45] Prácticas: Baño diario
+[46] ¿Presentan dolores de estómago?
+[47] ¿Se han presentado enfermedades hídricas? (Opción múltiple)
+[48] Observaciones
+[49] Timestamp (ms)
+[50] Latitud
+[51] Altitud
+[52] Aprobado
+[53] Creado En
+[54] GPS
+Columna 'Aprobado' encontrada por nombre en índice: 52
+Columna Aprobado usada (índice): 52
+Filas aprobadas: 2
+
+==== 2025-11-28 11:44:27 ====
+Delimitador detectado: ,
+Encabezados:
+[0] ﻿Fecha
+[1] Responsable
+[2] Empresa / Equipo
+[3] No. Cédula
+[4] Tipo de beneficiario
+[5] Grupo Poblacional
+[6] Nombre del beneficiado
+[7] Cédula
+[8] Teléfono (wsp)
+[9] Departamento
+[10] Municipio
+[11] Vereda / Corregimiento
+[12] Dirección
+[13] Menor de 5 años
+[14] Entre 6 y 17 años
+[15] Entre 18 y 64 años
+[16] Mayor de 65 años
+[17] Tiene agua disponible para sus actividades diarias.
+[18] ¿De dónde toma el agua?
+[19] ¿Utiliza otra fuente de agua?
+[20] ¿Quién administra el servicio?
+[21] ¿Cuántas horas al día cuenta con agua?
+[22] ¿Tiene que desplazarse para acceder al agua?
+[23] ¿Qué medio utiliza?
+[24] ¿Cuánto tiempo se demora? (min)
+[25] Percepción del agua
+[26] ¿Qué opina del sabor del agua?
+[27] ¿El agua es clara, oscura o por temporada?
+[28] ¿Presenta olores?
+[29] ¿Almacena agua en tanque?
+[30] ¿Realiza tratamientos al agua? (Opción múltiple)
+[31] En caso de hervir el agua, ¿cómo lo hace?
+[32] ¿Quién realiza estas labores?
+[33] ¿Cuánto dinero invierte al mes?
+[34] ¿El agua tiene contacto con fuentes de contaminación? (Opción múltiple)
+[35] ¿La fuente está protegida?
+[36] ¿Es importante consumir agua de calidad?
+[37] Beneficios de consumir agua potable (Opción múltiple)
+[38] ¿Cuenta con sanitario (taza)?
+[39] ¿Tiene fosa séptica/pozo séptico/alcantarillado?
+[40] ¿Ha recibido capacitación en higiene?
+[41] Prácticas: Lavado de manos
+[42] Prácticas: Limpieza del hogar
+[43] Prácticas: Cepillado dental
+[44] Prácticas: Otras
+[45] Prácticas: Baño diario
+[46] ¿Presentan dolores de estómago?
+[47] ¿Se han presentado enfermedades hídricas? (Opción múltiple)
+[48] Observaciones
+[49] Timestamp (ms)
+[50] Latitud
+[51] Altitud
+[52] Aprobado
+[53] Creado En
+[54] GPS
+Columna 'Aprobado' encontrada por nombre en índice: 52
+Columna Aprobado usada (índice): 52
+Filas aprobadas: 3
+
+==== 2025-11-28 14:35:32 ====
+Delimitador detectado: ,
+Encabezados:
+[0] ﻿Fecha
+[1] Responsable
+[2] Empresa / Equipo
+[3] No. Cédula
+[4] Tipo de beneficiario
+[5] Grupo Poblacional
+[6] Nombre del beneficiado
+[7] Cédula
+[8] Teléfono (wsp)
+[9] Departamento
+[10] Municipio
+[11] Vereda / Corregimiento
+[12] Dirección
+[13] Menor de 5 años
+[14] Entre 6 y 17 años
+[15] Entre 18 y 64 años
+[16] Mayor de 65 años
+[17] Tiene agua disponible para sus actividades diarias.
+[18] ¿De dónde toma el agua?
+[19] ¿Utiliza otra fuente de agua?
+[20] ¿Quién administra el servicio?
+[21] ¿Cuántas horas al día cuenta con agua?
+[22] ¿Tiene que desplazarse para acceder al agua?
+[23] ¿Qué medio utiliza?
+[24] ¿Cuánto tiempo se demora? (min)
+[25] Percepción del agua
+[26] ¿Qué opina del sabor del agua?
+[27] ¿El agua es clara, oscura o por temporada?
+[28] ¿Presenta olores?
+[29] ¿Almacena agua en tanque?
+[30] ¿Realiza tratamientos al agua? (Opción múltiple)
+[31] En caso de hervir el agua, ¿cómo lo hace?
+[32] ¿Quién realiza estas labores?
+[33] ¿Cuánto dinero invierte al mes?
+[34] ¿El agua tiene contacto con fuentes de contaminación? (Opción múltiple)
+[35] ¿La fuente está protegida?
+[36] ¿Es importante consumir agua de calidad?
+[37] Beneficios de consumir agua potable (Opción múltiple)
+[38] ¿Cuenta con sanitario (taza)?
+[39] ¿Tiene fosa séptica/pozo séptico/alcantarillado?
+[40] ¿Ha recibido capacitación en higiene?
+[41] Prácticas: Lavado de manos
+[42] Prácticas: Limpieza del hogar
+[43] Prácticas: Cepillado dental
+[44] Prácticas: Otras
+[45] Prácticas: Baño diario
+[46] ¿Presentan dolores de estómago?
+[47] ¿Se han presentado enfermedades hídricas? (Opción múltiple)
+[48] Observaciones
+[49] Timestamp (ms)
+[50] Latitud
+[51] Altitud
+[52] Aprobado
+[53] Creado En
+[54] GPS
+Columna 'Aprobado' encontrada por nombre en índice: 52
+Columna Aprobado usada (índice): 52
+Filas aprobadas: 3
+

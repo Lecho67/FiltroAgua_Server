@@ -165,62 +165,41 @@ $customLabelsSeg = [
   'creado_en' => 'Creado En'
 ];
 
-/* ====== Generar nombre del archivo ====== */
+/* ====== Generar nombre del archivo ======*/
 $tipoNombre = ($tipo === 'primera') ? 'Base' : 'Seguimiento';
 $fromFormatted = $from ? $from : 'inicio';
 $toFormatted = $to ? $to : 'fin';
-$filename = "{$tipoNombre} {$fromFormatted} hasta {$toFormatted}.xls";
+$filename = "{$tipoNombre} {$fromFormatted} hasta {$toFormatted}.csv";
 
-/* ====== Headers para descarga ====== */
-header("Content-Type: application/vnd.ms-excel; charset=utf-8");
+/* ====== Headers para descarga ======*/
+header("Content-Type: text/csv; charset=utf-8");
 header("Content-Disposition: attachment; filename=\"{$filename}\"");
 header("Pragma: no-cache");
 header("Expires: 0");
 
-/* ====== Generar contenido Excel (HTML Table) ====== */
-echo "\xEF\xBB\xBF"; // BOM UTF-8
-
-echo "<html xmlns:x=\"urn:schemas-microsoft-com:office:excel\">\n";
-echo "<head>\n";
-echo "<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\n";
-echo "<!--[if gte mso 9]><xml><x:ExcelWorkbook><x:ExcelWorksheets><x:ExcelWorksheet>\n";
-echo "<x:Name>{$tipoNombre}</x:Name>\n";
-echo "<x:WorksheetOptions><x:DisplayGridlines/></x:WorksheetOptions></x:ExcelWorksheet>\n";
-echo "</x:ExcelWorksheets></x:ExcelWorkbook></xml><![endif]-->\n";
-echo "</head>\n";
-echo "<body>\n";
-echo "<table border='1'>\n";
-echo "<thead>\n<tr>\n";
-
+/* ====== Generar contenido CSV ======*/
 $customLabels = ($tipo === 'primera') ? $customLabelsPrimera : $customLabelsSeg;
+$output = fopen('php://output', 'w');
+fwrite($output, "\xEF\xBB\xBF"); // BOM UTF-8 compatible con Excel
 
-// Encabezados
-foreach ($customLabels as $col => $label) {
-    echo "<th>" . htmlspecialchars($label) . "</th>\n";
-}
-echo "<th>GPS</th>\n";
-echo "</tr>\n</thead>\n<tbody>\n";
+$headers = array_values($customLabels);
+$headers[] = 'GPS';
+fputcsv($output, $headers);
 
-// Datos
-foreach ($data as $r) {
-    echo "<tr>\n";
-    foreach ($customLabels as $col => $label) {
-        $value = $r[$col] ?? '';
-        echo "<td>" . htmlspecialchars($value) . "</td>\n";
-    }
-    
-    // Columna GPS
-    $lat = $r['ubicacion.latitud'] ?? '';
-    $lon = $r['ubicacion.altitud'] ?? '';
-    $gpsLink = '';
-    if ($lat && $lon) {
-        $gpsLink = "https://www.google.com/maps/?q=" . htmlspecialchars($lat) . "," . htmlspecialchars($lon);
-    }
-    echo "<td>" . htmlspecialchars($gpsLink) . "</td>\n";
-    
-    echo "</tr>\n";
+foreach ($data as $row) {
+  $line = [];
+  foreach ($customLabels as $col => $_label) {
+    $line[] = $row[$col] ?? '';
+  }
+  $lat = $row['ubicacion.latitud'] ?? '';
+  $lon = $row['ubicacion.altitud'] ?? '';
+  if ($lat && $lon) {
+    $line[] = "https://www.google.com/maps/?q={$lat},{$lon}";
+  } else {
+    $line[] = '';
+  }
+  fputcsv($output, $line);
 }
 
-echo "</tbody>\n</table>\n";
-echo "</body>\n</html>";
+fclose($output);
 exit;
