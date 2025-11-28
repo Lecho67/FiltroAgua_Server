@@ -110,3 +110,17 @@ Filas totales filtradas (aprobadas): 3
 Primera visita: 3
 Seguimiento: 0
 
+==== 2025-11-28 18:03:13 ====
+Nombre original: Base 2025-05-05 hasta 2027-03-12.csv
+Tipo detectado: PRIMERA
+Filas totales filtradas (aprobadas): 3
+Primera visita: 3
+Seguimiento: 0
+
+==== 2025-11-28 18:03:30 ====
+Nombre original: Base 2025-05-05 hasta 2027-03-12.csv
+Tipo detectado: PRIMERA
+Filas totales filtradas (aprobadas): 3
+Primera visita: 3
+Seguimiento: 0
+

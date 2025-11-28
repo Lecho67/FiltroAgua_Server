@@ -6,8 +6,8 @@
 // =======================
 date_default_timezone_set('America/Bogota');
 
-$baseDir    = realpath(__DIR__ . '/..');
-$backupDir  = $baseDir . '/uploads/backup/'; // usamos el original (con aprobados y NO aprobados)
+$baseDir     = realpath(__DIR__ . '/..');
+$storageDir  = $baseDir . '/uploads/';
 
 // -----------------------------------------------
 // Forzar conversión de texto ANSI → UTF-8
@@ -61,7 +61,7 @@ if (empty($_GET['file'])) {
 }
 
 $nombreInterno = basename($_GET['file']); // sanitizar
-$rutaCsv       = $backupDir . $nombreInterno;
+$rutaCsv       = $storageDir . $nombreInterno;
 
 if (!file_exists($rutaCsv)) {
     die('No se encontró el archivo solicitado.');
@@ -190,6 +190,22 @@ $total = count($rows);
         }
         .btn-back:hover { background:#2563eb; }
 
+        .logo-strip {
+            background:#fff;
+            border-radius:14px;
+            padding:18px 12px;
+            margin-bottom:18px;
+            display:flex;
+            justify-content:center;
+            box-shadow:0 10px 30px rgba(15,23,42,0.08);
+        }
+        .logo-strip img {
+            width:100%;
+            max-width:820px;
+            height:auto;
+            display:block;
+            border-radius:10px;
+        }
         .summary {
             display:flex;
             flex-wrap:wrap;
@@ -216,6 +232,15 @@ $total = count($rows);
         table.dataTable tbody tr.no-aprobado { background-color:#ffebee; }
 
         .table-wrapper { overflow-x:auto; }
+        .status-box {
+            margin: 0 0 16px;
+            padding: 10px 14px;
+            border-radius: 8px;
+            font-size: 0.95rem;
+            color: #0f172a;
+        }
+        .status-box.ok { background: #dcfce7; border: 1px solid #22c55e; }
+        .status-box.error { background: #fee2e2; border: 1px solid #ef4444; }
         .upload-footnote {
             margin-top: 20px;
             padding: 16px;
@@ -257,6 +282,15 @@ $total = count($rows);
 <body>
 <div class="wrapper">
     <div class="card">
+        <?php if (isset($_GET['msg'])): ?>
+            <div class="status-box <?= ($_GET['status'] ?? '') === 'ok' ? 'ok' : 'error' ?>">
+                <?= htmlspecialchars($_GET['msg']) ?>
+            </div>
+        <?php endif; ?>
+
+        <div class="logo-strip" aria-label="Gobernación del Valle, Paraíso de Todos y UESVALLE">
+            <img src="../img/uesvalle_logo.png" alt="Gobernación del Valle, Paraíso de Todos y UESVALLE" loading="lazy">
+        </div>
 
         <div class="card-header">
             <div>
@@ -297,7 +331,9 @@ $total = count($rows);
                     $rowPadded = array_pad($row, $colCount, '');
 
                     $valorAprobado = strtoupper(trim((string)$rowPadded[$colAprobado] ?? ''));
-                    $claseFila = ($valorAprobado === 'X') ? 'aprobado' : 'no-aprobado';
+                    $esAprobado = ($valorAprobado === 'X');
+                    $claseFila = $esAprobado ? 'aprobado' : 'no-aprobado';
+                    $rowPadded[$colAprobado] = $esAprobado ? '1' : '4';
                     ?>
                     <tr class="<?php echo $claseFila; ?>">
                         <?php foreach ($rowPadded as $cell): ?>
@@ -314,11 +350,14 @@ $total = count($rows);
         $startIndex = $total > 0 ? 1 : 0;
         $endIndex = $total > 0 ? min(10, $total) : 0;
         ?>
-        <div class="upload-footnote">
+        <form action="guardar_aprobaciones.php" method="POST">
+            <input type="hidden" name="file" value="<?= htmlspecialchars($nombreInterno) ?>">
+            <div class="upload-footnote">
             <p>Mostrando registros del <?= $startIndex ?> al <?= $endIndex ?> de un total de <?= $total ?> registros</p>
             <p class="muted"><?= $aprobadas ?> serán aprobadas y <?= $noAprobadas ?> serán borradas</p>
-            <button class="btn-approve" type="button">Actualizar y Aprobar</button>
+                <button class="btn-approve" type="submit">Actualizar y Aprobar</button>
         </div>
+        </form>
 
     </div>
 </div>

@@ -8,14 +8,11 @@ date_default_timezone_set('America/Bogota');
 $baseDir    = realpath(__DIR__ . '/..');
 
 // Rutas importantes
-$uploadDir  = $baseDir . '/uploads/csv/';          // CSV originales
-$backupDir  = $baseDir . '/uploads/backup/';       // Backups
-$primeraDir = $baseDir . '/uploads/primera/';      // Clasificados primera
-$segDir     = $baseDir . '/uploads/seguimiento/';  // Clasificados seguimiento
-$logDir     = $baseDir . '/logs/';                 // Logs
+$storageDir = $baseDir . '/uploads/';
+$logDir     = $baseDir . '/logs/';
 
-// Crear carpetas si no existen
-foreach ([$uploadDir, $backupDir, $primeraDir, $segDir, $logDir] as $dir) {
+// Crear carpetas necesarias
+foreach ([$storageDir, $logDir] as $dir) {
     if (!is_dir($dir)) {
         mkdir($dir, 0777, true);
     }
@@ -33,15 +30,16 @@ $archivo        = $_FILES['csv'];
 $nombreOriginal = $archivo['name'];
 $ext            = strtolower(pathinfo($nombreOriginal, PATHINFO_EXTENSION));
 
-// *** SOLO ACEPTAMOS CSV ***
-if ($ext !== 'csv') {
-    header('Location: index.php?msg=' . urlencode('Formato no permitido. Exporta tu archivo de Excel como CSV y súbelo de nuevo.') . '&type=error');
+// Aceptar CSV o UES
+$permitted = ['csv', 'ues'];
+if (!in_array($ext, $permitted, true)) {
+    header('Location: index.php?msg=' . urlencode('Formato no permitido. Exporta tu archivo de Excel como CSV o UES y súbelo de nuevo.') . '&type=error');
     exit;
 }
 
 // Nombre interno único que se guarda en uploads/csv
 $nombreInterno = 'encuesta_' . date('Ymd_His') . '_' . rand(1000, 9999) . '.csv';
-$rutaFinal     = $uploadDir . $nombreInterno;
+$rutaFinal     = $storageDir . $nombreInterno;
 
 // Mover archivo subido
 if (!move_uploaded_file($archivo['tmp_name'], $rutaFinal)) {
@@ -52,12 +50,6 @@ if (!move_uploaded_file($archivo['tmp_name'], $rutaFinal)) {
 // ========================
 // FUNCIONES AUXILIARES
 // ========================
-
-// Backup del archivo original
-function hacerBackup($rutaArchivo, $backupDir, $nombreArchivo)
-{
-    @copy($rutaArchivo, $backupDir . $nombreArchivo);
-}
 
 // Normalizar texto (minúsculas, sin espacios y sin tildes)
 function normalizar($txt)
@@ -92,242 +84,89 @@ function detectarDelimitador($rutaCsv)
 }
 
 // ========================
-// FILTRO POR COLUMNA "Aprobado" + DEBUG
+// AYUDANTES SIMPLIFICADOS
 // ========================
-// Primera fila = encabezado.
-// Busca la columna cuyo encabezado normalizado contenga "aprobado".
-// Si no la encuentra, usa la columna 43 (AR) como fallback.
-// Una fila está aprobada si ESA columna tiene 'X' (may/min, espacios ignorados).
-function filtrarPorAprobado($rutaCsv, $logDir)
-{
-    $baseName = pathinfo($rutaCsv, PATHINFO_FILENAME);
 
-    if (!file_exists($rutaCsv)) {
-        return [
-            'aprobados'     => 0,
-            'ids'           => [],
-            'base_name'     => $baseName,
-            'col_usada'     => null,
-            'col_encontrada'=> false
-        ];
+function obtenerIndiceAprobado($rutaCsv, $delim)
+{
+    if (($handle = fopen($rutaCsv, 'r')) === false) {
+        return [43, false];
     }
 
-    $filas     = [];
+    $header = fgetcsv($handle, 0, $delim);
+    fclose($handle);
+
+    if ($header === false) {
+        return [43, false];
+    }
+
+    foreach ($header as $i => $colName) {
+        $n = normalizar($colName);
+        if ($n === 'aprobado' || strpos($n, 'aprobado') !== false) {
+            return [$i, true];
+        }
+    }
+
+    return [43, false];
+}
+
+function contarRegistros($rutaCsv, $delim, $colAprobado)
+{
+    $total     = 0;
     $aprobados = 0;
-    $ids       = [];
 
-    $indiceId = 0;  // primera columna = ID
-    $delim    = detectarDelimitador($rutaCsv);
+    if (($handle = fopen($rutaCsv, 'r')) === false) {
+        return ['total' => 0, 'aprobados' => 0];
+    }
 
-    $debugFile = $logDir . 'debug_aprobado.txt';
-    $debugLog  = "==== " . date('Y-m-d H:i:s') . " ====\n";
-    $debugLog .= "Delimitador detectado: " . $delim . "\n";
+    fgetcsv($handle, 0, $delim); // saltar encabezado
 
-    $colAprobado = null;
-    $colEncontradaPorNombre = false;
-
-    if (($handle = fopen($rutaCsv, 'r')) !== false) {
-
-        // Encabezado (primera fila)
-        $header = fgetcsv($handle, 0, $delim);
-        if ($header === false) {
-            fclose($handle);
-            file_put_contents($debugFile, $debugLog . "No se pudo leer encabezado.\n\n", FILE_APPEND);
-            return [
-                'aprobados'     => 0,
-                'ids'           => [],
-                'base_name'     => $baseName,
-                'col_usada'     => null,
-                'col_encontrada'=> false
-            ];
-        }
-
-        // Log de encabezados
-        $debugLog .= "Encabezados:\n";
-        foreach ($header as $i => $colName) {
-            $debugLog .= "[" . $i . "] " . $colName . "\n";
-        }
-
-        // Buscar columna Aprobado por nombre
-        foreach ($header as $i => $colName) {
-            $n = normalizar($colName);
-            if ($n === 'aprobado' || strpos($n, 'aprobado') !== false) {
-                $colAprobado = $i;
-                $colEncontradaPorNombre = true;
+    while (($row = fgetcsv($handle, 0, $delim)) !== false) {
+        $soloVacios = true;
+        foreach ($row as $v) {
+            if (trim($v) !== '') {
+                $soloVacios = false;
                 break;
             }
         }
-
-        // Fallback: si no la encontramos por nombre, usamos la 43 (AR)
-        if ($colAprobado === null) {
-            $colAprobado = 43;
-            $debugLog .= "Columna 'Aprobado' NO encontrada por nombre. Usando fallback índice 43 (AR).\n";
-        } else {
-            $debugLog .= "Columna 'Aprobado' encontrada por nombre en índice: $colAprobado\n";
+        if ($soloVacios) {
+            continue;
         }
 
-        $filas[] = $header;
-
-        // Filas de datos
-        while (($row = fgetcsv($handle, 0, $delim)) !== false) {
-
-            // Si la fila no llega hasta colAprobado, la saltamos
-            if (count($row) <= $colAprobado) {
-                continue;
-            }
-
-            // Valor crudo de la columna Aprobado
-            $raw = $row[$colAprobado] ?? '';
-
-            // Normalización
-            $valorAprobado = strtoupper(trim((string)$raw));
-
-            // SOLO aprobado si es exactamente "X"
-            $esAprobado = ($valorAprobado === 'X');
-
-            if ($esAprobado) {
-                $filas[] = $row;
-                $aprobados++;
-
-                if (isset($row[$indiceId])) {
-                    $ids[] = $row[$indiceId];
-                }
-            }
+        if (!array_key_exists($colAprobado, $row)) {
+            $row = array_pad($row, $colAprobado + 1, '');
         }
 
-        fclose($handle);
+        $valor = strtoupper(trim((string)$row[$colAprobado]));
+        if ($valor === 'X') {
+            $aprobados++;
+        }
+
+        $total++;
     }
 
-    $debugLog .= "Columna Aprobado usada (índice): " . $colAprobado . "\n";
-    $debugLog .= "Filas aprobadas: " . $aprobados . "\n\n";
-    file_put_contents($debugFile, $debugLog, FILE_APPEND);
+    fclose($handle);
 
-    // Reescribir CSV solo con encabezado + filas aprobadas (si hay)
-    if (!empty($filas)) {
-        if (($out = fopen($rutaCsv, 'w')) !== false) {
-            // ahora siempre lo guardamos con coma
-            foreach ($filas as $row) {
-                fputcsv($out, $row);
-            }
-            fclose($out);
-        }
-    }
-
-    return [
-        'aprobados'      => $aprobados,
-        'ids'            => $ids,
-        'base_name'      => $baseName,
-        'col_usada'      => $colAprobado,
-        'col_encontrada' => $colEncontradaPorNombre
-    ];
+    return ['total' => $total, 'aprobados' => $aprobados];
 }
 
-// Guardar lista de IDs aprobados en un archivo separado
-function guardarListaAprobados($logDir, $baseName, $ids)
-{
-    if (empty($ids)) return;
-
-    $file = $logDir . 'aprobados_' . $baseName . '.txt';
-    $contenido = "IDs aprobados (columna 1):\n" . implode(PHP_EOL, $ids) . PHP_EOL;
-    file_put_contents($file, $contenido);
-}
-
-// ========================
-// CLASIFICAR SEGÚN NOMBRE DEL ARCHIVO
-// ========================
-// Si el nombre original tiene "Base"  -> Primera visita
-// Si el nombre original tiene "Seguimiento" -> Seguimiento
-// Cuenta filas del CSV filtrado (solo aprobados) y copia el archivo al folder correspondiente.
-function clasificarCsv($rutaCsv, $primeraDir, $segDir, $logDir, $nombreOriginal)
-{
-    $baseName = pathinfo($rutaCsv, PATHINFO_FILENAME);
-    $nombreLower = strtolower($nombreOriginal);
-
-    // Detectar tipo según nombre
-    $esPrimera     = (strpos($nombreLower, 'base') !== false);
-    $esSeguimiento = (strpos($nombreLower, 'seguimiento') !== false);
-
-    // Contar filas (después del filtro)
-    $totalFilas = 0;
-    $delim = detectarDelimitador($rutaCsv);
-
-    if (($handle = fopen($rutaCsv, 'r')) !== false) {
-        // Encabezado
-        $header = fgetcsv($handle, 0, $delim);
-        if ($header !== false) {
-            while (($row = fgetcsv($handle, 0, $delim)) !== false) {
-                // contamos solo filas no totalmente vacías
-                $soloVacios = true;
-                foreach ($row as $v) {
-                    if (trim($v) !== '') {
-                        $soloVacios = false;
-                        break;
-                    }
-                }
-                if (!$soloVacios) {
-                    $totalFilas++;
-                }
-            }
-        }
-        fclose($handle);
-    }
-
-    $countPrimera = 0;
-    $countSeg     = 0;
-    $archivoPrimera = null;
-    $archivoSeguim  = null;
-
-    // Copiar archivo según tipo
-    if ($esPrimera) {
-        $archivoPrimera = $baseName . '_primera.csv';
-        @copy($rutaCsv, $primeraDir . $archivoPrimera);
-        $countPrimera = $totalFilas;
-    } elseif ($esSeguimiento) {
-        $archivoSeguim = $baseName . '_seguimiento.csv';
-        @copy($rutaCsv, $segDir . $archivoSeguim);
-        $countSeg = $totalFilas;
-    }
-
-    // Log de clasificación
-    $logFile = $logDir . 'debug_clasificar.txt';
-    $log  = "==== " . date('Y-m-d H:i:s') . " ====\n";
-    $log .= "Nombre original: {$nombreOriginal}\n";
-    $log .= "Tipo detectado: " . ($esPrimera ? 'PRIMERA' : ($esSeguimiento ? 'SEGUIMIENTO' : 'DESCONOCIDO')) . "\n";
-    $log .= "Filas totales filtradas (aprobadas): {$totalFilas}\n";
-    $log .= "Primera visita: {$countPrimera}\n";
-    $log .= "Seguimiento: {$countSeg}\n\n";
-    file_put_contents($logFile, $log, FILE_APPEND);
-
-    return [
-        'total'               => $totalFilas,
-        'primera'             => $countPrimera,
-        'seguimiento'         => $countSeg,
-        'archivo_primera'     => $archivoPrimera,
-        'archivo_seguimiento' => $archivoSeguim
-    ];
-}
-
-// Registrar log con info antes/después y lista de IDs aprobados
-function registrarLog($logDir, $nombreOriginal, $nombreInterno, $nombreFiltrado, $clasif, $infoAprobados)
+function registrarLog($logDir, $nombreOriginal, $nombreInterno, $infoAprobados, $colAprobado, $colEncontrada)
 {
     $logFile = $logDir . 'upload_log.txt';
 
     $fecha = date('Y-m-d H:i:s');
     $ip    = $_SERVER['REMOTE_ADDR'] ?? 'CLI';
 
-    $idsStr = implode(',', $infoAprobados['ids']);
-
     $linea = sprintf(
-        "[%s] original=\"%s\" interno=\"%s\" filtrado=\"%s\" primera=\"%s\" seguimiento=\"%s\" aprobados=%d total_filtrado=%d ids=[%s]\n",
+        "[%s] original=\"%s\" interno=\"%s\" aprobados=%d total=%d col_aprobado=%d encontrado=%s ip=%s\n",
         $fecha,
         $nombreOriginal,
         $nombreInterno,
-        $nombreFiltrado,
-        $clasif['archivo_primera']     ?? '-',
-        $clasif['archivo_seguimiento'] ?? '-',
         $infoAprobados['aprobados'],
-        $clasif['total'],
-        $idsStr
+        $infoAprobados['total'],
+        $colAprobado,
+        $colEncontrada ? 'si' : 'no',
+        $ip
     );
 
     file_put_contents($logFile, $linea, FILE_APPEND);
@@ -337,47 +176,24 @@ function registrarLog($logDir, $nombreOriginal, $nombreInterno, $nombreFiltrado,
 // FLUJO PRINCIPAL
 // ========================
 
-// 1) Backup del archivo original (antes de cualquier procesamiento)
-hacerBackup($rutaFinal, $backupDir, $nombreInterno);
+$delim = detectarDelimitador($rutaFinal);
+[$colAprobado, $colEncontrada] = obtenerIndiceAprobado($rutaFinal, $delim);
+$infoAprobados = contarRegistros($rutaFinal, $delim, $colAprobado);
 
-// 2) Filtrar usando SOLO la columna "Aprobado"
-$infoAprobados = filtrarPorAprobado($rutaFinal, $logDir);
-$registrosAprobados = $infoAprobados['aprobados'];
+registrarLog($logDir, $nombreOriginal, $nombreInterno, $infoAprobados, $colAprobado, $colEncontrada);
 
-// 3) Guardar lista de IDs aprobados en un archivo aparte
-guardarListaAprobados($logDir, $infoAprobados['base_name'], $infoAprobados['ids']);
-
-// 4) Clasificar en primera / seguimiento SEGÚN NOMBRE DEL ARCHIVO
-$clasificacion = clasificarCsv($rutaFinal, $primeraDir, $segDir, $logDir, $nombreOriginal);
-
-// 5) Registrar en log (antes y después de archivos + lista de aprobados)
-registrarLog(
-    $logDir,
-    $nombreOriginal,
-    $nombreInterno,
-    basename($rutaFinal), // archivo ya filtrado
-    $clasificacion,
-    $infoAprobados
-);
-
-// 6) Preparar mensaje (si no encontró la columna, lo indicamos)
 $extra = '';
-if ($registrosAprobados === 0) {
-    if (!$infoAprobados['col_encontrada']) {
-        $extra = ' (OJO: no se encontró columna "Aprobado" por nombre, se usó índice '
-            . ($infoAprobados['col_usada'] ?? 'null') . ')';
-    }
+if (!$colEncontrada) {
+    $extra = ' (OJO: no se encontró columna "Aprobado" por nombre, se usó índice ' . $colAprobado . ')';
 }
 
 $mensaje = sprintf(
-    'Archivo procesado. Registros aprobados: %d | Primera visita: %d | Seguimiento: %d%s',
-    $registrosAprobados,
-    $clasificacion['primera'],
-    $clasificacion['seguimiento'],
+    'Archivo procesado. Registros aprobados: %d de %d%s',
+    $infoAprobados['aprobados'],
+    $infoAprobados['total'],
     $extra
 );
 
-// pasamos el nombre interno para poder ver el detalle
 header(
     'Location: index.php?msg=' . urlencode($mensaje) .
     '&type=ok&file=' . urlencode($nombreInterno)

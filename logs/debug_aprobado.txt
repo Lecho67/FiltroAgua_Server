@@ -9636,3 +9636,127 @@ Columna 'Aprobado' encontrada por nombre en índice: 52
 Columna Aprobado usada (índice): 52
 Filas aprobadas: 3
 
+==== 2025-11-28 18:03:13 ====
+Delimitador detectado: ,
+Encabezados:
+[0] ﻿Fecha
+[1] Responsable
+[2] Empresa / Equipo
+[3] No. Cédula
+[4] Tipo de beneficiario
+[5] Grupo Poblacional
+[6] Nombre del beneficiado
+[7] Cédula
+[8] Teléfono (wsp)
+[9] Departamento
+[10] Municipio
+[11] Vereda / Corregimiento
+[12] Dirección
+[13] Menor de 5 años
+[14] Entre 6 y 17 años
+[15] Entre 18 y 64 años
+[16] Mayor de 65 años
+[17] Tiene agua disponible para sus actividades diarias.
+[18] ¿De dónde toma el agua?
+[19] ¿Utiliza otra fuente de agua?
+[20] ¿Quién administra el servicio?
+[21] ¿Cuántas horas al día cuenta con agua?
+[22] ¿Tiene que desplazarse para acceder al agua?
+[23] ¿Qué medio utiliza?
+[24] ¿Cuánto tiempo se demora? (min)
+[25] Percepción del agua
+[26] ¿Qué opina del sabor del agua?
+[27] ¿El agua es clara, oscura o por temporada?
+[28] ¿Presenta olores?
+[29] ¿Almacena agua en tanque?
+[30] ¿Realiza tratamientos al agua? (Opción múltiple)
+[31] En caso de hervir el agua, ¿cómo lo hace?
+[32] ¿Quién realiza estas labores?
+[33] ¿Cuánto dinero invierte al mes?
+[34] ¿El agua tiene contacto con fuentes de contaminación? (Opción múltiple)
+[35] ¿La fuente está protegida?
+[36] ¿Es importante consumir agua de calidad?
+[37] Beneficios de consumir agua potable (Opción múltiple)
+[38] ¿Cuenta con sanitario (taza)?
+[39] ¿Tiene fosa séptica/pozo séptico/alcantarillado?
+[40] ¿Ha recibido capacitación en higiene?
+[41] Prácticas: Lavado de manos
+[42] Prácticas: Limpieza del hogar
+[43] Prácticas: Cepillado dental
+[44] Prácticas: Otras
+[45] Prácticas: Baño diario
+[46] ¿Presentan dolores de estómago?
+[47] ¿Se han presentado enfermedades hídricas? (Opción múltiple)
+[48] Observaciones
+[49] Timestamp (ms)
+[50] Latitud
+[51] Altitud
+[52] Aprobado
+[53] Creado En
+[54] GPS
+Columna 'Aprobado' encontrada por nombre en índice: 52
+Columna Aprobado usada (índice): 52
+Filas aprobadas: 3
+
+==== 2025-11-28 18:03:30 ====
+Delimitador detectado: ,
+Encabezados:
+[0] ﻿Fecha
+[1] Responsable
+[2] Empresa / Equipo
+[3] No. Cédula
+[4] Tipo de beneficiario
+[5] Grupo Poblacional
+[6] Nombre del beneficiado
+[7] Cédula
+[8] Teléfono (wsp)
+[9] Departamento
+[10] Municipio
+[11] Vereda / Corregimiento
+[12] Dirección
+[13] Menor de 5 años
+[14] Entre 6 y 17 años
+[15] Entre 18 y 64 años
+[16] Mayor de 65 años
+[17] Tiene agua disponible para sus actividades diarias.
+[18] ¿De dónde toma el agua?
+[19] ¿Utiliza otra fuente de agua?
+[20] ¿Quién administra el servicio?
+[21] ¿Cuántas horas al día cuenta con agua?
+[22] ¿Tiene que desplazarse para acceder al agua?
+[23] ¿Qué medio utiliza?
+[24] ¿Cuánto tiempo se demora? (min)
+[25] Percepción del agua
+[26] ¿Qué opina del sabor del agua?
+[27] ¿El agua es clara, oscura o por temporada?
+[28] ¿Presenta olores?
+[29] ¿Almacena agua en tanque?
+[30] ¿Realiza tratamientos al agua? (Opción múltiple)
+[31] En caso de hervir el agua, ¿cómo lo hace?
+[32] ¿Quién realiza estas labores?
+[33] ¿Cuánto dinero invierte al mes?
+[34] ¿El agua tiene contacto con fuentes de contaminación? (Opción múltiple)
+[35] ¿La fuente está protegida?
+[36] ¿Es importante consumir agua de calidad?
+[37] Beneficios de consumir agua potable (Opción múltiple)
+[38] ¿Cuenta con sanitario (taza)?
+[39] ¿Tiene fosa séptica/pozo séptico/alcantarillado?
+[40] ¿Ha recibido capacitación en higiene?
+[41] Prácticas: Lavado de manos
+[42] Prácticas: Limpieza del hogar
+[43] Prácticas: Cepillado dental
+[44] Prácticas: Otras
+[45] Prácticas: Baño diario
+[46] ¿Presentan dolores de estómago?
+[47] ¿Se han presentado enfermedades hídricas? (Opción múltiple)
+[48] Observaciones
+[49] Timestamp (ms)
+[50] Latitud
+[51] Altitud
+[52] Aprobado
+[53] Creado En
+[54] GPS
+Columna 'Aprobado' encontrada por nombre en índice: 52
+Columna Aprobado usada (índice): 52
+Filas aprobadas: 3
+

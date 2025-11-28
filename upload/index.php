@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Cargar archivo</title>
+    <title>Cargar archivo CSV</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -61,37 +61,41 @@
         }
         .ok { color: #4ade80; }
         .error { color: #f87171; }
-        .help {
-            font-size: 0.8em;
-            color:#9ca3af;
-            margin-top:4px;
+        .msg-link {
+            margin-top: 8px;
+        }
+        .msg-link a {
+            color: #e0f2fe;
+            text-decoration: underline;
+            font-size: 0.85em;
         }
     </style>
 </head>
 <body>
 
 <div class="card">
-    <h2>Subir archivo CSV / Excel</h2>
+    <h2>Subir archivo CSV</h2>
 
-    <?php if (isset($_GET["msg"])): ?>
-        <div class="msg <?= $_GET["type"] ?? '' ?>">
-            <?= htmlspecialchars($_GET["msg"]) ?>
+    <?php
+    $msg      = $_GET["msg"] ?? null;
+    $msgType  = $_GET["type"] ?? '';
+    $fileLink = isset($_GET["file"]) ? basename($_GET["file"]) : '';
+    ?>
+
+    <?php if ($msg): ?>
+        <div class="msg <?= $msgType ?>">
+            <?= htmlspecialchars($msg) ?>
+            <?php if ($fileLink): ?>
+                <div class="msg-link">
+                    <a href="tabla_registros.php?file=<?= urlencode($fileLink) ?>">Ver tabla de registros aprobados</a>
+                </div>
+            <?php endif; ?>
         </div>
-
-        <?php if (!empty($_GET["file"])): ?>
-            <a
-                class="btn-detalle"
-                href="tabla_registros.php?file=<?= htmlspecialchars($_GET["file"], ENT_QUOTES); ?>">
-                Ver registros detallados
-            </a>
-        <?php endif; ?>
     <?php endif; ?>
 
-    <form action="procesar.php" method="POST" enctype="multipart/form-data" style="margin-top:15px;">
-        <label for="csv">Selecciona un archivo (CSV, XLSX o XLS)</label>
-        <!-- 👇 ahora acepta csv, xlsx y xls -->
-        <input type="file" name="csv" id="csv" accept=".csv,.xlsx,.xls" required>
-        <div class="help">Puedes subir el reporte directamente desde Excel (.xlsx, .xls) o en formato .csv.</div>
+    <form action="procesar.php" method="POST" enctype="multipart/form-data">
+        <label for="csv">Selecciona un archivo CSV o UES</label>
+        <input type="file" name="csv" id="csv" accept=".csv,.ues" required>
 
         <button type="submit">Subir archivo</button>
     </form>
