@@ -333,7 +333,7 @@ $total = count($rows);
                     $valorAprobado = strtoupper(trim((string)$rowPadded[$colAprobado] ?? ''));
                     $esAprobado = ($valorAprobado === 'X');
                     $claseFila = $esAprobado ? 'aprobado' : 'no-aprobado';
-                    $rowPadded[$colAprobado] = $esAprobado ? '1' : '4';
+                    $rowPadded[$colAprobado] = $esAprobado ? '1' : '0';
                     ?>
                     <tr class="<?php echo $claseFila; ?>">
                         <?php foreach ($rowPadded as $cell): ?>

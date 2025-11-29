@@ -74,7 +74,7 @@ while (($row = fgetcsv($handle, 0, $delim)) !== false) {
         $row = array_pad($row, $colAprobado + 1, '');
     }
     $valor = strtoupper(trim((string)($row[$colAprobado] ?? '')));
-    $row[$colAprobado] = ($valor === 'X') ? '1' : '4';
+    $row[$colAprobado] = ($valor === 'X') ? '1' : '0';
     $rows[] = $row;
 }
 
