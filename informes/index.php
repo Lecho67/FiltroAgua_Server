@@ -136,6 +136,7 @@ $customLabelsPrimera = [
   'info_responsable.responsable' => 'Responsable',
   'info_responsable.empresa' => 'Empresa / Equipo',
   'info_responsable.cedula' => 'No. Cédula',
+  'info_responsable.telefono' => 'Teléfono',
 
   'beneficiario.tipo_beneficiario' => 'Tipo de beneficiario',
   'beneficiario.grupo_poblacional' => 'Grupo Poblacional',
@@ -195,7 +196,7 @@ $customLabelsPrimera = [
 
   'timestamp_ms' => 'Timestamp (ms)',
   'ubicacion.latitud' => 'Latitud',
-  'ubicacion.altitud' => 'Altitud',
+  'ubicacion.altitud' => 'Longitud',
 
   'aprobado' => 'Aprobado',
   'creado_en' => 'Creado En'
@@ -210,6 +211,12 @@ $customLabelsSeg = [
   'ubicacion.direccion' => 'Dirección',
   'info_responsable.cedula' => 'Documento',
   'info_responsable.telefono' => 'Teléfono',
+
+  'beneficiario.tipo_beneficiario' => 'Tipo de beneficiario',
+  'beneficiario.grupo_poblacional' => 'Grupo Poblacional',
+  'beneficiario.nombre_beneficiario' => 'Nombre del beneficiado',
+  'beneficiario.cedula' => 'Cédula',
+  'beneficiario.telefono' => 'Teléfono (wsp)',
 
   'acceso_agua_filtro.fecha' => 'Fecha en que obtuvo el filtro',
   'acceso_agua_filtro.fuente_agua' => 'Fuente donde toma el agua',
@@ -249,7 +256,7 @@ $customLabelsSeg = [
 
   'timestamp_ms' => 'Timestamp (ms)',
   'ubicacion.latitud' => 'Latitud',
-  'ubicacion.altitud' => 'Altitud',
+  'ubicacion.altitud' => 'Longitud',
 
   'aprobado' => 'Aprobado',
   'creado_en' => 'Creado En'
