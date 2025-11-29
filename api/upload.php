@@ -45,6 +45,7 @@ try {
       'total'      => $proc['total'] ?? 0,
       'insertados' => $proc['ok'] ?? 0,
       'fallidos'   => $proc['fail'] ?? 0,
+      'duplicados' => $proc['duplicates'] ?? 0,
       'tabla_primera'    => 'base_filtros',
       'tabla_seguimiento'=> 'seguimiento_filtros'
     ]

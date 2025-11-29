@@ -280,7 +280,9 @@ function insert_csv_by_tipo_to_filtros(string $csvPath): array {
 
   global $MAP_BASE, $MAP_SEGUIMIENTO;
 
-  for ($i = $startIndex; $i < count($rows); $i++) {
+  $dupStmtCache = [];
+  $duplicates = 0;
+  for ($i = count($rows) - 1; $i >= $startIndex; $i--) {
     $row = $rows[$i];
     // Debe existir la columna 2 (tipo)
     if (!isset($row[1])) { $fail++; continue; }
@@ -300,6 +302,24 @@ function insert_csv_by_tipo_to_filtros(string $csvPath): array {
     // Elegir mapeo y columnas de tabla
     $map   = ($table === 'base_filtros') ? $MAP_BASE : $MAP_SEGUIMIENTO;
     $validCols = ($table === 'base_filtros') ? $colsBase : $colsSeg;
+
+    // Verificar duplicado antes de armar insert
+    $timestampVal = isset($compact[0]) ? trim((string)$compact[0]) : '';
+    $cedulaVal = isset($compact[1]) ? trim((string)$compact[1]) : '';
+    if ($timestampVal !== '' && $cedulaVal !== '') {
+      $dupKey = $table . '|dup';
+      if (!isset($dupStmtCache[$dupKey])) {
+        $dupStmtCache[$dupKey] = $pdo->prepare(
+          "SELECT 1 FROM `{$table}` WHERE `timestamp_ms` = ? AND `info_responsable.cedula` = ? LIMIT 1"
+        );
+      }
+      $dup = $dupStmtCache[$dupKey];
+      $dup->execute([$timestampVal, $cedulaVal]);
+      if ($dup->fetchColumn()) {
+        $duplicates++;
+        continue;
+      }
+    }
 
     // Construir par (colsInsert, valsInsert) respetando columnas existentes
     $colsInsert = [];
@@ -345,5 +365,5 @@ function insert_csv_by_tipo_to_filtros(string $csvPath): array {
     }
   }
 
-  return ['total' => $total, 'ok' => $ok, 'fail' => $fail];
+  return ['total' => $total, 'ok' => $ok, 'fail' => $fail, 'duplicates' => $duplicates];
 }
