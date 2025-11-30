@@ -44,7 +44,7 @@
             width: 100%;
             margin-top: 15px;
             padding: 10px;
-            background: #22c55e;
+            background: #00b3ff;
             border: none;
             border-radius: 8px;
             cursor: pointer;
@@ -52,7 +52,7 @@
             font-weight: bold;
         }
         button:hover {
-            background: #16a34a;
+            background: #00a2e8;
         }
         .msg {
             margin-top: 15px;

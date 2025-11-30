@@ -59,7 +59,8 @@ if ($header === false) {
 
 $colAprobado = null;
 foreach ($header as $i => $colName) {
-    if (normalizar($colName) === 'aprobado' || strpos(normalizar($colName), 'aprobado') !== false) {
+    $n = normalizar($colName);
+    if ($n === 'aprobado (marcar con una x)' || strpos($n, 'aprobado') !== false) {
         $colAprobado = $i;
         break;
     }

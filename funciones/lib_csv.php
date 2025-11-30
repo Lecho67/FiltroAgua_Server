@@ -163,15 +163,11 @@ $MAP_BASE = [
   43 => 'saneamiento.sistema_residuos',
 
   44 => 'higiene.capacitacion_higiene',
-  45 => 'higiene.practica_lavado_manos',
-  46 => 'higiene.practica_limpieza_hogar',
-  47 => 'higiene.practica_cepillado_dientes',
-  48 => 'higiene.practica_otro',
-  49 => 'higiene.practica_bano_diario',
+  45 => 'higiene.practicas',
 
-  50 => 'salud.dolor_estomago',
-  51 => 'salud.enfermedades',
-  52 => 'salud.observaciones',
+  46 => 'salud.dolor_estomago',
+  47 => 'salud.enfermedades',
+  48 => 'salud.observaciones',
 ];
 
 $MAP_SEGUIMIENTO = [

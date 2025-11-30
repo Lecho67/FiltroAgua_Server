@@ -16,13 +16,24 @@ function fdate($d) {
     return $ts ? date('d/m/Y', $ts) : $d;
 }
 
+function estadoTexto($aprobado) {
+    $estados = [
+        0 => 'En revisión',
+        1 => 'Aprobado por Profesional',
+        2 => 'Devuelto de Estadistica',
+        3 => 'Aprobado por Estadistica',
+        4 => 'Registro Borrado'
+    ];
+    return $estados[$aprobado] ?? 'Desconocido';
+}
+
 /* ====== SQL ====== */
 $sqlPrimera = "
   SELECT
     b.*,
     FROM_UNIXTIME(b.`timestamp_ms`/1000) AS ts_fecha
   FROM base_filtros b
-  WHERE 1=1
+  WHERE b.`aprobado` IN (0, 2)
 ";
 if ($from) $sqlPrimera .= " AND FROM_UNIXTIME(b.`timestamp_ms`/1000) >= :from_b";
 if ($to)   $sqlPrimera .= " AND FROM_UNIXTIME(b.`timestamp_ms`/1000) <  DATE_ADD(:to_b, INTERVAL 1 DAY)";
@@ -33,7 +44,7 @@ $sqlSeguimiento = "
     s.*,
     FROM_UNIXTIME(s.`timestamp_ms`/1000) AS ts_fecha
   FROM seguimiento_filtros s
-  WHERE 1=1
+  WHERE s.`aprobado` IN (0, 2)
 ";
 if ($from) $sqlSeguimiento .= " AND FROM_UNIXTIME(s.`timestamp_ms`/1000) >= :from_s";
 if ($to)   $sqlSeguimiento .= " AND FROM_UNIXTIME(s.`timestamp_ms`/1000) <  DATE_ADD(:to_s, INTERVAL 1 DAY)";
@@ -58,6 +69,19 @@ if ($tipo === 'primera') {
 } elseif ($tipo === 'seguimiento') {
   $data = runQuery($pdo, $sqlSeguimiento, $params_s);
 }
+
+// Dividir vereda_corregimiento en dos campos
+foreach ($data as &$row) {
+  $valor = $row['ubicacion.vereda_corregimiento'] ?? '';
+  if (strpos($valor, 'CoV-') === 0) {
+    $row['ubicacion.vereda_corregimiento_vereda'] = $valor;
+    $row['ubicacion.vereda_corregimiento_barrio'] = '';
+  } else {
+    $row['ubicacion.vereda_corregimiento_vereda'] = '';
+    $row['ubicacion.vereda_corregimiento_barrio'] = $valor;
+  }
+}
+unset($row);
 
 /* ====== Etiquetas personalizadas ====== */
 function codificar($dato)
@@ -117,7 +141,8 @@ $customLabelsPrimera = [
   'beneficiario.telefono' => 'Teléfono (wsp)',
   'ubicacion.departamento' => 'Departamento',
   'ubicacion.municipio' => 'Municipio',
-  'ubicacion.vereda_corregimiento' => 'Vereda / Corregimiento',
+  'ubicacion.vereda_corregimiento_vereda' => 'Vereda o Corregimiento',
+  'ubicacion.vereda_corregimiento_barrio' => 'Barrio',
   'ubicacion.direccion' => 'Dirección',
   'demografia.menor_5' => 'Menor de 5 años',
   'demografia.entre_6_17' => 'Entre 6 y 17 años',
@@ -147,19 +172,16 @@ $customLabelsPrimera = [
   'saneamiento.taza' => '¿Cuenta con sanitario (taza)?',
   'saneamiento.sistema_residuos' => '¿Tiene fosa séptica/pozo séptico/alcantarillado?',
   'higiene.capacitacion_higiene' => '¿Ha recibido capacitación en higiene?',
-  'higiene.practica_lavado_manos' => 'Prácticas: Lavado de manos',
-  'higiene.practica_limpieza_hogar' => 'Prácticas: Limpieza del hogar',
-  'higiene.practica_cepillado_dientes' => 'Prácticas: Cepillado dental',
-  'higiene.practica_otro' => 'Prácticas: Otras',
-  'higiene.practica_bano_diario' => 'Prácticas: Baño diario',
+  'higiene.practicas' => '¿Qué prácticas de higiene desarrolla en su día a día? (Opción múltiple)',
   'salud.dolor_estomago' => '¿Presentan dolores de estómago?',
   'salud.enfermedades' => '¿Se han presentado enfermedades hídricas? (Opción múltiple)',
   'salud.observaciones' => 'Observaciones',
   'timestamp_ms' => 'Timestamp (ms)',
   'ubicacion.latitud' => 'Latitud',
-  'ubicacion.altitud' => 'Altitud',
+  'ubicacion.altitud' => 'Longitud',
   'codigo_no_modificar' => 'Codigo(No Modificar)',
-  'aprobado' => 'Aprobado',
+  'aprobado_marcar' => 'Aprobado (Marcar con una X)',
+  'aprobado' => 'Estado',
   'creado_en' => 'Creado En'
 ];
 
@@ -168,7 +190,8 @@ $customLabelsSeg = [
   'info_responsable.responsable' => 'Encuestador',
   'ubicacion.departamento' => 'Departamento',
   'ubicacion.municipio' => 'Municipio',
-  'ubicacion.vereda_corregimiento' => 'Vereda o Corregimiento',
+  'ubicacion.vereda_corregimiento_vereda' => 'Vereda o Corregimiento',
+  'ubicacion.vereda_corregimiento_barrio' => 'Barrio',
   'ubicacion.direccion' => 'Dirección',
   'info_responsable.cedula' => 'Documento',
   'info_responsable.telefono' => 'Teléfono',
@@ -211,9 +234,10 @@ $customLabelsSeg = [
   'ubicacion.observaciones' => 'Observaciones',
   'timestamp_ms' => 'Timestamp (ms)',
   'ubicacion.latitud' => 'Latitud',
-  'ubicacion.altitud' => 'Altitud',
+  'ubicacion.altitud' => 'Longitud',
   'codigo_no_modificar' => 'Codigo(No Modificar)',
-  'aprobado' => 'Aprobado',
+  'aprobado_marcar' => 'Aprobado (Marcar con una X)',
+  'aprobado' => 'Estado',
   'creado_en' => 'Creado En'
 ];
 
@@ -244,6 +268,14 @@ foreach ($data as $row) {
   foreach ($customLabels as $col => $_label) {
     if ($col === 'codigo_no_modificar') {
       $line[] = ($timestamp !== '') ? codificar($timestamp) : '';
+      continue;
+    }
+    if ($col === 'aprobado_marcar') {
+      $line[] = '';
+      continue;
+    }
+    if ($col === 'aprobado') {
+      $line[] = estadoTexto($row[$col] ?? 0);
       continue;
     }
     $line[] = $row[$col] ?? '';

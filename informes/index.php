@@ -7,14 +7,6 @@ $from = (isset($_GET['from']) && $_GET['from'] !== '') ? $_GET['from'] : null;  
 $to   = (isset($_GET['to'])   && $_GET['to']   !== '') ? $_GET['to']   : null;   // YYYY-MM-DD
 $municipio = (isset($_GET['municipio']) && $_GET['municipio'] !== '') ? $_GET['municipio'] : null;
 $busquedaRealizada = isset($_GET['buscar']);  // Solo buscar si se presionó el botón
-$limitOptions = [10,20,30,40,50,100];
-$defaultLimit = 10;
-$limit = isset($_GET['limit']) ? (int)$_GET['limit'] : $defaultLimit;
-$limit = in_array($limit, $limitOptions, true) ? $limit : $defaultLimit;
-$pagePrimera = isset($_GET['page_primera']) ? max(1, (int)$_GET['page_primera']) : 1;
-$pageSeguimiento = isset($_GET['page_seguimiento']) ? max(1, (int)$_GET['page_seguimiento']) : 1;
-$offsetPrimera = ($pagePrimera - 1) * $limit;
-$offsetSeguimiento = ($pageSeguimiento - 1) * $limit;
 
 /* ====== Utils ====== */
 function fdate($d) {
@@ -49,7 +41,6 @@ $sqlPrimera = "
   WHERE 1=1
   {$wherePrimera}
   ORDER BY b.`timestamp_ms` DESC
-  LIMIT :limit_primera OFFSET :offset_primera
 ";
 $countPrimeraSql = "
   SELECT COUNT(*)
@@ -81,7 +72,6 @@ $sqlSeguimiento = "
   WHERE 1=1
   {$whereSeguimiento}
   ORDER BY s.`timestamp_ms` DESC
-  LIMIT :limit_seguimiento OFFSET :offset_seguimiento
 ";
 $countSeguimientoSql = "
   SELECT COUNT(*)
@@ -108,32 +98,52 @@ $dataPrimera     = [];
 $totalPrimera    = 0;
 $dataSeguimiento = [];
 $totalSeguimiento = 0;
-if ($busquedaRealizada && ($tipo === 'primera' || $tipo === 'ambos')) {
-  $dataPrimera = runQuery($pdo, $sqlPrimera, array_merge($paramsPrimera, [
-    ':limit_primera' => $limit,
-    ':offset_primera' => $offsetPrimera,
-  ]));
+if ($busquedaRealizada && ($tipo === 'primera')) {
+  $dataPrimera = runQuery($pdo, $sqlPrimera, $paramsPrimera);
+  // Dividir vereda_corregimiento en dos campos
+  foreach ($dataPrimera as &$row) {
+    $valor = $row['ubicacion.vereda_corregimiento'] ?? '';
+    if (strpos($valor, 'CoV-') === 0) {
+      $row['ubicacion.vereda_corregimiento_vereda'] = $valor;
+      $row['ubicacion.vereda_corregimiento_barrio'] = '';
+    } else {
+      $row['ubicacion.vereda_corregimiento_vereda'] = '';
+      $row['ubicacion.vereda_corregimiento_barrio'] = $valor;
+    }
+    // Convertir aprobado a texto
+    $aprobado = isset($row['aprobado']) ? (int)$row['aprobado'] : 0;
+    $estados = [0 => 'En revisión', 1 => 'Aprobado por Profesional', 2 => 'Devuelto de Estadistica', 3 => 'Aprobado por Estadistica', 4 => 'Registro Borrado'];
+    $row['aprobado'] = $estados[$aprobado] ?? 'Desconocido';
+  }
+  unset($row);
   $totalPrimera = runCount($pdo, $countPrimeraSql, $paramsPrimera);
 }
-if ($busquedaRealizada && ($tipo === 'seguimiento' || $tipo === 'ambos')) {
-  $dataSeguimiento = runQuery($pdo, $sqlSeguimiento, array_merge($paramsSeguimiento, [
-    ':limit_seguimiento' => $limit,
-    ':offset_seguimiento' => $offsetSeguimiento,
-  ]));
+if ($busquedaRealizada && ($tipo === 'seguimiento')) {
+  $dataSeguimiento = runQuery($pdo, $sqlSeguimiento, $paramsSeguimiento);
+  // Dividir vereda_corregimiento en dos campos
+  foreach ($dataSeguimiento as &$row) {
+    $valor = $row['ubicacion.vereda_corregimiento'] ?? '';
+    if (strpos($valor, 'CoV-') === 0) {
+      $row['ubicacion.vereda_corregimiento_vereda'] = $valor;
+      $row['ubicacion.vereda_corregimiento_barrio'] = '';
+    } else {
+      $row['ubicacion.vereda_corregimiento_vereda'] = '';
+      $row['ubicacion.vereda_corregimiento_barrio'] = $valor;
+    }
+    // Convertir aprobado a texto
+    $aprobado = isset($row['aprobado']) ? (int)$row['aprobado'] : 0;
+    $estados = [0 => 'En revisión', 1 => 'Aprobado por Profesional', 2 => 'Devuelto de Estadistica', 3 => 'Aprobado por Estadistica', 4 => 'Registro Borrado'];
+    $row['aprobado'] = $estados[$aprobado] ?? 'Desconocido';
+  }
+  unset($row);
   $totalSeguimiento = runCount($pdo, $countSeguimientoSql, $paramsSeguimiento);
 }
-$hasPrevPrimera = $pagePrimera > 1;
-$hasNextPrimera = $offsetPrimera + count($dataPrimera) < $totalPrimera;
-$hasPrevSeguimiento = $pageSeguimiento > 1;
-$hasNextSeguimiento = $offsetSeguimiento + count($dataSeguimiento) < $totalSeguimiento;
-$primeraPageCount = $totalPrimera > 0 ? (int) ceil($totalPrimera / $limit) : 1;
-$seguimientoPageCount = $totalSeguimiento > 0 ? (int) ceil($totalSeguimiento / $limit) : 1;
 
 /* ====== Etiquetas personalizadas ====== */
 $customLabelsPrimera = [
 
   'info_responsable.fecha' => 'Fecha',
-  'info_responsable.responsable' => 'Responsable',
+  'info_responsable.responsable' => 'Funcionario',
   'info_responsable.empresa' => 'Empresa / Equipo',
   'info_responsable.cedula' => 'No. Cédula',
   'info_responsable.telefono' => 'Teléfono',
@@ -146,7 +156,8 @@ $customLabelsPrimera = [
 
   'ubicacion.departamento' => 'Departamento',
   'ubicacion.municipio' => 'Municipio',
-  'ubicacion.vereda_corregimiento' => 'Vereda / Corregimiento',
+  'ubicacion.vereda_corregimiento_vereda' => 'Vereda o Corregimiento',
+  'ubicacion.vereda_corregimiento_barrio' => 'Barrio',
   'ubicacion.direccion' => 'Dirección',
 
   'demografia.menor_5' => 'Menor de 5 años',
@@ -184,11 +195,7 @@ $customLabelsPrimera = [
   'saneamiento.sistema_residuos' => '¿Tiene fosa séptica/pozo séptico/alcantarillado?',
 
   'higiene.capacitacion_higiene' => '¿Ha recibido capacitación en higiene?',
-  'higiene.practica_lavado_manos' => 'Prácticas: Lavado de manos',
-  'higiene.practica_limpieza_hogar' => 'Prácticas: Limpieza del hogar',
-  'higiene.practica_cepillado_dientes' => 'Prácticas: Cepillado dental',
-  'higiene.practica_otro' => 'Prácticas: Otras',
-  'higiene.practica_bano_diario' => 'Prácticas: Baño diario',
+  'higiene.practicas' => '¿Qué prácticas de higiene desarrolla en su día a día? (Opción múltiple)',
 
   'salud.dolor_estomago' => '¿Presentan dolores de estómago?',
   'salud.enfermedades' => '¿Se han presentado enfermedades hídricas? (Opción múltiple)',
@@ -198,16 +205,17 @@ $customLabelsPrimera = [
   'ubicacion.latitud' => 'Latitud',
   'ubicacion.altitud' => 'Longitud',
 
-  'aprobado' => 'Aprobado',
+  'aprobado' => 'Estado',
   'creado_en' => 'Creado En'
 ];
 
 $customLabelsSeg = [
   'info_responsable.fecha' => 'Fecha',
-  'info_responsable.responsable' => 'Encuestador',
+  'info_responsable.responsable' => 'Funcionario',
   'ubicacion.departamento' => 'Departamento',
   'ubicacion.municipio' => 'Municipio',
-  'ubicacion.vereda_corregimiento' => 'Vereda o Corregimiento',
+  'ubicacion.vereda_corregimiento_vereda' => 'Vereda o Corregimiento',
+  'ubicacion.vereda_corregimiento_barrio' => 'Barrio',
   'ubicacion.direccion' => 'Dirección',
   'info_responsable.cedula' => 'Documento',
   'info_responsable.telefono' => 'Teléfono',
@@ -258,7 +266,7 @@ $customLabelsSeg = [
   'ubicacion.latitud' => 'Latitud',
   'ubicacion.altitud' => 'Longitud',
 
-  'aprobado' => 'Aprobado',
+  'aprobado' => 'Estado',
   'creado_en' => 'Creado En'
 ];
 ?>
@@ -271,15 +279,17 @@ $customLabelsSeg = [
 <title>Informe completo – <?= ucfirst($tipo) ?></title>
 
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.min.js"></script>
-<script src="https://cdn.datatables.net/buttons/1.7.0/js/dataTables.buttons.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js"></script>
-<script src="https://cdn.datatables.net/buttons/1.7.0/js/buttons.html5.min.js"></script>
-<link rel="stylesheet" href="https://cdn.datatables.net/1.10.24/css/jquery.dataTables.min.css">
-<link rel="stylesheet" href="https://cdn.datatables.net/buttons/1.7.0/css/buttons.dataTables.min.css">
+<link rel="stylesheet" href="https://cdn.datatables.net/1.13.7/css/jquery.dataTables.min.css">
+<link rel="stylesheet" href="https://cdn.datatables.net/buttons/2.4.2/css/buttons.dataTables.min.css">
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="https://cdn.datatables.net/1.13.7/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/buttons/2.4.2/js/dataTables.buttons.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/pdfmake.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/vfs_fonts.js"></script>
+<script src="https://cdn.datatables.net/buttons/2.4.2/js/buttons.html5.min.js"></script>
+<script src="https://cdn.datatables.net/buttons/2.4.2/js/buttons.print.min.js"></script>
+<script src="https://cdn.datatables.net/buttons/2.4.2/js/buttons.colVis.min.js"></script>
 
 <link rel="stylesheet" href="../css/estilos_informes.css">
 <style>
@@ -291,12 +301,51 @@ $customLabelsSeg = [
 
 .table-controls{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px}
 .table-page{font-size:14px;color:var(--muted)}
-.table-nav{display:flex;gap:8px}
+.table-nav{display:flex;gap:4px;align-items:center}
 .table-footer{margin-top:12px;font-size:14px;color:var(--muted);display:flex;justify-content:space-between;align-items:center;gap:12px}
 .table-footer .footer-info{display:flex;align-items:center;gap:12px}
-.table-btn{border:none;background:var(--azul-uesvalle);color:#fff;padding:6px 12px;border-radius:6px;font-weight:600;cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;justify-content:center;box-shadow:0 4px 10px rgba(0,116,255,.25)}
-.table-btn:not(.disabled):hover{opacity:.9}
-.table-btn.disabled{background:var(--muted);cursor:not-allowed;pointer-events:none}
+
+/* Botones de navegación Anterior/Siguiente */
+.table-btn{border:none;background:var(--azul-uesvalle);color:#fff;padding:8px 16px;border-radius:8px;font-weight:600;cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;justify-content:center;box-shadow:0 4px 10px rgba(0,116,255,.25);transition:all 0.2s;font-size:14px}
+.table-btn:not(.disabled):hover{opacity:.9;transform:translateY(-1px)}
+.table-btn.disabled{background:transparent;color:var(--muted);border:1px solid var(--border);cursor:not-allowed;pointer-events:none;box-shadow:none;font-weight:400}
+
+/* Botones de números de página - estilo minimalista */
+.table-btn.page-num{
+  background:transparent;
+  color:var(--azul-uesvalle);
+  border:1px solid var(--border);
+  padding:4px 8px;
+  font-size:13px;
+  font-weight:500;
+  box-shadow:none;
+  min-width:20px
+}
+.table-btn.page-num:hover{
+  background:rgba(0,116,255,0.08);
+  border-color:var(--azul-uesvalle)
+}
+
+/* Página actual - destacada */
+.table-btn.page-num.current{
+  background:var(--azul-uesvalle);
+  color:#fff;
+  border:1px solid var(--azul-uesvalle);
+  font-weight:700;
+  box-shadow:0 2px 8px rgba(0,116,255,.3)
+}
+
+/* Ellipsis (...) - no interactivo */
+.table-btn.ellipsis{
+  background:transparent;
+  color:var(--muted);
+  border:none;
+  padding:4px 8px;
+  font-weight:400;
+  letter-spacing:2px;
+  cursor:default;
+  box-shadow:none
+}
 </style>
 </head>
 <body data-theme="light">
@@ -318,14 +367,13 @@ $customLabelsSeg = [
   </div>
 
   <div class="card resizable">
-    <form class="toolbar" method="get">
+    <form class="toolbar" method="get" id="searchForm">
       <div class="field">
         <span class="label">Sección</span>
         <select name="tipo" required>
           <option value="">Seleccione...</option>
           <option value="primera" <?= $tipo==='primera'?'selected':'' ?>>Primera Visita</option>
           <option value="seguimiento" <?= $tipo==='seguimiento'?'selected':'' ?>>Seguimiento</option>
-          <option value="ambos" <?= $tipo==='ambos'?'selected':'' ?>>Ambos</option>
         </select>
       </div>
       <div class="field">
@@ -384,17 +432,6 @@ $customLabelsSeg = [
         <span class="label">Hasta (por timestamp)</span>
         <input type="date" name="to" value="<?= htmlspecialchars($to??'') ?>" required>
       </div>
-      <div class="field">
-        <span class="label">Mostrar</span>
-        <select name="limit">
-          <?php foreach ($limitOptions as $option): ?>
-            <option value="<?= $option ?>" <?= $limit === $option ? 'selected' : '' ?>><?= $option ?></option>
-          <?php endforeach; ?>
-        </select>
-      </div>
-      <input type="hidden" name="buscar" value="1">
-      <input type="hidden" name="page_primera" value="<?= $pagePrimera ?>">
-      <input type="hidden" name="page_seguimiento" value="<?= $pageSeguimiento ?>">
       <div style="display:flex;gap:8px;align-items:flex-end;margin-left:auto">
         <button type="submit" name="buscar" value="1" class="btn">Buscar</button>
         <a class="btn btn-secondary" href="index.php">Limpiar</a>
@@ -402,11 +439,8 @@ $customLabelsSeg = [
     </form>
 
 
-    <?php if($busquedaRealizada && ($tipo==='primera' || $tipo==='ambos')): ?>
+    <?php if($busquedaRealizada && ($tipo==='primera')): ?>
       <div class="section-title">Primera Visita</div>
-      <div class="table-controls">
-        <div class="table-page">Página <?= $pagePrimera ?> de <?= $primeraPageCount ?></div>
-      </div>
       <div class="table-wrap">
         <table id="table-primera" class="display nowrap" style="width:100%">
           <thead>
@@ -436,21 +470,15 @@ $customLabelsSeg = [
         </table>
       </div>
       <div class="table-footer">
-        <div class="footer-info">
-          <span>Total de registros encontrados: <strong><?= $totalPrimera ?></strong></span>
-        </div>
         <a href="descargar_excel.php?tipo=primera&municipio=<?= urlencode($municipio) ?>&from=<?= urlencode($from) ?>&to=<?= urlencode($to) ?>" class="btn" style="margin:0;">
           Descargar Excel
         </a>
       </div>
     <?php endif; ?>
 
-    <?php if($busquedaRealizada && ($tipo==='seguimiento' || $tipo==='ambos')): ?>
+    <?php if($busquedaRealizada && ($tipo==='seguimiento')): ?>
       <div class="section-title">Seguimiento</div>
-      <div class="table-controls">
-        <div class="table-page">Página <?= $pageSeguimiento ?> de <?= $seguimientoPageCount ?></div>
-      </div>
-      <div class="table-wrap">
+      <div class="table-wrapper">
         <table id="table-seguimiento" class="display nowrap" style="width:100%">
           <thead>
             <tr>
@@ -479,9 +507,6 @@ $customLabelsSeg = [
         </table>
       </div>
       <div class="table-footer">
-        <div class="footer-info">
-          <span>Total de registros encontrados: <strong><?= $totalSeguimiento ?></strong></span>
-        </div>
         <a href="descargar_excel.php?tipo=seguimiento&municipio=<?= urlencode($municipio) ?>&from=<?= urlencode($from) ?>&to=<?= urlencode($to) ?>" class="btn" style="margin:0;">
           Descargar Excel
         </a>
@@ -496,39 +521,65 @@ $customLabelsSeg = [
 </footer>
 
 <script>
-/* DataTables global */
-$.extend(true,$.fn.dataTable.defaults,{
-  language:{
-    decimal:",", thousands:".",
-    info:"Mostrando _START_ a _END_ de _TOTAL_ registros",
-    lengthMenu:"Mostrar _MENU_",
-    search:"Buscar:",
-    paginate:{first:"Primero",last:"Último",next:"Siguiente",previous:"Anterior"},
-    emptyTable:"Sin datos disponibles"
-  },
-  dom:'Bfrtip',
-  buttons:['excel','csv','print','colvis'],
-  autoWidth:true,
-  responsive:false,
-  scrollX:true,
-  scrollCollapse:true,
-  paging:false,
-  info:false,
-  lengthChange:false,
-  orderCellsTop:true
-});
+$(document).ready(function() {
+  /* Configuración común para DataTables */
+  const dtConfig = {
+    pageLength: 10,
+    lengthMenu: [[10, 25, 50, 100, -1], [10, 25, 50, 100, "Todos"]],
+    scrollX: true,
+    order: [],
+    dom: 'lfrtip', // Removido 'B' para ocultar botones
+    /* Botones deshabilitados por ahora
+    buttons: [
+      {
+        extend: 'excelHtml5',
+        text: 'Excel',
+        exportOptions: { orthogonal: 'export' }
+      },
+      {
+        extend: 'csvHtml5',
+        text: 'CSV',
+        exportOptions: { orthogonal: 'export' }
+      },
+      {
+        extend: 'print',
+        text: 'Imprimir',
+        exportOptions: { orthogonal: 'export' }
+      },
+      {
+        extend: 'colvis',
+        text: 'Columnas'
+      }
+    ],
+    */
+    language: {
+      url: "https://cdn.datatables.net/plug-ins/1.13.7/i18n/es-ES.json"
+    }
+  };
 
-$('table.display').each(function(){
-  $(this).DataTable().columns.adjust();
-});
+  /* Inicializar tabla Primera Visita si existe */
+  if ($('#table-primera').length) {
+    $('#table-primera').DataTable(dtConfig);
+  }
 
+  /* Inicializar tabla Seguimiento si existe */
+  if ($('#table-seguimiento').length) {
+    $('#table-seguimiento').DataTable(dtConfig);
+  }
+});
 
 /* Modo oscuro NO persistente */
 const cb = document.getElementById('themeToggle');
 if (cb) {
   cb.addEventListener('change', function(){
     document.body.dataset.theme = cb.checked ? 'dark' : 'light';
-    $('table.display').each(function(){ $(this).DataTable().columns.adjust(); });
+    // Ajustar tablas después del cambio de tema
+    if ($.fn.dataTable.isDataTable('#table-primera')) {
+      $('#table-primera').DataTable().columns.adjust();
+    }
+    if ($.fn.dataTable.isDataTable('#table-seguimiento')) {
+      $('#table-seguimiento').DataTable().columns.adjust();
+    }
   });
 }
 
@@ -537,9 +588,12 @@ if (cb) {
   const panel = document.querySelector('.card.resizable');
   if (!panel) return;
   const ro = new ResizeObserver(() => {
-    document.querySelectorAll('table.display').forEach(t => {
-      if ($.fn.dataTable.isDataTable(t)) $(t).DataTable().columns.adjust();
-    });
+    if ($.fn.dataTable.isDataTable('#table-primera')) {
+      $('#table-primera').DataTable().columns.adjust();
+    }
+    if ($.fn.dataTable.isDataTable('#table-seguimiento')) {
+      $('#table-seguimiento').DataTable().columns.adjust();
+    }
   });
   ro.observe(panel);
 })();

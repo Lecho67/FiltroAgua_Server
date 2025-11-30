@@ -102,7 +102,7 @@ function obtenerIndiceAprobado($rutaCsv, $delim)
 
     foreach ($header as $i => $colName) {
         $n = normalizar($colName);
-        if ($n === 'aprobado' || strpos($n, 'aprobado') !== false) {
+        if ($n === 'aprobado (marcar con una x)' || strpos($n, 'aprobado') !== false) {
             return [$i, true];
         }
     }

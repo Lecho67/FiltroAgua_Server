@@ -101,11 +101,11 @@ if (($handle = fopen($rutaCsv, 'r')) !== false) {
 
 $colCount = count($header);
 
-// Buscar columna “Aprobado”
+// Buscar columna "Aprobado (Marcar con una X)"
 $colAprobado = null;
 foreach ($header as $i => $colName) {
     $n = normalizar($colName);
-    if ($n === 'aprobado' || strpos($n, 'aprobado') !== false) {
+    if ($n === 'aprobado (marcar con una x)' || strpos($n, 'aprobado') !== false) {
         $colAprobado = $i;
         break;
     }
@@ -141,156 +141,37 @@ $total = count($rows);
 <head>
     <meta charset="UTF-8">
     <title>Informe de carga</title>
-
-    <!-- Estilos generales -->
+    
+    <link rel="stylesheet" href="../css/estilos_informes.css">
     <style>
-        * { box-sizing: border-box; }
-        body {
-            margin: 0;
-            padding: 0;
-            background:#f3f4f6;
-            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-            color:#111827;
-        }
-        .wrapper {
-            max-width: 1200px;
-            margin: 24px auto;
-            padding: 0 16px 32px;
-        }
-        .card {
-            background:#ffffff;
-            border-radius: 12px;
-            box-shadow: 0 10px 30px rgba(15,23,42,0.12);
-            padding: 20px 24px 24px;
-        }
-        .card-header {
-            display:flex;
-            align-items:center;
-            justify-content:space-between;
-            margin-bottom: 10px;
-        }
-        h1 {
-            margin:0;
-            font-size: 1.6rem;
-            color:#059669;
-        }
-        .subtitle {
-            font-size:0.85rem;
-            color:#6b7280;
-        }
-        .btn-back {
-            background:#3b82f6;
-            color:#ffffff;
-            border:none;
-            border-radius:8px;
-            padding:8px 14px;
-            font-size:0.85rem;
-            cursor:pointer;
-            text-decoration:none;
-        }
-        .btn-back:hover { background:#2563eb; }
-
-        .logo-strip {
-            background:#fff;
-            border-radius:14px;
-            padding:18px 12px;
-            margin-bottom:18px;
-            display:flex;
-            justify-content:center;
-            box-shadow:0 10px 30px rgba(15,23,42,0.08);
-        }
-        .logo-strip img {
-            width:100%;
-            max-width:820px;
-            height:auto;
-            display:block;
-            border-radius:10px;
-        }
-        .summary {
-            display:flex;
-            flex-wrap:wrap;
-            gap:12px;
-            margin:10px 0 16px;
-            font-size:0.9rem;
-        }
-        .chip {
-            display:inline-flex;
-            align-items:center;
-            gap:6px;
-            padding:6px 10px;
-            border-radius:999px;
-            background:#f3f4f6;
-        }
-        .chip-dot {
-            width:10px; height:10px; border-radius:999px;
-        }
-        .chip-total .chip-dot { background:#4b5563; }
-        .chip-aprobadas .chip-dot { background:#16a34a; }
-        .chip-noaprobadas .chip-dot { background:#dc2626; }
-
+        /* Estilos específicos para colorear filas según aprobación */
         table.dataTable tbody tr.aprobado { background-color:#e8f5e9; }
         table.dataTable tbody tr.no-aprobado { background-color:#ffebee; }
-
-        .table-wrapper { overflow-x:auto; }
-        .status-box {
-            margin: 0 0 16px;
-            padding: 10px 14px;
-            border-radius: 8px;
-            font-size: 0.95rem;
-            color: #0f172a;
-        }
-        .status-box.ok { background: #dcfce7; border: 1px solid #22c55e; }
-        .status-box.error { background: #fee2e2; border: 1px solid #ef4444; }
-        .upload-footnote {
-            margin-top: 20px;
-            padding: 16px;
-            background: #ffffff;
-            border-radius: 12px;
-            box-shadow: 0 6px 20px rgba(15, 23, 42, 0.12);
-            display: flex;
-            flex-direction: column;
-            gap: 4px;
-        }
-        .upload-footnote p {
-            margin: 0;
-            font-size: 0.9rem;
-            color: #111827;
-        }
-        .upload-footnote .muted {
-            color: #6b7280;
-        }
-        .upload-footnote .btn-approve {
-            align-self: flex-start;
-            margin-top: 8px;
-            background: #22c55e;
-            color: #052e16;
-            border: none;
-            border-radius: 8px;
-            padding: 10px 14px;
-            font-size: 0.95rem;
-            font-weight: 600;
-            cursor: pointer;
-        }
-
     </style>
-
     <link rel="stylesheet" href="https://cdn.datatables.net/1.13.7/css/jquery.dataTables.min.css">
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="https://cdn.datatables.net/1.13.7/js/jquery.dataTables.min.js"></script>
 </head>
 
 <body>
+
+<header class="topbar">
+  <div class="topbar-content">
+    <img src="../img/uesvalle_logo.png" class="logo" alt="Logo">
+    <div class="title-group">
+      <h1>Unidad Ejecutora de Saneamiento del Valle del Cauca</h1>
+      <span class="subtitle">Sistema de carga y aprobación de registros</span>
+    </div>
+  </div>
+</header>
+
 <div class="wrapper">
-    <div class="card">
+    <div class="card resizable">
         <?php if (isset($_GET['msg'])): ?>
             <div class="status-box <?= ($_GET['status'] ?? '') === 'ok' ? 'ok' : 'error' ?>">
                 <?= htmlspecialchars($_GET['msg']) ?>
             </div>
         <?php endif; ?>
-
-        <div class="logo-strip" aria-label="Gobernación del Valle, Paraíso de Todos y UESVALLE">
-            <img src="../img/uesvalle_logo.png" alt="Gobernación del Valle, Paraíso de Todos y UESVALLE" loading="lazy">
-        </div>
 
         <div class="card-header">
             <div>
@@ -300,7 +181,7 @@ $total = count($rows);
                 </div>
             </div>
 
-            <a href="index.php" class="btn-back">← Volver</a>
+            <a href="index.php" class="btn">← Volver</a>
         </div>
 
         <div class="summary">
@@ -315,7 +196,7 @@ $total = count($rows);
         </div>
 
         <div class="table-wrapper">
-            <table id="tabla-registros" class="display" style="width:100%;">
+            <table id="tabla-registros" class="display nowrap" style="width:100%;">
                 <thead>
                 <tr>
                     <?php foreach ($header as $col): ?>
@@ -333,7 +214,7 @@ $total = count($rows);
                     $valorAprobado = strtoupper(trim((string)$rowPadded[$colAprobado] ?? ''));
                     $esAprobado = ($valorAprobado === 'X');
                     $claseFila = $esAprobado ? 'aprobado' : 'no-aprobado';
-                    $rowPadded[$colAprobado] = $esAprobado ? '1' : '0';
+                    $rowPadded[$colAprobado] = $esAprobado ? 'X' : '-';
                     ?>
                     <tr class="<?php echo $claseFila; ?>">
                         <?php foreach ($rowPadded as $cell): ?>
@@ -353,7 +234,7 @@ $total = count($rows);
         <form action="guardar_aprobaciones.php" method="POST">
             <input type="hidden" name="file" value="<?= htmlspecialchars($nombreInterno) ?>">
             <div class="upload-footnote">
-            <p>Mostrando registros del <?= $startIndex ?> al <?= $endIndex ?> de un total de <?= $total ?> registros</p>
+            <p><?= $total ?> registros</p>
             <p class="muted"><?= $aprobadas ?> serán aprobadas y <?= $noAprobadas ?> serán borradas</p>
                 <button class="btn-approve" type="submit">Actualizar y Aprobar</button>
         </div>
