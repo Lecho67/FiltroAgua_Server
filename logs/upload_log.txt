@@ -42,3 +42,5 @@
 [2025-12-01 01:30:46] original="Base 2025-05-05 hasta 2027-03-12 (1).csv" interno="encuesta_20251201_013046_2142.csv" aprobados=3 total=197 col_aprobado=53 encontrado=si ip=::1
 [2025-12-01 01:34:11] original="Base 2025-05-05 hasta 2027-03-12 (1).csv" interno="encuesta_20251201_013411_3646.csv" aprobados=3 total=197 col_aprobado=53 encontrado=si ip=::1
 [2025-12-01 01:36:34] original="Base 2025-05-05 hasta 2027-03-12 (1).csv" interno="encuesta_20251201_013634_8500.csv" aprobados=3 total=197 col_aprobado=53 encontrado=si ip=::1
+[2025-12-01 01:48:17] original="Base 2025-05-05 hasta 2027-03-12 (1).csv" interno="encuesta_20251201_014817_3241.csv" aprobados=3 total=197 col_aprobado=53 encontrado=si ip=::1
+[2025-12-01 02:18:51] original="Base 2025-05-05 hasta 2027-03-12 (1).csv" interno="encuesta_20251201_021851_8736.csv" aprobados=3 total=197 col_aprobado=53 encontrado=si ip=::1
