@@ -37,3 +37,8 @@
 [2025-11-28 18:23:31] original="Base 2025-05-05 hasta 2027-03-12.csv" interno="encuesta_20251128_182331_1780.csv" aprobados=3 total=192 col_aprobado=52 encontrado=si ip=::1
 [2025-11-28 18:51:26] original="Base 2025-05-05 hasta 2027-03-12 (1).csv" interno="encuesta_20251128_185126_5328.csv" aprobados=0 total=197 col_aprobado=53 encontrado=si ip=::1
 [2025-11-28 18:54:19] original="Base 2025-05-05 hasta 2027-03-12 (1).csv" interno="encuesta_20251128_185419_4100.csv" aprobados=3 total=197 col_aprobado=53 encontrado=si ip=::1
+[2025-12-01 01:30:27] original="Base 2025-07-03 hasta 2026-04-03.csv" interno="encuesta_20251201_013027_2802.csv" aprobados=0 total=98 col_aprobado=54 encontrado=si ip=::1
+[2025-12-01 01:30:39] original="Base 2025-07-03 hasta 2026-04-03.csv" interno="encuesta_20251201_013039_7552.csv" aprobados=0 total=98 col_aprobado=54 encontrado=si ip=::1
+[2025-12-01 01:30:46] original="Base 2025-05-05 hasta 2027-03-12 (1).csv" interno="encuesta_20251201_013046_2142.csv" aprobados=3 total=197 col_aprobado=53 encontrado=si ip=::1
+[2025-12-01 01:34:11] original="Base 2025-05-05 hasta 2027-03-12 (1).csv" interno="encuesta_20251201_013411_3646.csv" aprobados=3 total=197 col_aprobado=53 encontrado=si ip=::1
+[2025-12-01 01:36:34] original="Base 2025-05-05 hasta 2027-03-12 (1).csv" interno="encuesta_20251201_013634_8500.csv" aprobados=3 total=197 col_aprobado=53 encontrado=si ip=::1

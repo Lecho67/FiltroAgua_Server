@@ -1,104 +1,58 @@
+<?php
+$msg      = $_GET["msg"] ?? null;
+$msgType  = $_GET["type"] ?? '';
+$fileLink = isset($_GET["file"]) ? basename($_GET["file"]) : '';
+?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Cargar archivo CSV</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background: #0f172a;
-            color: #e5e7eb;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-            margin: 0;
-        }
-        .card {
-            background: #1e293b;
-            padding: 25px 30px;
-            border-radius: 10px;
-            width: 420px;
-            box-shadow: 0 0 20px rgba(0,0,0,0.4);
-            border: 1px solid #334155;
-        }
-        h2 {
-            margin-top: 0;
-            text-align: center;
-            color: #38bdf8;
-        }
-        label {
-            font-size: 0.9em;
-            margin-bottom: 5px;
-            display: block;
-        }
-        input[type="file"] {
-            width: 100%;
-            padding: 10px;
-            border-radius: 6px;
-            border: 1px solid #475569;
-            background: #0f172a;
-            color: white;
-        }
-        button {
-            width: 100%;
-            margin-top: 15px;
-            padding: 10px;
-            background: #00b3ff;
-            border: none;
-            border-radius: 8px;
-            cursor: pointer;
-            color: #052e16;
-            font-weight: bold;
-        }
-        button:hover {
-            background: #00a2e8;
-        }
-        .msg {
-            margin-top: 15px;
-            text-align: center;
-            font-size: .9em;
-        }
-        .ok { color: #4ade80; }
-        .error { color: #f87171; }
-        .msg-link {
-            margin-top: 8px;
-        }
-        .msg-link a {
-            color: #e0f2fe;
-            text-decoration: underline;
-            font-size: 0.85em;
-        }
-    </style>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Subir archivo CSV</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/estilos_informes.css">
 </head>
-<body>
+<body data-theme="light">
 
-<div class="card">
-    <h2>Subir archivo CSV</h2>
-
-    <?php
-    $msg      = $_GET["msg"] ?? null;
-    $msgType  = $_GET["type"] ?? '';
-    $fileLink = isset($_GET["file"]) ? basename($_GET["file"]) : '';
-    ?>
-
-    <?php if ($msg): ?>
-        <div class="msg <?= $msgType ?>">
-            <?= htmlspecialchars($msg) ?>
-            <?php if ($fileLink): ?>
-                <div class="msg-link">
-                    <a href="tabla_registros.php?file=<?= urlencode($fileLink) ?>">Ver tabla de registros aprobados</a>
-                </div>
-            <?php endif; ?>
+<header class="topbar">
+    <div class="topbar-content">
+        <img src="../img/uesvalle_logo.png" class="logo" alt="Logo">
+        <div class="title-group">
+            <h1>Unidad Ejecutora de Saneamiento del Valle del Cauca</h1>
+            <span class="subtitle">Sube un archivo para aprobar visitas</span>
         </div>
-    <?php endif; ?>
+    </div>
+</header>
 
-    <form action="procesar.php" method="POST" enctype="multipart/form-data">
-        <label for="csv">Selecciona un archivo CSV o UES</label>
-        <input type="file" name="csv" id="csv" accept=".csv,.ues" required>
+<div class="promo-banner">
+    <a class="promo-cta" href="../informes/index.php">Informes</a>
+    <button class="promo-secondary" type="button" disabled>Aprobar Visitas</button>
+</div>
 
-        <button type="submit">Subir archivo</button>
-    </form>
+<div class="container">
+    <div class="card resizable upload-card">
+        <?php if ($msg): ?>
+            <div class="status-box <?= $msgType === 'ok' ? 'ok' : 'error' ?>">
+                <?= htmlspecialchars($msg) ?>
+                <?php if ($fileLink): ?>
+                    <div class="upload-link">
+                        <a href="tabla_registros.php?file=<?= urlencode($fileLink) ?>">Ver tabla de registros aprobados</a>
+                    </div>
+                <?php endif; ?>
+            </div>
+        <?php endif; ?>
+
+        <h2>Subir archivo CSV</h2>
+
+        <form action="procesar.php" method="POST" enctype="multipart/form-data">
+            <div class="field">
+                <label class="label" for="csv">Selecciona un archivo CSV o UES</label>
+                <input class="file-input" type="file" name="csv" id="csv" accept=".csv,.ues" required>
+            </div>
+
+            <button type="submit" class="btn">Subir archivo</button>
+        </form>
+    </div>
 </div>
 
 </body>

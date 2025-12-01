@@ -292,61 +292,6 @@ $customLabelsSeg = [
 <script src="https://cdn.datatables.net/buttons/2.4.2/js/buttons.colVis.min.js"></script>
 
 <link rel="stylesheet" href="../css/estilos_informes.css">
-<style>
-/* Garantiza que el wrapper no recorte el resize */
-.dataTables_wrapper{ overflow-x:auto; }
-
-/* Mejora aviso de rango */
-.range-note{font-size:12px;color:var(--muted);margin:4px 0 12px}
-
-.table-controls{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px}
-.table-page{font-size:14px;color:var(--muted)}
-.table-nav{display:flex;gap:4px;align-items:center}
-.table-footer{margin-top:12px;font-size:14px;color:var(--muted);display:flex;justify-content:space-between;align-items:center;gap:12px}
-.table-footer .footer-info{display:flex;align-items:center;gap:12px}
-
-/* Botones de navegación Anterior/Siguiente */
-.table-btn{border:none;background:var(--azul-uesvalle);color:#fff;padding:8px 16px;border-radius:8px;font-weight:600;cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;justify-content:center;box-shadow:0 4px 10px rgba(0,116,255,.25);transition:all 0.2s;font-size:14px}
-.table-btn:not(.disabled):hover{opacity:.9;transform:translateY(-1px)}
-.table-btn.disabled{background:transparent;color:var(--muted);border:1px solid var(--border);cursor:not-allowed;pointer-events:none;box-shadow:none;font-weight:400}
-
-/* Botones de números de página - estilo minimalista */
-.table-btn.page-num{
-  background:transparent;
-  color:var(--azul-uesvalle);
-  border:1px solid var(--border);
-  padding:4px 8px;
-  font-size:13px;
-  font-weight:500;
-  box-shadow:none;
-  min-width:20px
-}
-.table-btn.page-num:hover{
-  background:rgba(0,116,255,0.08);
-  border-color:var(--azul-uesvalle)
-}
-
-/* Página actual - destacada */
-.table-btn.page-num.current{
-  background:var(--azul-uesvalle);
-  color:#fff;
-  border:1px solid var(--azul-uesvalle);
-  font-weight:700;
-  box-shadow:0 2px 8px rgba(0,116,255,.3)
-}
-
-/* Ellipsis (...) - no interactivo */
-.table-btn.ellipsis{
-  background:transparent;
-  color:var(--muted);
-  border:none;
-  padding:4px 8px;
-  font-weight:400;
-  letter-spacing:2px;
-  cursor:default;
-  box-shadow:none
-}
-</style>
 </head>
 <body data-theme="light">
 
@@ -359,6 +304,11 @@ $customLabelsSeg = [
     </div>
   </div>
 </header>
+
+<div class="promo-banner">
+  <button class="promo-secondary" type="button" disabled>Informes</button>
+  <a class="promo-cta" href="../upload/index.php">Aprobar Visitas</a>
+</div>
 
 <div class="container">
   <div class="header">
