@@ -42,12 +42,12 @@ $fileLink = isset($_GET["file"]) ? basename($_GET["file"]) : '';
             </div>
         <?php endif; ?>
 
-        <h2>Subir archivo CSV</h2>
+        <h2>Subir archivo XLSX</h2>
 
         <form action="procesar.php" method="POST" enctype="multipart/form-data">
             <div class="field">
-                <label class="label" for="csv">Selecciona un archivo CSV o UES</label>
-                <input class="file-input" type="file" name="csv" id="csv" accept=".csv,.ues" required>
+                <label class="label" for="csv">Selecciona un archivo XLSX</label>
+                <input class="file-input" type="file" name="csv" id="csv" accept=".xlsx" required>
             </div>
 
             <button type="submit" class="btn">Subir archivo</button>

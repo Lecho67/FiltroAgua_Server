@@ -313,7 +313,6 @@ $customLabelsSeg = [
 <div class="container">
   <div class="header">
     <div class="title">Informe completo – <?= ucfirst($tipo) ?></div>
-    <label class="switch"><input id="themeToggle" type="checkbox"> Modo oscuro</label>
   </div>
 
   <div class="card resizable">
@@ -420,7 +419,7 @@ $customLabelsSeg = [
         </table>
       </div>
       <div class="table-footer">
-        <a href="descargar_excel.php?tipo=primera&municipio=<?= urlencode($municipio) ?>&from=<?= urlencode($from) ?>&to=<?= urlencode($to) ?>" class="btn" style="margin:0;">
+        <a href="export_excel.php?tipo=primera&municipio=<?= urlencode($municipio) ?>&from=<?= urlencode($from) ?>&to=<?= urlencode($to) ?>" class="btn" style="margin:0;">
           Descargar Excel
         </a>
       </div>
@@ -457,7 +456,7 @@ $customLabelsSeg = [
         </table>
       </div>
       <div class="table-footer">
-        <a href="descargar_excel.php?tipo=seguimiento&municipio=<?= urlencode($municipio) ?>&from=<?= urlencode($from) ?>&to=<?= urlencode($to) ?>" class="btn" style="margin:0;">
+        <a href="export_excel.php?tipo=seguimiento&municipio=<?= urlencode($municipio) ?>&from=<?= urlencode($from) ?>&to=<?= urlencode($to) ?>" class="btn" style="margin:0;">
           Descargar Excel
         </a>
       </div>
@@ -475,7 +474,7 @@ $(document).ready(function() {
   /* Configuración común para DataTables */
   const dtConfig = {
     pageLength: 10,
-    lengthMenu: [[10, 25, 50, 100, -1], [10, 25, 50, 100, "Todos"]],
+    lengthChange: false,
     scrollX: true,
     order: [],
     dom: 'lfrtip', // Removido 'B' para ocultar botones
