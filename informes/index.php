@@ -419,9 +419,7 @@ $customLabelsSeg = [
         </table>
       </div>
       <div class="table-footer">
-        <a href="export_excel.php?tipo=primera&municipio=<?= urlencode($municipio) ?>&from=<?= urlencode($from) ?>&to=<?= urlencode($to) ?>" class="btn" style="margin:0;">
-          Descargar Excel
-        </a>
+        <small class="hint">Usa el botón de arriba para exportar en .xlsx desde DataTables.</small>
       </div>
     <?php endif; ?>
 
@@ -456,9 +454,6 @@ $customLabelsSeg = [
         </table>
       </div>
       <div class="table-footer">
-        <a href="export_excel.php?tipo=seguimiento&municipio=<?= urlencode($municipio) ?>&from=<?= urlencode($from) ?>&to=<?= urlencode($to) ?>" class="btn" style="margin:0;">
-          Descargar Excel
-        </a>
       </div>
     <?php endif; ?>
 
@@ -472,49 +467,39 @@ $customLabelsSeg = [
 <script>
 $(document).ready(function() {
   /* Configuración común para DataTables */
+  const buttonConfig = [
+    {
+      extend: 'excelHtml5',
+      text: 'Exportar a Excel',
+      exportOptions: { orthogonal: 'export' }
+    }
+  ];
+
   const dtConfig = {
     pageLength: 10,
     lengthChange: false,
     scrollX: true,
     order: [],
-    dom: 'lfrtip', // Removido 'B' para ocultar botones
-    /* Botones deshabilitados por ahora
-    buttons: [
-      {
-        extend: 'excelHtml5',
-        text: 'Excel',
-        exportOptions: { orthogonal: 'export' }
-      },
-      {
-        extend: 'csvHtml5',
-        text: 'CSV',
-        exportOptions: { orthogonal: 'export' }
-      },
-      {
-        extend: 'print',
-        text: 'Imprimir',
-        exportOptions: { orthogonal: 'export' }
-      },
-      {
-        extend: 'colvis',
-        text: 'Columnas'
-      }
-    ],
-    */
     language: {
       url: "https://cdn.datatables.net/plug-ins/1.13.7/i18n/es-ES.json"
     }
   };
 
-  /* Inicializar tabla Primera Visita si existe */
-  if ($('#table-primera').length) {
-    $('#table-primera').DataTable(dtConfig);
-  }
+  const initTable = (selector) => {
+    const $table = $(selector);
+    if (!$table.length) return null;
+    const dataTable = $table.DataTable(dtConfig);
+    new $.fn.dataTable.Buttons(dataTable, { buttons: buttonConfig });
+    const footer = $table.closest('.table-wrap, .table-wrapper').next('.table-footer');
+    const buttonsContainer = dataTable.buttons().container();
+    if (footer.length) {
+      footer.prepend(buttonsContainer);
+    }
+    return dataTable;
+  };
 
-  /* Inicializar tabla Seguimiento si existe */
-  if ($('#table-seguimiento').length) {
-    $('#table-seguimiento').DataTable(dtConfig);
-  }
+  initTable('#table-primera');
+  initTable('#table-seguimiento');
 });
 
 /* Modo oscuro NO persistente */

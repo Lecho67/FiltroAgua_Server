@@ -230,7 +230,9 @@ body {
 .table-page{font-size:14px;color:var(--muted)}
 .table-nav{display:flex;gap:4px;align-items:center}
 .table-footer{margin-top:12px;font-size:14px;color:var(--muted);display:flex;justify-content:space-between;align-items:center;gap:12px}
+.table-footer .hint{font-size:12px;color:var(--muted);margin:0}
 .table-footer .footer-info{display:flex;align-items:center;gap:12px}
+.table-footer .dt-buttons{display:flex;gap:8px;flex-wrap:wrap}
 
 /* Botones de navegación Anterior/Siguiente */
 .table-btn{border:none;background:var(--azul-uesvalle);color:#fff;padding:8px 16px;border-radius:8px;font-weight:600;cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;justify-content:center;box-shadow:0 4px 10px rgba(0,116,255,.25);transition:all 0.2s;font-size:14px}
@@ -448,20 +450,26 @@ table.dataTable tbody tr:hover {
 }
 
 /* ---------- BOTONES DE DATATABLES ---------- */
-.dataTables_wrapper .dt-buttons .dt-button {
-  background: var(--card);
-  color: var(--text);
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  padding: 6px 10px;
-  margin-right: 8px;
-  font-size: 13px;
-  transition: 0.2s;
-}
-.dataTables_wrapper .dt-buttons .dt-button:hover {
-  background: var(--azul-uesvalle);
+.dataTables_wrapper .dt-buttons .dt-button,
+.table-footer .dt-button {
+  background: linear-gradient(135deg, #0056d6, #008fe7);
   color: #fff;
-  box-shadow: 0 0 10px rgba(0, 115, 255, 0.4);
+  border: none;
+  border-radius: 10px;
+  padding: 8px 16px;
+  font-weight: 700;
+  font-size: 13px;
+  box-shadow: 0 6px 18px rgba(0, 116, 255, 0.35);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.dataTables_wrapper .dt-buttons .dt-button + .dt-button,
+.table-footer .dt-button + .dt-button {
+  margin-left: 6px;
+}
+.dataTables_wrapper .dt-buttons .dt-button:hover,
+.table-footer .dt-button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 12px 28px rgba(0, 116, 255, 0.4);
 }
 
 /* ---------- CONTROLES DE DATATABLES (PAGINACIÓN Y FILTROS) ---------- */
